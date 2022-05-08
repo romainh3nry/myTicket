@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    background-color: #F7BF5F;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-color: white;
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /* Style the image inside the centered container, if needed */
+
+  .centered h2 {
+      font-size: 120px;
+      font-family: 'Alfa Slab One', cursive;
+  }
+
+  .h-left {
+      color: white;
+  }
+
+  .h-right {
+    color: #F7BF5F;
+}
+
+.p-right, .p-left {
+    font-size: 40px;
+}
+
+.p-left {
+    border: 1px solid #F7BF5F;
+    color: #F7BF5F;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .left {
+      display: none;
+    }
+    .centered {
+        z-index: 100;
+    }
+    .split{
+        z-index: 0;
+        width: 100%;
+    }
+}
