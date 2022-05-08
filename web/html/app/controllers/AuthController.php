@@ -1,5 +1,7 @@
 <?php
 
+use Myticket\Forms\LoginForm;
+
 class AuthController extends ControllerBase
 {
 
@@ -11,5 +13,8 @@ class AuthController extends ControllerBase
     public function loginAction()
     {
         $this->tag->setTitle('login');
+        $form = new LoginForm();
+
+        $this->view->form = $form;
     }
 }

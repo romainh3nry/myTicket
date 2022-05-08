@@ -102,3 +102,50 @@
 [Sun, 08 May 22 21:26:03 +0000][DEBUG] error/code404
 [Sun, 08 May 22 21:26:08 +0000][DEBUG] auth/login
 [Sun, 08 May 22 21:37:20 +0000][DEBUG] auth/login
+[Sun, 08 May 22 21:46:19 +0000][DEBUG] auth/login
+[Sun, 08 May 22 21:47:53 +0000][DEBUG] index/index
+[Sun, 08 May 22 21:48:57 +0000][DEBUG] index/index
+[Sun, 08 May 22 21:48:59 +0000][DEBUG] index/index
+[Sun, 08 May 22 21:49:51 +0000][DEBUG] index/index
+[Sun, 08 May 22 21:49:53 +0000][DEBUG] index/index
+[Sun, 08 May 22 21:50:49 +0000][DEBUG] index/index
+[Sun, 08 May 22 21:50:53 +0000][DEBUG] index/index
+[Sun, 08 May 22 21:50:57 +0000][DEBUG] index/index
+[Sun, 08 May 22 21:52:11 +0000][DEBUG] index/index
+[Sun, 08 May 22 21:53:51 +0000][DEBUG] index/index
+[Sun, 08 May 22 21:57:18 +0000][DEBUG] index/index
+[Sun, 08 May 22 21:57:38 +0000][DEBUG] index/index
+[Sun, 08 May 22 21:57:49 +0000][DEBUG] auth/login
+[Sun, 08 May 22 21:57:49 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sun, 08 May 22 21:57:49 +0000][DEBUG] error/code404
+[Sun, 08 May 22 21:57:50 +0000][DEBUG] auth/login
+[Sun, 08 May 22 21:57:52 +0000][DEBUG] auth/login
+[Sun, 08 May 22 21:58:10 +0000][DEBUG] auth/login
+[Sun, 08 May 22 21:59:26 +0000][DEBUG] auth/login
+[Sun, 08 May 22 21:59:29 +0000][DEBUG] auth/login
+[Sun, 08 May 22 21:59:30 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sun, 08 May 22 21:59:30 +0000][DEBUG] error/code404
+[Sun, 08 May 22 21:59:48 +0000][DEBUG] auth/login
+[Sun, 08 May 22 21:59:48 +0000][DEBUG] index/index
+[Sun, 08 May 22 22:00:03 +0000][DEBUG] auth/login
+[Sun, 08 May 22 22:00:03 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sun, 08 May 22 22:00:03 +0000][DEBUG] error/code404
+[Sun, 08 May 22 22:00:45 +0000][DEBUG] auth/login
+[Sun, 08 May 22 22:00:46 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sun, 08 May 22 22:00:46 +0000][DEBUG] error/code404
