@@ -4,9 +4,11 @@ networks:
   phalcon-network:
     driver: bridge
 services:
+
+  # postgres DB
   phalcon-db:
     image: postgres:14.2-alpine
-    container_name: my-ticket-db
+    container_name: my-ticket-postgres
     ports:
       - 5432:5432
     volumes:
@@ -18,6 +20,8 @@ services:
       POSTGRES_DB: myticket
     command:
       postgres -c logging_collector=on -c log_destination=stderr -c log_statement=all
+
+  # WEB
   phalcon-web:
     build:
       context: .
@@ -38,3 +42,17 @@ services:
       - phalcon-db
     links:
       - "phalcon-redis:redis"
+
+  # redis cache
+  phalcon-redis:
+    image: redis:7-alpine
+    container_name: my-ticket-redis
+    networks:
+      - phalcon-network
+    ports:
+      - "6379:6379"
+    expose:
+      - "6379"
+    command: redis-server --appendonly yes --requirepass Azerty
+    volumes:
+      - ./redis_data:/data

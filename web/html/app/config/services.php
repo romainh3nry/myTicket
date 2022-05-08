@@ -8,6 +8,8 @@ use Phalcon\Mvc\View\Engine\Volt as VoltEngine;
 use Phalcon\Mvc\Model\Metadata\Memory as MetaDataAdapter;
 use Phalcon\Session\Adapter\Files as SessionAdapter;
 use Phalcon\Flash\Direct as Flash;
+use Phalcon\Session\Factory;
+
 
 /**
  * Shared configuration service
@@ -106,10 +108,19 @@ $di->set('flash', function () {
  * Start the session the first time some component request the session service
  */
 $di->setShared('session', function () {
-    $session = new SessionAdapter();
-    $session->start();
-
-    return $session;
+    $oOptions = [
+        'uniqueId'      => 'myticket',
+        'host'          => 'my-ticket-redis',
+        'auth'          => 'Azerty',
+        'port'          => 6379,
+        'persistent'    => true,
+        'lifetime'      => 3600,
+        'prefix'        => 'app_session_',
+        'adapter'       => 'redis',
+    ];
+    $oSession = Factory::load($oOptions);
+    $oSession->start();
+    return $oSession;
 });
 
 /**

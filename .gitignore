@@ -1,3 +1,4 @@
 /web/html/cache/
 /postgres-data
+/redis_data
 /web/vendor/
