@@ -1,1 +1,4 @@
-<h3>500 error</h3>
+{% extends 'layouts/error_template.volt' %}
+
+{% block code %}500{% endblock %}
+{% block message %}INTERNAL ERROR{% endblock %}
