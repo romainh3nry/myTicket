@@ -9,7 +9,8 @@ use Phalcon\Mvc\Model\Metadata\Memory as MetaDataAdapter;
 use Phalcon\Session\Adapter\Files as SessionAdapter;
 use Phalcon\Flash\Direct as Flash;
 use Phalcon\Session\Factory;
-
+use Myticket\Plugins\ExceptionPlugin;
+use Phalcon\Mvc\Dispatcher;
 
 /**
  * Shared configuration service
@@ -133,4 +134,16 @@ $di->setShared('router', function () {
     );
 
     return $router;
+});
+
+$di->set('dispatcher', function () {
+
+    $oGestionEvenement = new Phalcon\Events\Manager();
+
+    $oGestionEvenement->attach('dispatch:beforeException', new ExceptionPlugin());
+
+    $oDispatcher = new Dispatcher();
+    $oDispatcher->setEventsManager($oGestionEvenement);
+
+    return $oDispatcher;
 });

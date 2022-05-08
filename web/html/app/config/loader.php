@@ -8,6 +8,13 @@ $loader = new \Phalcon\Loader();
 $loader->registerDirs(
     [
         $config->application->controllersDir,
-        $config->application->modelsDir
+        $config->application->modelsDir,
+        $config->application->pluginsDir,
     ]
 )->register();
+
+$loader->registerNamespaces(
+    array(
+        'Myticket\Plugins'  => $config->application->pluginsDir,
+    )
+);
