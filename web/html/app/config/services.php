@@ -11,6 +11,9 @@ use Phalcon\Flash\Direct as Flash;
 use Phalcon\Session\Factory;
 use Myticket\Plugins\ExceptionPlugin;
 use Phalcon\Mvc\Dispatcher;
+use Phalcon\Events\Manager as EventsManager;
+use Phalcon\Events\Event;
+
 
 /**
  * Shared configuration service
@@ -38,6 +41,19 @@ $di->setShared('view', function () {
     $config = $this->getConfig();
 
     $view = new View();
+
+    $oGestionEvenement = new EventsManager();
+    $oLogger = $this->getLogger();
+    $oGestionEvenement->attach(
+        'view:beforeRender',
+        function (Event $oEvent, $oView) use ($oLogger)
+        {
+            $oLogger->debug(
+                $oView->getControllerName() .'/' . $oView->getActionName()
+            );
+        }
+    );
+
     $view->setDI($this);
     $view->setViewsDir($config->application->viewsDir);
 
@@ -58,6 +74,7 @@ $di->setShared('view', function () {
 
     ]);
 
+    $view->setEventsManager($oGestionEvenement);
     return $view;
 });
 
@@ -146,4 +163,10 @@ $di->set('dispatcher', function () {
     $oDispatcher->setEventsManager($oGestionEvenement);
 
     return $oDispatcher;
+});
+
+$di->setShared('logger', function(){
+    $oLogger = new \Phalcon\Logger\Adapter\File(BASE_PATH . '/phalcon.log');
+    
+    return $oLogger;
 });

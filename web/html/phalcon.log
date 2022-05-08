@@ -1,0 +1,30 @@
+[Sun, 08 May 22 21:05:07 +0000][DEBUG] auth/login
+[Sun, 08 May 22 21:05:07 +0000][DEBUG] error/code404
+[Sun, 08 May 22 21:05:18 +0000][DEBUG] index/index
+[Sun, 08 May 22 21:06:03 +0000][DEBUG] index/index
+[Sun, 08 May 22 21:06:03 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sun, 08 May 22 21:06:03 +0000][DEBUG] error/code404
+[Sun, 08 May 22 21:06:05 +0000][ERROR] LController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('LController han...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sun, 08 May 22 21:06:05 +0000][DEBUG] error/code404
+[Sun, 08 May 22 21:06:55 +0000][ERROR] LolController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('LolController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sun, 08 May 22 21:06:55 +0000][DEBUG] error/code404
+[Sun, 08 May 22 21:06:58 +0000][DEBUG] index/index
+[Sun, 08 May 22 21:07:03 +0000][ERROR] LolController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('LolController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sun, 08 May 22 21:07:03 +0000][DEBUG] error/code404
+[Sun, 08 May 22 21:07:35 +0000][DEBUG] index/index

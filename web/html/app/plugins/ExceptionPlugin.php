@@ -20,7 +20,7 @@ class ExceptionPlugin extends Plugin
      */
     public function beforeException(Event $oEvent, MvcDispatcher $oDispatcher, \Exception $oException)
     {
-        # $this->logger->error($oException->getMessage() . PHP_EOL . $oException->getTraceAsString());
+        $this->logger->error($oException->getMessage() . PHP_EOL . $oException->getTraceAsString());
 
         if ($oException instanceof DispatcherException)
         {
