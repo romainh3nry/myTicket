@@ -30,7 +30,7 @@ services:
       context: .
       args:
         - env=driver
-        - phalcon_version=v3.4.3
+        - phalcon_version=v3.4.5
     container_name: my-ticket-web
     ports:
       - 8080:80
@@ -48,7 +48,7 @@ services:
 
   # redis cache
   phalcon-redis:
-    image: redis:5-alpine
+    image: redis:4-alpine
     container_name: my-ticket-redis
     networks:
       - phalcon-network

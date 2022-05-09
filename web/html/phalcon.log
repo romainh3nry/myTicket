@@ -9035,3 +9035,75 @@
 [Mon, 09 May 22 21:16:48 +0000][DEBUG] r.henry is logged
 [Mon, 09 May 22 21:16:48 +0000][DEBUG] index/index
 [Mon, 09 May 22 21:16:51 +0000][DEBUG] index/index
+[Mon, 09 May 22 21:21:54 +0000][DEBUG] index/index
+[Mon, 09 May 22 21:21:56 +0000][ERROR] LolController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('LolController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Mon, 09 May 22 21:21:56 +0000][DEBUG] error/code404
+[Mon, 09 May 22 21:21:59 +0000][DEBUG] index/index
+[Mon, 09 May 22 21:22:46 +0000][DEBUG] index/index
+[Mon, 09 May 22 21:22:55 +0000][ERROR] Action 'index' was not found on handler 'auth'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'index' ...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Mon, 09 May 22 21:22:55 +0000][DEBUG] error/code404
+[Mon, 09 May 22 21:23:00 +0000][DEBUG] index/index
+[Mon, 09 May 22 21:35:01 +0000][DEBUG] index/index
+[Mon, 09 May 22 21:35:20 +0000][ERROR] OmpController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('OmpController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Mon, 09 May 22 21:35:20 +0000][DEBUG] error/code404
+[Mon, 09 May 22 21:35:25 +0000][DEBUG] index/index
+[Mon, 09 May 22 21:36:20 +0000][DEBUG] index/index
+[Mon, 09 May 22 21:43:02 +0000][DEBUG] auth/logout
+[Mon, 09 May 22 21:43:34 +0000][DEBUG] auth/logout
+[Mon, 09 May 22 21:43:34 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Mon, 09 May 22 21:43:34 +0000][DEBUG] error/code404
+[Mon, 09 May 22 21:46:18 +0000][DEBUG] auth/logout
+[Mon, 09 May 22 21:46:21 +0000][DEBUG] auth/logout
+[Mon, 09 May 22 21:46:25 +0000][DEBUG] index/index
+[Mon, 09 May 22 21:46:28 +0000][ERROR] Action 'index' was not found on handler 'auth'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'index' ...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Mon, 09 May 22 21:46:28 +0000][DEBUG] error/code404
+[Mon, 09 May 22 21:46:31 +0000][DEBUG] auth/logout
+[Mon, 09 May 22 21:51:34 +0000][DEBUG] auth/logout
+[Mon, 09 May 22 21:51:37 +0000][DEBUG] auth/logout
+[Mon, 09 May 22 21:51:38 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Mon, 09 May 22 21:51:38 +0000][DEBUG] error/code404
+[Mon, 09 May 22 21:51:41 +0000][ERROR] AutController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('AutController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Mon, 09 May 22 21:51:41 +0000][DEBUG] error/code404
+[Mon, 09 May 22 21:51:42 +0000][DEBUG] index/index
+[Mon, 09 May 22 21:51:44 +0000][DEBUG] index/index
+[Mon, 09 May 22 21:51:45 +0000][DEBUG] index/index
+[Mon, 09 May 22 21:57:02 +0000][DEBUG] index/index
+[Mon, 09 May 22 21:57:03 +0000][DEBUG] index/index
+[Mon, 09 May 22 21:57:04 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Mon, 09 May 22 21:57:04 +0000][DEBUG] error/code404
+[Mon, 09 May 22 21:57:04 +0000][DEBUG] index/index
+[Mon, 09 May 22 21:57:22 +0000][DEBUG] index/index
+[Mon, 09 May 22 21:57:25 +0000][DEBUG] auth/login
+[Mon, 09 May 22 21:57:31 +0000][DEBUG] index/index

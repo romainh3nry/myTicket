@@ -44,4 +44,9 @@ class AuthController extends ControllerBase
 
         $this->view->form = $form;
     }
+
+    public function logoutAction()
+    {
+        $this->assets->addCss('css/auth.css');
+    }
 }

@@ -1,6 +1,6 @@
 FROM php:7.2-apache-stretch
 
-ARG phalcon_version='v3.4.3'
+ARG phalcon_version='v3.4.5'
 ARG env='prod'
 
 RUN apt update --fix-missing;
@@ -21,7 +21,7 @@ RUN docker-php-ext-enable phalcon
 
 RUN docker-php-ext-install pdo pdo_pgsql pgsql
 
-RUN pecl install -o -f redis \
+RUN pecl install -o -f redis-4.3.0 \
 &&  rm -rf /tmp/pear \
 &&  docker-php-ext-enable redis
 

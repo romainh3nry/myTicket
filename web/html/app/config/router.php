@@ -14,4 +14,12 @@ $router->add(
     ]
 );
 
+$router->add(
+    '/auth/logout',
+    [
+        'controller' => 'auth',
+        'action' => 'logout'
+    ]
+);
+
 $router->handle();
