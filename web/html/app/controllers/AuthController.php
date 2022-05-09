@@ -36,7 +36,7 @@ class AuthController extends ControllerBase
                 $this->response->redirect('/');
 
             } else {
-                $this->flash->error(
+                $this->flashSession->error(
                     'Identifiant ou mot de passe incorrect'
                 );
             }

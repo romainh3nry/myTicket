@@ -2,3 +2,4 @@
 /postgres-data
 /redis_data
 /web/vendor/
+/web/phalcon.log
