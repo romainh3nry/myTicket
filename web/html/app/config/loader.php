@@ -18,5 +18,6 @@ $loader->registerNamespaces(
     array(
         'Myticket\Plugins'  => $config->application->pluginsDir,
         'Myticket\Forms'    => $config->application->formsDir,
+        'Mytickets\Models'  => $config->application->modelsDir,
     )
 );

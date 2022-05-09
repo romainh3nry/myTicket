@@ -1,7 +1,7 @@
 <?php
 
 use Myticket\Forms\LoginForm;
-use Phalcon\Crypt;
+use Mytickets\Models\Users;
 
 class AuthController extends ControllerBase
 {
@@ -21,6 +21,21 @@ class AuthController extends ControllerBase
         {
             $username = $this->request->getPost('username');
             $password = $this->request->getPost('password');
+
+            $user = Users::findFirst(
+                [
+                    "username = :username: AND password = crypt(:password:, password)",
+                    "bind" => [
+                        'username' => $username,
+                        'password' => "$password"
+                    ]
+                ]
+            );
+            if ($user !== false) {
+                $this->logger->debug($user->username . ' is logged');
+            } else {
+                $this->logger->debug('user is not logged');
+            }
         }
 
         $this->view->form = $form;
