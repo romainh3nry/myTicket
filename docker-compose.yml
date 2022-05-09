@@ -7,7 +7,7 @@ services:
 
   # postgres DB
   phalcon-db:
-    image: postgres:14.2-alpine
+    image: postgres:10.8-alpine
     container_name: my-ticket-postgres
     ports:
       - 5432:5432

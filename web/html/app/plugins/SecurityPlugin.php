@@ -11,9 +11,9 @@ class SecurityPlugin extends Plugin
     public function beforeExecuteRoute(Event $oEvent, Dispatcher $oDispatcher)
     {
         $user = null;
-        if ($this->session->has('auth-id'))
+        if ($this->session->has('auth_id'))
         {
-            $user = $this->session->get('auth-id');
+            $user = $this->session->get('auth_id');
         }
 
         $sControleur = $oDispatcher->getControllerName();
