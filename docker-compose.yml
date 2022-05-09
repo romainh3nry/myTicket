@@ -13,6 +13,9 @@ services:
       - 5432:5432
     volumes:
       - ./postgres-data:/var/lib/postgresql/data:z
+      - type: bind
+        source: ./sql_scripts
+        target: /scripts
     networks:
       - phalcon-network
     environment:

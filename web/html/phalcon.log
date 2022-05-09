@@ -1274,3 +1274,27 @@
 #3 {main}
 [Mon, 09 May 22 00:38:23 +0000][DEBUG] auth/login
 [Mon, 09 May 22 00:38:27 +0000][DEBUG] auth/login
+[Mon, 09 May 22 00:39:02 +0000][DEBUG] auth/login
+[Mon, 09 May 22 00:41:38 +0000][DEBUG] auth/login
+[Mon, 09 May 22 01:24:44 +0000][ERROR] Action 'index' was not found on handler 'auth'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'index' ...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Mon, 09 May 22 01:24:45 +0000][DEBUG] auth/login
+[Mon, 09 May 22 01:24:46 +0000][ERROR] Action 'index' was not found on handler 'auth'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'index' ...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Mon, 09 May 22 01:24:46 +0000][DEBUG] auth/login
+[Mon, 09 May 22 01:27:53 +0000][ERROR] Action 'index' was not found on handler 'auth'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'index' ...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Mon, 09 May 22 01:27:53 +0000][DEBUG] auth/login
+[Mon, 09 May 22 01:28:10 +0000][DEBUG] auth/login
+[Mon, 09 May 22 01:28:11 +0000][DEBUG] auth/login
+[Mon, 09 May 22 01:28:12 +0000][DEBUG] auth/login
+[Mon, 09 May 22 01:28:12 +0000][DEBUG] auth/login
