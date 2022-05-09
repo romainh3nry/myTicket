@@ -8996,3 +8996,42 @@
 [Mon, 09 May 22 21:04:45 +0000][DEBUG] auth/login
 [Mon, 09 May 22 21:04:55 +0000][DEBUG] o.kenobi is logged
 [Mon, 09 May 22 21:04:55 +0000][DEBUG] auth/login
+[Mon, 09 May 22 21:08:48 +0000][DEBUG] auth/login
+[Mon, 09 May 22 21:08:54 +0000][DEBUG] r.henry is logged
+[Mon, 09 May 22 21:08:54 +0000][DEBUG] index/index
+[Mon, 09 May 22 21:10:20 +0000][DEBUG] index/index
+[Mon, 09 May 22 21:10:24 +0000][ERROR] LolController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('LolController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Mon, 09 May 22 21:10:24 +0000][DEBUG] error/code404
+[Mon, 09 May 22 21:10:26 +0000][DEBUG] index/index
+[Mon, 09 May 22 21:10:34 +0000][DEBUG] index/index
+[Mon, 09 May 22 21:10:45 +0000][DEBUG] index/index
+[Mon, 09 May 22 21:11:12 +0000][DEBUG] index/index
+[Mon, 09 May 22 21:11:18 +0000][DEBUG] auth/login
+[Mon, 09 May 22 21:11:39 +0000][DEBUG] index/index
+[Mon, 09 May 22 21:12:13 +0000][ERROR] LolController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('LolController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Mon, 09 May 22 21:12:13 +0000][DEBUG] error/code404
+[Mon, 09 May 22 21:12:19 +0000][DEBUG] index/index
+[Mon, 09 May 22 21:14:12 +0000][DEBUG] index/index
+[Mon, 09 May 22 21:14:14 +0000][DEBUG] auth/login
+[Mon, 09 May 22 21:14:21 +0000][DEBUG] r.henry is logged
+[Mon, 09 May 22 21:14:21 +0000][DEBUG] index/index
+[Mon, 09 May 22 21:14:27 +0000][DEBUG] index/index
+[Mon, 09 May 22 21:15:07 +0000][DEBUG] index/index
+[Mon, 09 May 22 21:15:09 +0000][DEBUG] auth/login
+[Mon, 09 May 22 21:15:14 +0000][DEBUG] r.henry is logged
+[Mon, 09 May 22 21:15:14 +0000][DEBUG] index/index
+[Mon, 09 May 22 21:15:17 +0000][DEBUG] index/index
+[Mon, 09 May 22 21:16:15 +0000][DEBUG] auth/login
+[Mon, 09 May 22 21:16:19 +0000][DEBUG] user is not logged
+[Mon, 09 May 22 21:16:19 +0000][DEBUG] auth/login
+[Mon, 09 May 22 21:16:48 +0000][DEBUG] r.henry is logged
+[Mon, 09 May 22 21:16:48 +0000][DEBUG] index/index
+[Mon, 09 May 22 21:16:51 +0000][DEBUG] index/index

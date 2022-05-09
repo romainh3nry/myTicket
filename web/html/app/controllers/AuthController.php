@@ -32,9 +32,13 @@ class AuthController extends ControllerBase
                 ]
             );
             if ($user !== false) {
-                $this->logger->debug($user->username . ' is logged');
+                $this->_registerSession($user);
+                $this->response->redirect('/');
+
             } else {
-                $this->logger->debug('user is not logged');
+                $this->flash->error(
+                    'Identifiant ou mot de passe incorrect'
+                );
             }
         }
 
