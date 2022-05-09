@@ -13,6 +13,7 @@ use Myticket\Plugins\ExceptionPlugin;
 use Phalcon\Mvc\Dispatcher;
 use Phalcon\Events\Manager as EventsManager;
 use Phalcon\Events\Event;
+use Myticket\Plugins\SecurityPlugin;
 
 
 /**
@@ -157,6 +158,8 @@ $di->set('dispatcher', function () {
 
     $oGestionEvenement = new Phalcon\Events\Manager();
 
+
+    $oGestionEvenement->attach('dispatch:beforeExecuteRoute', new SecurityPlugin());
     $oGestionEvenement->attach('dispatch:beforeException', new ExceptionPlugin());
 
     $oDispatcher = new Dispatcher();

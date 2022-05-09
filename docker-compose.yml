@@ -45,7 +45,7 @@ services:
 
   # redis cache
   phalcon-redis:
-    image: redis:7-alpine
+    image: redis:5-alpine
     container_name: my-ticket-redis
     networks:
       - phalcon-network
