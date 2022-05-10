@@ -7,7 +7,13 @@ class AuthController extends ControllerBase
 {
     private function _registerSession($user)
     {
-        $this->session->set('auth_id', $user->id);
+        $this->session->set(
+            'auth_id', 
+            [
+                'id' => $user->id,
+                'username' => $user->username,
+            ]
+        );
     }
 
     public function loginAction()

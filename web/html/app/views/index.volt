@@ -10,7 +10,7 @@
         {{ assets.outputCss() }}
     </head>
     <body>
-        <div class="container">
+        <div class="container-fluid p-0 m-0">
             {{ content() }}
         </div>
         <!-- jQuery first, then Popper.js, and then Bootstrap's JavaScript -->

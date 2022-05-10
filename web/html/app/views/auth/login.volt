@@ -1,4 +1,3 @@
-<div class="container">
     <div class="form-block">
       <h3>Authentification</h3>
       <form action="/auth/login" method="post">
@@ -11,4 +10,3 @@
       <div class="alert alert-danger text-center m-2 w-100">{{ flashSession.output() }}</div>
       {% endif %}
     </div>
-</div>

@@ -1,4 +1,3 @@
-<div class="container">
     <div class="form-block">
       <h3>Voulez-vous vraiment vous déconnecter ?</h3>
       <form action="/auth/logout" method="post">
@@ -8,4 +7,3 @@
           </div>
       </form>
     </div>
-</div>
