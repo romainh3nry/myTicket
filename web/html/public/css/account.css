@@ -1,0 +1,15 @@
+.nav-link {
+    color: #414042;
+}
+
+.nav-link:hover {
+    color: #F7BF5F;
+}
+
+.nav-link-sized {
+    font-size: 20px;
+}
+  
+.nav-tabs .nav-item .nav-link.active {
+    color: #F7BF5F;
+}

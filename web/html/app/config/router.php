@@ -22,4 +22,12 @@ $router->add(
     ]
 );
 
+$router-> add(
+    'account',
+    [
+        'controller' => 'account',
+        'action' => 'index'
+    ]
+);
+
 $router->handle();
