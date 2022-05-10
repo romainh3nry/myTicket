@@ -3,3 +3,7 @@
 /redis_data
 /web/vendor/
 /web/html/phalcon.log
+.DS_Store
+web/DS_Store
+web/html/public/.DS_Store
+web/html/.DS_Store
