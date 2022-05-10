@@ -11857,3 +11857,121 @@ LINE 1: ..."role" FROM "public"."users" WHERE "users"."id" = '' LIMIT $...
 [Tue, 10 May 22 14:04:17 +0000][DEBUG] account/index
 [Tue, 10 May 22 14:05:29 +0000][DEBUG] index/index
 [Tue, 10 May 22 14:05:31 +0000][DEBUG] index/index
+[Tue, 10 May 22 14:08:48 +0000][DEBUG] account/index
+[Tue, 10 May 22 14:10:50 +0000][ERROR] TicketsController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('TicketsControll...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 14:10:50 +0000][DEBUG] error/code404
+[Tue, 10 May 22 14:10:53 +0000][DEBUG] account/index
+[Tue, 10 May 22 14:10:55 +0000][DEBUG] account/index
+[Tue, 10 May 22 14:14:58 +0000][DEBUG] account/index
+[Tue, 10 May 22 14:15:01 +0000][DEBUG] index/index
+[Tue, 10 May 22 14:15:02 +0000][ERROR] TicketsController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('TicketsControll...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 14:15:02 +0000][DEBUG] error/code404
+[Tue, 10 May 22 14:15:04 +0000][DEBUG] index/index
+[Tue, 10 May 22 14:15:06 +0000][DEBUG] account/index
+[Tue, 10 May 22 14:17:32 +0000][DEBUG] index/index
+[Tue, 10 May 22 14:17:57 +0000][ERROR] TicketsController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('TicketsControll...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 14:17:57 +0000][DEBUG] error/code404
+[Tue, 10 May 22 14:18:00 +0000][DEBUG] index/index
+[Tue, 10 May 22 14:24:38 +0000][ERROR] TicketsController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('TicketsControll...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 14:24:38 +0000][DEBUG] error/code404
+[Tue, 10 May 22 14:24:39 +0000][DEBUG] index/index
+[Tue, 10 May 22 14:24:40 +0000][DEBUG] account/index
+[Tue, 10 May 22 14:26:46 +0000][ERROR] TicketsController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('TicketsControll...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 14:26:46 +0000][DEBUG] error/code404
+[Tue, 10 May 22 14:26:48 +0000][DEBUG] account/index
+[Tue, 10 May 22 14:26:49 +0000][DEBUG] index/index
+[Tue, 10 May 22 14:27:47 +0000][DEBUG] account/index
+[Tue, 10 May 22 14:29:43 +0000][ERROR] TicketsController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('TicketsControll...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 14:29:43 +0000][DEBUG] error/code404
+[Tue, 10 May 22 14:29:45 +0000][DEBUG] account/index
+[Tue, 10 May 22 14:29:46 +0000][DEBUG] index/index
+[Tue, 10 May 22 14:30:12 +0000][DEBUG] auth/logout
+[Tue, 10 May 22 14:30:14 +0000][DEBUG] index/index
+[Tue, 10 May 22 14:30:16 +0000][ERROR] TicketsController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('TicketsControll...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 14:30:16 +0000][DEBUG] error/code404
+[Tue, 10 May 22 14:30:18 +0000][DEBUG] index/index
+[Tue, 10 May 22 14:30:20 +0000][DEBUG] index/index
+[Tue, 10 May 22 14:30:39 +0000][DEBUG] account/index
+[Tue, 10 May 22 14:31:50 +0000][DEBUG] index/index
+[Tue, 10 May 22 14:32:37 +0000][DEBUG] index/index
+[Tue, 10 May 22 14:36:16 +0000][DEBUG] auth/logout
+[Tue, 10 May 22 14:36:18 +0000][DEBUG] auth/login
+[Tue, 10 May 22 14:36:47 +0000][ERROR] LolController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('LolController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 14:36:47 +0000][DEBUG] auth/login
+[Tue, 10 May 22 14:36:49 +0000][DEBUG] auth/login
+[Tue, 10 May 22 14:37:05 +0000][DEBUG] auth/login
+[Tue, 10 May 22 14:37:14 +0000][DEBUG] index/index
+[Tue, 10 May 22 14:37:17 +0000][DEBUG] account/index
+[Tue, 10 May 22 14:37:32 +0000][DEBUG] auth/logout
+[Tue, 10 May 22 14:37:34 +0000][DEBUG] index/index
+[Tue, 10 May 22 14:38:40 +0000][DEBUG] auth/logout
+[Tue, 10 May 22 14:38:41 +0000][DEBUG] auth/login
+[Tue, 10 May 22 18:43:18 +0000][DEBUG] auth/login
+[Tue, 10 May 22 18:43:30 +0000][DEBUG] index/index
+[Tue, 10 May 22 18:43:32 +0000][DEBUG] account/index
+[Tue, 10 May 22 18:48:44 +0000][ERROR] TicketsController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('TicketsControll...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 18:48:44 +0000][DEBUG] error/code404
+[Tue, 10 May 22 18:48:46 +0000][DEBUG] account/index
+[Tue, 10 May 22 18:48:47 +0000][DEBUG] index/index
+[Tue, 10 May 22 18:48:48 +0000][DEBUG] account/index
+[Tue, 10 May 22 18:49:00 +0000][DEBUG] auth/logout
+[Tue, 10 May 22 18:49:01 +0000][DEBUG] index/index
+[Tue, 10 May 22 18:49:54 +0000][DEBUG] index/index
+[Tue, 10 May 22 18:49:56 +0000][DEBUG] account/index
+[Tue, 10 May 22 18:50:00 +0000][DEBUG] index/index
+[Tue, 10 May 22 18:50:01 +0000][DEBUG] account/index
+[Tue, 10 May 22 18:50:50 +0000][ERROR] TicketsController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('TicketsControll...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 18:50:50 +0000][DEBUG] error/code404
+[Tue, 10 May 22 18:50:51 +0000][DEBUG] account/index
+[Tue, 10 May 22 18:51:06 +0000][DEBUG] account/index
+[Tue, 10 May 22 18:52:42 +0000][DEBUG] account/index
+[Tue, 10 May 22 18:53:24 +0000][DEBUG] account/index
+[Tue, 10 May 22 18:54:37 +0000][DEBUG] account/index
+[Tue, 10 May 22 18:54:44 +0000][DEBUG] auth/logout
+[Tue, 10 May 22 18:54:45 +0000][DEBUG] auth/login
+[Tue, 10 May 22 18:54:53 +0000][DEBUG] index/index
+[Tue, 10 May 22 18:54:55 +0000][DEBUG] account/index
+[Tue, 10 May 22 18:55:00 +0000][DEBUG] auth/logout
+[Tue, 10 May 22 18:55:01 +0000][DEBUG] auth/login
+[Tue, 10 May 22 18:55:06 +0000][DEBUG] index/index
+[Tue, 10 May 22 18:55:07 +0000][DEBUG] account/index
