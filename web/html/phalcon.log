@@ -12235,3 +12235,6 @@ LINE 1: ...HhoGueeBOqGM5hR4WWnCWnc2h8XHq%' OR "users"."id" = '%2a$06$Wy...
 #3 {main}
 [Tue, 10 May 22 20:37:08 +0000][DEBUG] error/code404
 [Tue, 10 May 22 20:37:13 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:38:29 +0000][DEBUG] search word : t
+[Tue, 10 May 22 20:38:59 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:39:03 +0000][DEBUG] search word : ke

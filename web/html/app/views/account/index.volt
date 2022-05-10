@@ -31,13 +31,13 @@
             <h4>Administration</h4>
             <hr />
             <div class="row">
-                <div class="col-4">
+                <div class="col-lg-4">
                     <form id="search-user-form" action="#" method="post" class="form-inline">
                         <input id="search-user-input" class="form-control" name="search" placeholder="Rechercher un utilisateur" />
                         <button id="search-user-button" type="submit" class="btn ml-2">Recherche</button>
                     </form>
                 </div>
-                <div class="col-8">
+                <div class="col-lg-8">
                     <table class="table table-striped">
                         <thead>
                             <tr>
