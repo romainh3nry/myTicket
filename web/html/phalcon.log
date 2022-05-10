@@ -12018,3 +12018,163 @@ LINE 1: ..."role" FROM "public"."users" WHERE "users"."id" = '' LIMIT $...
 [Tue, 10 May 22 19:34:44 +0000][DEBUG] index/index
 [Tue, 10 May 22 19:34:50 +0000][DEBUG] search word : ke
 [Tue, 10 May 22 19:34:51 +0000][DEBUG] index/index
+[Tue, 10 May 22 19:36:46 +0000][DEBUG] search word : $2a$06$Wyd5S4L0gJVhfGlzmHhoGueeBOqGM5hR4WWnCWnc2h8XHq
+[Tue, 10 May 22 19:36:46 +0000][ERROR] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type uuid: "{ $2a$06$Wyd5S4L0gJVhfGlzmHhoGueeBOqGM5hR4WWnCWnc2h8XHq}"
+LINE 1: ...HhoGueeBOqGM5hR4WWnCWnc2h8XHq%' OR "users"."id" = '{ $2a$06$...
+                                                             ^
+#0 [internal function]: PDOStatement->execute()
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, Array)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', NULL, NULL)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, NULL, NULL)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute()
+#5 /var/www/html/app/models/Users.php(91): Phalcon\Mvc\Model::find(Array)
+#6 /var/www/html/app/controllers/ApiController.php(15): Mytickets\Models\Users::find(Array)
+#7 [internal function]: ApiController->usersAction('$2a$06$Wyd5S4L0...')
+#8 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(ApiController), 'usersAction', Array)
+#9 [internal function]: Phalcon\Dispatcher->dispatch()
+#10 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#11 {main}
+[Tue, 10 May 22 19:36:46 +0000][DEBUG] error/code500
+[Tue, 10 May 22 19:36:48 +0000][DEBUG] search word : $2a$06$Wyd5S4L0gJVhfGlzmHhoGueeBOqGM5hR4WWnCWnc2h8XHq
+[Tue, 10 May 22 19:36:48 +0000][ERROR] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type uuid: "{ $2a$06$Wyd5S4L0gJVhfGlzmHhoGueeBOqGM5hR4WWnCWnc2h8XHq}"
+LINE 1: ...HhoGueeBOqGM5hR4WWnCWnc2h8XHq%' OR "users"."id" = '{ $2a$06$...
+                                                             ^
+#0 [internal function]: PDOStatement->execute()
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, Array)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', NULL, NULL)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, NULL, NULL)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute()
+#5 /var/www/html/app/models/Users.php(91): Phalcon\Mvc\Model::find(Array)
+#6 /var/www/html/app/controllers/ApiController.php(15): Mytickets\Models\Users::find(Array)
+#7 [internal function]: ApiController->usersAction('$2a$06$Wyd5S4L0...')
+#8 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(ApiController), 'usersAction', Array)
+#9 [internal function]: Phalcon\Dispatcher->dispatch()
+#10 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#11 {main}
+[Tue, 10 May 22 19:36:48 +0000][DEBUG] error/code500
+[Tue, 10 May 22 19:37:09 +0000][DEBUG] index/index
+[Tue, 10 May 22 19:37:12 +0000][DEBUG] search word : $2a$06$Wyd5S4L0gJVhfGlzmHhoGueeBOqGM5hR4WWnCWnc2h8XHq
+[Tue, 10 May 22 19:37:12 +0000][ERROR] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type uuid: "$2a$06$Wyd5S4L0gJVhfGlzmHhoGueeBOqGM5hR4WWnCWnc2h8XHq"
+LINE 1: ...HhoGueeBOqGM5hR4WWnCWnc2h8XHq%' OR "users"."id" = '$2a$06$Wy...
+                                                             ^
+#0 [internal function]: PDOStatement->execute()
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, Array)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', NULL, NULL)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, NULL, NULL)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute()
+#5 /var/www/html/app/models/Users.php(91): Phalcon\Mvc\Model::find(Array)
+#6 /var/www/html/app/controllers/ApiController.php(15): Mytickets\Models\Users::find(Array)
+#7 [internal function]: ApiController->usersAction('$2a$06$Wyd5S4L0...')
+#8 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(ApiController), 'usersAction', Array)
+#9 [internal function]: Phalcon\Dispatcher->dispatch()
+#10 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#11 {main}
+[Tue, 10 May 22 19:37:12 +0000][DEBUG] error/code500
+[Tue, 10 May 22 19:41:09 +0000][DEBUG] search word : $2a$06$Wyd5S4L0gJVhfGlzmHhoGueeBOqGM5hR4WWnCWnc2h8XHq
+[Tue, 10 May 22 19:41:09 +0000][ERROR] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type uuid: "$2a$06$Wyd5S4L0gJVhfGlzmHhoGueeBOqGM5hR4WWnCWnc2h8XHq"
+LINE 1: ...HhoGueeBOqGM5hR4WWnCWnc2h8XHq%' OR "users"."id" = '$2a$06$Wy...
+                                                             ^
+#0 [internal function]: PDOStatement->execute()
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, Array)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', NULL, NULL)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, NULL, NULL)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute()
+#5 /var/www/html/app/models/Users.php(91): Phalcon\Mvc\Model::find(Array)
+#6 /var/www/html/app/controllers/ApiController.php(15): Mytickets\Models\Users::find(Array)
+#7 [internal function]: ApiController->usersAction('$2a$06$Wyd5S4L0...')
+#8 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(ApiController), 'usersAction', Array)
+#9 [internal function]: Phalcon\Dispatcher->dispatch()
+#10 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#11 {main}
+[Tue, 10 May 22 19:41:09 +0000][DEBUG] error/code500
+[Tue, 10 May 22 19:41:16 +0000][DEBUG] search word : 2a$06$Wyd5S4L0gJVhfGlzmHhoGueeBOqGM5hR4WWnCWnc2h8XHq
+[Tue, 10 May 22 19:41:16 +0000][ERROR] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type uuid: "2a$06$Wyd5S4L0gJVhfGlzmHhoGueeBOqGM5hR4WWnCWnc2h8XHq"
+LINE 1: ...HhoGueeBOqGM5hR4WWnCWnc2h8XHq%' OR "users"."id" = '2a$06$Wyd...
+                                                             ^
+#0 [internal function]: PDOStatement->execute()
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, Array)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', NULL, NULL)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, NULL, NULL)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute()
+#5 /var/www/html/app/models/Users.php(91): Phalcon\Mvc\Model::find(Array)
+#6 /var/www/html/app/controllers/ApiController.php(15): Mytickets\Models\Users::find(Array)
+#7 [internal function]: ApiController->usersAction('2a$06$Wyd5S4L0g...')
+#8 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(ApiController), 'usersAction', Array)
+#9 [internal function]: Phalcon\Dispatcher->dispatch()
+#10 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#11 {main}
+[Tue, 10 May 22 19:41:16 +0000][DEBUG] error/code500
+[Tue, 10 May 22 19:41:50 +0000][DEBUG] search word : 2a$06$Wyd5S4L0gJVhfGlzmHhoGueeBOqGM5hR4WWnCWnc2h8XHq
+[Tue, 10 May 22 19:41:50 +0000][ERROR] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type uuid: "%2a$06$Wyd5S4L0gJVhfGlzmHhoGueeBOqGM5hR4WWnCWnc2h8XHq%"
+LINE 1: ...HhoGueeBOqGM5hR4WWnCWnc2h8XHq%' OR "users"."id" = '%2a$06$Wy...
+                                                             ^
+#0 [internal function]: PDOStatement->execute()
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, Array)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', NULL, NULL)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, NULL, NULL)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute()
+#5 /var/www/html/app/models/Users.php(91): Phalcon\Mvc\Model::find(Array)
+#6 /var/www/html/app/controllers/ApiController.php(15): Mytickets\Models\Users::find(Array)
+#7 [internal function]: ApiController->usersAction('2a$06$Wyd5S4L0g...')
+#8 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(ApiController), 'usersAction', Array)
+#9 [internal function]: Phalcon\Dispatcher->dispatch()
+#10 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#11 {main}
+[Tue, 10 May 22 19:41:50 +0000][DEBUG] error/code500
+[Tue, 10 May 22 19:43:25 +0000][DEBUG] search word : he
+[Tue, 10 May 22 19:43:25 +0000][DEBUG] index/index
+[Tue, 10 May 22 19:51:10 +0000][DEBUG] index/index
+[Tue, 10 May 22 19:51:12 +0000][DEBUG] account/index
+[Tue, 10 May 22 19:52:55 +0000][DEBUG] account/index
+[Tue, 10 May 22 19:52:56 +0000][DEBUG] account/index
+[Tue, 10 May 22 19:53:26 +0000][DEBUG] account/index
+[Tue, 10 May 22 19:55:06 +0000][DEBUG] account/index
+[Tue, 10 May 22 19:55:08 +0000][DEBUG] account/index
+[Tue, 10 May 22 19:55:11 +0000][DEBUG] search word : hr
+[Tue, 10 May 22 19:55:18 +0000][DEBUG] search word : he
+[Tue, 10 May 22 19:55:39 +0000][DEBUG] search word : ke
+[Tue, 10 May 22 19:56:25 +0000][DEBUG] account/index
+[Tue, 10 May 22 19:56:33 +0000][DEBUG] search word : r.henry
+[Tue, 10 May 22 19:57:23 +0000][DEBUG] search word : o.kenoby
+[Tue, 10 May 22 19:57:28 +0000][DEBUG] search word : o.kenobi
+[Tue, 10 May 22 19:59:29 +0000][DEBUG] account/index
+[Tue, 10 May 22 19:59:34 +0000][DEBUG] search word : he
+[Tue, 10 May 22 19:59:52 +0000][DEBUG] account/index
+[Tue, 10 May 22 19:59:56 +0000][DEBUG] search word : ke
+[Tue, 10 May 22 20:00:58 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:01:02 +0000][DEBUG] search word : ke
+[Tue, 10 May 22 20:01:31 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:01:34 +0000][DEBUG] search word : ke
+[Tue, 10 May 22 20:02:40 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:02:44 +0000][DEBUG] search word : ke
+[Tue, 10 May 22 20:03:09 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:03:12 +0000][DEBUG] search word : ke
+[Tue, 10 May 22 20:03:33 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:03:37 +0000][DEBUG] search word : r.henry
+[Tue, 10 May 22 20:03:45 +0000][DEBUG] search word : ke
+[Tue, 10 May 22 20:05:28 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:05:33 +0000][DEBUG] search word : ke
+[Tue, 10 May 22 20:05:57 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:06:00 +0000][DEBUG] search word : ke
+[Tue, 10 May 22 20:06:30 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:06:34 +0000][DEBUG] search word : ke
+[Tue, 10 May 22 20:07:22 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:07:29 +0000][DEBUG] search word : ke
+[Tue, 10 May 22 20:08:06 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:08:12 +0000][DEBUG] search word : r.henry
+[Tue, 10 May 22 20:08:40 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:08:44 +0000][DEBUG] search word : ke
+[Tue, 10 May 22 20:10:37 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:10:40 +0000][DEBUG] search word : ke
+[Tue, 10 May 22 20:11:42 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:11:46 +0000][DEBUG] search word : ke
+[Tue, 10 May 22 20:12:01 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:12:05 +0000][DEBUG] search word : ke
+[Tue, 10 May 22 20:12:27 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:12:30 +0000][DEBUG] search word : ke
+[Tue, 10 May 22 20:12:58 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:13:01 +0000][DEBUG] search word : ke
+[Tue, 10 May 22 20:13:46 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:13:50 +0000][DEBUG] search word : ke
+[Tue, 10 May 22 20:14:57 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:15:01 +0000][DEBUG] search word : ke

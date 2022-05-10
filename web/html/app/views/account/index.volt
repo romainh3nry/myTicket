@@ -38,7 +38,9 @@
                     </form>
                 </div>
                 <div class="col-8">
-                    resultats
+                    <div id="search-users-results">
+
+                    </div>
                 </div>
             </div>
         </div>
