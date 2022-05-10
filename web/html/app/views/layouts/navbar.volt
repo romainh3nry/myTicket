@@ -11,7 +11,10 @@
         </ul>
         <ul class="navbar-nav my-2 my-lg-0">
             <li class="nav-item">
-                <a class="nav-link" href="#">Déconnexion <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#">{{loggedUser}} <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/auth/logout">Déconnexion <span class="sr-only">(current)</span></a>
             </li>
         </ul>
     </div>

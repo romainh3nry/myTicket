@@ -40,6 +40,6 @@ class SecurityPlugin extends Plugin
                 return false;
             }
         }
-        $this->view->loggedUser = $user;
+        $this->view->loggedUser = $user['username'];
     }
 }

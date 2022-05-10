@@ -54,6 +54,7 @@ class AuthController extends ControllerBase
     public function logoutAction()
     {
         $this->assets->addCss('css/auth.css');
+        $this->tag->setTitle('logout');
         if ($this->request->isPost())
         {
             $valid = $this->request->getPost('valid');
