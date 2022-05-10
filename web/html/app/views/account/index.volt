@@ -26,6 +26,22 @@
     </div>
     <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">MODIF</div>
     {% if user.role == 'admin' %}
-    <div class="tab-pane fade" id="admin" role="tabpanel" aria-labelledby="admin-tab">ADMIN</div>
+    <div class="tab-pane fade" id="admin" role="tabpanel" aria-labelledby="admin-tab">
+        <div class="container container-centered">
+            <h4>Administration</h4>
+            <hr />
+            <div class="row">
+                <div class="col-4">
+                    <form id="search-user-form" action="#" method="post" class="form-inline">
+                        <input id="search-user-input" class="form-control" name="search" placeholder="Rechercher un utilisateur" />
+                        <button id="search-user-button" type="submit" class="btn ml-2">Recherche</button>
+                    </form>
+                </div>
+                <div class="col-8">
+                    resultats
+                </div>
+            </div>
+        </div>
+    </div>
     {% endif %}
 </div>

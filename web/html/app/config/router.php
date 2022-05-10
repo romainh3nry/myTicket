@@ -22,11 +22,19 @@ $router->add(
     ]
 );
 
-$router-> add(
+$router->add(
     'account',
     [
         'controller' => 'account',
         'action' => 'index'
+    ]
+);
+
+$router->add(
+    '/api/users/{search}',
+    [
+        'controller' => 'api',
+        'action' => 'users',
     ]
 );
 

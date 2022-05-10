@@ -9,6 +9,7 @@ class AccountController extends ControllerBase
     {
         $this->tag->setTitle('Account');
         $this->assets->addCss('css/account.css');
+        $this->assets->addJs('js/account.js');
 
         $sessionId = $this->session->get('auth_id')['id'];
         $user = Users::findFirst(
