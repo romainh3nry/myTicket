@@ -12259,3 +12259,134 @@ LINE 1: ...HhoGueeBOqGM5hR4WWnCWnc2h8XHq%' OR "users"."id" = '%2a$06$Wy...
 [Tue, 10 May 22 20:43:52 +0000][DEBUG] error/code404
 [Tue, 10 May 22 20:43:54 +0000][DEBUG] account/index
 [Tue, 10 May 22 20:43:55 +0000][DEBUG] index/index
+[Tue, 10 May 22 20:44:42 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:44:48 +0000][DEBUG] search word : ke
+[Tue, 10 May 22 20:44:51 +0000][DEBUG] search word : e
+[Tue, 10 May 22 20:45:45 +0000][ERROR] UsersController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('UsersController...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 20:45:45 +0000][DEBUG] error/code404
+[Tue, 10 May 22 20:45:55 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:46:01 +0000][DEBUG] search word : a
+[Tue, 10 May 22 20:48:33 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:48:43 +0000][ERROR] Action 'user' was not found on handler 'api'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'user' w...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 20:48:43 +0000][DEBUG] error/code404
+[Tue, 10 May 22 20:49:40 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:49:46 +0000][ERROR] Action 'user' was not found on handler 'api'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'user' w...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 20:49:46 +0000][DEBUG] error/code404
+[Tue, 10 May 22 20:51:33 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:51:37 +0000][ERROR] Action 'user' was not found on handler 'api'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'user' w...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 20:51:37 +0000][DEBUG] error/code404
+[Tue, 10 May 22 20:52:18 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:52:22 +0000][ERROR] Action 'user' was not found on handler 'api'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'user' w...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 20:52:22 +0000][DEBUG] error/code404
+[Tue, 10 May 22 20:52:37 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:52:40 +0000][ERROR] Action 'user' was not found on handler 'api'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'user' w...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 20:52:40 +0000][DEBUG] error/code404
+[Tue, 10 May 22 20:52:57 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:53:03 +0000][ERROR] Action 'user' was not found on handler 'api'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'user' w...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 20:53:03 +0000][DEBUG] error/code404
+[Tue, 10 May 22 20:53:14 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:53:17 +0000][ERROR] Action 'user' was not found on handler 'api'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'user' w...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 20:53:17 +0000][DEBUG] error/code404
+[Tue, 10 May 22 20:53:23 +0000][ERROR] Action 'user' was not found on handler 'api'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'user' w...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 20:53:23 +0000][DEBUG] error/code404
+[Tue, 10 May 22 20:53:40 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:53:44 +0000][ERROR] Action 'user' was not found on handler 'api'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'user' w...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 20:53:44 +0000][DEBUG] error/code404
+[Tue, 10 May 22 20:54:46 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:54:49 +0000][ERROR] Action 'user' was not found on handler 'api'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'user' w...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 20:54:49 +0000][DEBUG] error/code404
+[Tue, 10 May 22 20:56:14 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:56:17 +0000][ERROR] Action 'user' was not found on handler 'api'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'user' w...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 20:56:17 +0000][DEBUG] error/code404
+[Tue, 10 May 22 20:56:32 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:56:37 +0000][ERROR] Action 'user' was not found on handler 'api'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'user' w...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 20:56:37 +0000][DEBUG] error/code404
+[Tue, 10 May 22 20:57:10 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:57:13 +0000][ERROR] Action 'user' was not found on handler 'api'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'user' w...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 20:57:13 +0000][DEBUG] error/code404
+[Tue, 10 May 22 20:58:04 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:58:08 +0000][ERROR] Action 'user' was not found on handler 'api'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'user' w...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 20:58:08 +0000][DEBUG] error/code404
+[Tue, 10 May 22 20:58:59 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:59:08 +0000][ERROR] Action 'user' was not found on handler 'api'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'user' w...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 20:59:08 +0000][DEBUG] error/code404
+[Tue, 10 May 22 20:59:31 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:59:34 +0000][ERROR] Action 'user' was not found on handler 'api'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'user' w...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 20:59:34 +0000][DEBUG] error/code404
+[Tue, 10 May 22 21:00:05 +0000][DEBUG] account/index
+[Tue, 10 May 22 21:00:11 +0000][ERROR] Action 'user' was not found on handler 'api'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'user' w...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 21:00:11 +0000][DEBUG] error/code404
+[Tue, 10 May 22 21:00:50 +0000][DEBUG] account/index
+[Tue, 10 May 22 21:00:52 +0000][DEBUG] search word : ke

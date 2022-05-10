@@ -24,6 +24,13 @@ function findUsers(search) {
                     </tr>`
                 )
             });
+        },
+        error: function(xhr, textStatus, error) {
+            $('#search-users-results').append(
+                `<tr> \
+                <td class="text-center" colspan="4"><div class="alert alert-danger">Erreur :  ${xhr.statusText}</div></td>\
+                </tr>`
+            )
         }
     })
 }
