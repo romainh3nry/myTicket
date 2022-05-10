@@ -4,8 +4,18 @@
     background-color: #414042 !important;
 }
 
-.navbar a {
-    font-size: 28px;
+.navbar-brand {
     color: #F7BF5F !important;
+    font-size: 30px;
     font-family: 'Abhaya Libre', serif;
+}
+
+.nav-link {
+    font-size: 28px;
+    color: whitesmoke !important;
+    font-family: 'Abhaya Libre', serif;
+}
+
+.nav-link:hover {
+    color: #F7BF5F !important;
 }
