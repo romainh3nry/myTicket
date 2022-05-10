@@ -38,9 +38,18 @@
                     </form>
                 </div>
                 <div class="col-8">
-                    <div id="search-users-results">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">Username</th>
+                                <th scope="col">Email</th>
+                                <th scope="col">Role</th>
+                            </tr>
+                        </thead>
+                        <tbody id="search-users-results">
 
-                    </div>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
