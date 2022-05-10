@@ -20,6 +20,7 @@ function findUsers(search) {
                     <td>'+ element.username +'</td>\
                     <td>'+ element.email +'</td>\
                     <td>'+ element.role +'</td>\
+                    <td><button class="btn btn-sm"><a class="text-light" href="/users/update/'+ element.id +'">Modifier</a></button></td>\
                     </tr>'
                 )
             });

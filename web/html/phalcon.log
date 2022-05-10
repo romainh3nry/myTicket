@@ -12206,3 +12206,32 @@ LINE 1: ...HhoGueeBOqGM5hR4WWnCWnc2h8XHq%' OR "users"."id" = '%2a$06$Wy...
 [Tue, 10 May 22 20:27:42 +0000][DEBUG] search word : o.
 [Tue, 10 May 22 20:27:44 +0000][DEBUG] search word : key
 [Tue, 10 May 22 20:27:47 +0000][DEBUG] search word : ke
+[Tue, 10 May 22 20:29:11 +0000][DEBUG] search word : r.henry
+[Tue, 10 May 22 20:29:30 +0000][DEBUG] search word : m
+[Tue, 10 May 22 20:29:32 +0000][DEBUG] search word : a
+[Tue, 10 May 22 20:31:01 +0000][DEBUG] search word : r.henry
+[Tue, 10 May 22 20:31:53 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:31:58 +0000][DEBUG] search word : ke
+[Tue, 10 May 22 20:32:39 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:32:44 +0000][DEBUG] search word : r.henry
+[Tue, 10 May 22 20:33:11 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:33:14 +0000][DEBUG] search word : ke
+[Tue, 10 May 22 20:33:21 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:33:25 +0000][DEBUG] search word : ke
+[Tue, 10 May 22 20:34:01 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:34:04 +0000][DEBUG] search word : ke
+[Tue, 10 May 22 20:34:41 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:34:44 +0000][DEBUG] search word : ke
+[Tue, 10 May 22 20:35:05 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:35:07 +0000][DEBUG] search word : ke
+[Tue, 10 May 22 20:35:31 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:35:35 +0000][DEBUG] search word : ke
+[Tue, 10 May 22 20:37:00 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:37:04 +0000][DEBUG] search word : ke
+[Tue, 10 May 22 20:37:08 +0000][ERROR] UsersController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('UsersController...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 20:37:08 +0000][DEBUG] error/code404
+[Tue, 10 May 22 20:37:13 +0000][DEBUG] account/index
