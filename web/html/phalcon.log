@@ -12238,3 +12238,24 @@ LINE 1: ...HhoGueeBOqGM5hR4WWnCWnc2h8XHq%' OR "users"."id" = '%2a$06$Wy...
 [Tue, 10 May 22 20:38:29 +0000][DEBUG] search word : t
 [Tue, 10 May 22 20:38:59 +0000][DEBUG] account/index
 [Tue, 10 May 22 20:39:03 +0000][DEBUG] search word : ke
+[Tue, 10 May 22 20:39:59 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:40:04 +0000][DEBUG] search word : r.henry
+[Tue, 10 May 22 20:40:53 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:40:58 +0000][DEBUG] search word : ke
+[Tue, 10 May 22 20:43:26 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:43:27 +0000][DEBUG] index/index
+[Tue, 10 May 22 20:43:29 +0000][DEBUG] auth/logout
+[Tue, 10 May 22 20:43:33 +0000][DEBUG] index/index
+[Tue, 10 May 22 20:43:34 +0000][DEBUG] auth/logout
+[Tue, 10 May 22 20:43:35 +0000][DEBUG] auth/login
+[Tue, 10 May 22 20:43:41 +0000][DEBUG] index/index
+[Tue, 10 May 22 20:43:42 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:43:46 +0000][DEBUG] search word : ke
+[Tue, 10 May 22 20:43:52 +0000][ERROR] TicketsController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('TicketsControll...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 20:43:52 +0000][DEBUG] error/code404
+[Tue, 10 May 22 20:43:54 +0000][DEBUG] account/index
+[Tue, 10 May 22 20:43:55 +0000][DEBUG] index/index
