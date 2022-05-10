@@ -9,6 +9,15 @@
       </li>
 </ul>
 <div class="tab-content" id="myTabContent">
-    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">RESUME</div>
+    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+        <div class="container container-centered">
+            <h4>Information du compte</h4>
+            <hr />
+            <li><span>ID</span> : {{user.id}}</li>
+            <li><span>Username</span> : {{user.username}}</li>
+            <li><span>Email</span> : {{user.email}}</li>
+            <li><span>Niveau d'accès</span> : {{user.role}}</li>
+        </div>
+    </div>
     <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">MODIF</div>
-  </div>
+</div>

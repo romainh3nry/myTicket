@@ -13,3 +13,20 @@
 .nav-tabs .nav-item .nav-link.active {
     color: #F7BF5F;
 }
+
+.container-centered h4 {
+    margin-top: 50px;
+    color: #414042;
+    font-style: italic;
+    opacity: 0.8;
+}
+
+.container-centered li {
+    font-size: 20px;
+}
+
+.container-centered span {
+    color: #F7BF5F;
+    font-weight: bold;
+    font-style: italic;
+}

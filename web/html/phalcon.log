@@ -11112,3 +11112,631 @@
 #2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
 #3 {main}
 [Tue, 10 May 22 02:55:04 +0000][DEBUG] error/code404
+[Tue, 10 May 22 02:56:03 +0000][DEBUG] index/index
+[Tue, 10 May 22 02:56:04 +0000][DEBUG] account/index
+[Tue, 10 May 22 02:59:11 +0000][DEBUG] account/index
+[Tue, 10 May 22 02:59:12 +0000][ERROR] TicketsController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('TicketsControll...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 02:59:12 +0000][DEBUG] error/code404
+[Tue, 10 May 22 02:59:13 +0000][DEBUG] account/index
+[Tue, 10 May 22 02:59:14 +0000][DEBUG] index/index
+[Tue, 10 May 22 02:59:15 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:02:58 +0000][ERROR] Syntax error, unexpected token LIMIT, near to ' :APL0:', when parsing: SELECT [Mytickets\Models\Users].* FROM [Mytickets\Models\Users] WHERE id =  LIMIT :APL0: (88)
+#0 [internal function]: Phalcon\Mvc\Model\Query->parse()
+#1 [internal function]: Phalcon\Mvc\Model\Query->execute()
+#2 /var/www/html/app/models/Users.php(102): Phalcon\Mvc\Model::findFirst(Array)
+#3 /var/www/html/app/controllers/AccountController.php(16): Mytickets\Models\Users::findFirst(Array)
+#4 [internal function]: AccountController->indexAction()
+#5 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(AccountController), 'indexAction', Array)
+#6 [internal function]: Phalcon\Dispatcher->dispatch()
+#7 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#8 {main}
+[Tue, 10 May 22 03:02:58 +0000][DEBUG] error/code500
+[Tue, 10 May 22 03:02:59 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:02:59 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:03:00 +0000][ERROR] Syntax error, unexpected token LIMIT, near to ' :APL0:', when parsing: SELECT [Mytickets\Models\Users].* FROM [Mytickets\Models\Users] WHERE id =  LIMIT :APL0: (88)
+#0 [internal function]: Phalcon\Mvc\Model\Query->parse()
+#1 [internal function]: Phalcon\Mvc\Model\Query->execute()
+#2 /var/www/html/app/models/Users.php(102): Phalcon\Mvc\Model::findFirst(Array)
+#3 /var/www/html/app/controllers/AccountController.php(16): Mytickets\Models\Users::findFirst(Array)
+#4 [internal function]: AccountController->indexAction()
+#5 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(AccountController), 'indexAction', Array)
+#6 [internal function]: Phalcon\Dispatcher->dispatch()
+#7 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#8 {main}
+[Tue, 10 May 22 03:03:00 +0000][DEBUG] error/code500
+[Tue, 10 May 22 03:03:13 +0000][ERROR] Syntax error, unexpected token LIMIT, near to ' :APL0:', when parsing: SELECT [Mytickets\Models\Users].* FROM [Mytickets\Models\Users] WHERE id =  LIMIT :APL0: (88)
+#0 [internal function]: Phalcon\Mvc\Model\Query->parse()
+#1 [internal function]: Phalcon\Mvc\Model\Query->execute()
+#2 /var/www/html/app/models/Users.php(102): Phalcon\Mvc\Model::findFirst(Array)
+#3 /var/www/html/app/controllers/AccountController.php(16): Mytickets\Models\Users::findFirst(Array)
+#4 [internal function]: AccountController->indexAction()
+#5 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(AccountController), 'indexAction', Array)
+#6 [internal function]: Phalcon\Dispatcher->dispatch()
+#7 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#8 {main}
+[Tue, 10 May 22 03:03:13 +0000][DEBUG] error/code500
+[Tue, 10 May 22 03:03:14 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:03:14 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:03:23 +0000][ERROR] Syntax error, unexpected token LIMIT, near to ' :APL0:', when parsing: SELECT [Mytickets\Models\Users].* FROM [Mytickets\Models\Users] WHERE id =  LIMIT :APL0: (88)
+#0 [internal function]: Phalcon\Mvc\Model\Query->parse()
+#1 [internal function]: Phalcon\Mvc\Model\Query->execute()
+#2 /var/www/html/app/models/Users.php(102): Phalcon\Mvc\Model::findFirst(Array)
+#3 /var/www/html/app/controllers/AccountController.php(16): Mytickets\Models\Users::findFirst(Array)
+#4 [internal function]: AccountController->indexAction()
+#5 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(AccountController), 'indexAction', Array)
+#6 [internal function]: Phalcon\Dispatcher->dispatch()
+#7 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#8 {main}
+[Tue, 10 May 22 03:03:23 +0000][DEBUG] error/code500
+[Tue, 10 May 22 03:03:24 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:03:24 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:05:07 +0000][ERROR] Syntax error, unexpected token LIMIT, near to ' :APL0:', when parsing: SELECT [Mytickets\Models\Users].* FROM [Mytickets\Models\Users] WHERE id =  LIMIT :APL0: (88)
+#0 [internal function]: Phalcon\Mvc\Model\Query->parse()
+#1 [internal function]: Phalcon\Mvc\Model\Query->execute()
+#2 /var/www/html/app/models/Users.php(102): Phalcon\Mvc\Model::findFirst(Array)
+#3 /var/www/html/app/controllers/AccountController.php(16): Mytickets\Models\Users::findFirst(Array)
+#4 [internal function]: AccountController->indexAction()
+#5 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(AccountController), 'indexAction', Array)
+#6 [internal function]: Phalcon\Dispatcher->dispatch()
+#7 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#8 {main}
+[Tue, 10 May 22 03:05:07 +0000][DEBUG] error/code500
+[Tue, 10 May 22 03:05:08 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:05:08 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:05:09 +0000][ERROR] Syntax error, unexpected token LIMIT, near to ' :APL0:', when parsing: SELECT [Mytickets\Models\Users].* FROM [Mytickets\Models\Users] WHERE id =  LIMIT :APL0: (88)
+#0 [internal function]: Phalcon\Mvc\Model\Query->parse()
+#1 [internal function]: Phalcon\Mvc\Model\Query->execute()
+#2 /var/www/html/app/models/Users.php(102): Phalcon\Mvc\Model::findFirst(Array)
+#3 /var/www/html/app/controllers/AccountController.php(16): Mytickets\Models\Users::findFirst(Array)
+#4 [internal function]: AccountController->indexAction()
+#5 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(AccountController), 'indexAction', Array)
+#6 [internal function]: Phalcon\Dispatcher->dispatch()
+#7 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#8 {main}
+[Tue, 10 May 22 03:05:09 +0000][DEBUG] error/code500
+[Tue, 10 May 22 03:05:10 +0000][ERROR] Syntax error, unexpected token LIMIT, near to ' :APL0:', when parsing: SELECT [Mytickets\Models\Users].* FROM [Mytickets\Models\Users] WHERE id =  LIMIT :APL0: (88)
+#0 [internal function]: Phalcon\Mvc\Model\Query->parse()
+#1 [internal function]: Phalcon\Mvc\Model\Query->execute()
+#2 /var/www/html/app/models/Users.php(102): Phalcon\Mvc\Model::findFirst(Array)
+#3 /var/www/html/app/controllers/AccountController.php(16): Mytickets\Models\Users::findFirst(Array)
+#4 [internal function]: AccountController->indexAction()
+#5 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(AccountController), 'indexAction', Array)
+#6 [internal function]: Phalcon\Dispatcher->dispatch()
+#7 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#8 {main}
+[Tue, 10 May 22 03:05:10 +0000][DEBUG] error/code500
+[Tue, 10 May 22 03:05:55 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:05:55 +0000][DEBUG] index/index
+[Tue, 10 May 22 03:05:56 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:05:57 +0000][DEBUG] index/index
+[Tue, 10 May 22 03:06:10 +0000][ERROR] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type uuid: ""
+LINE 1: ..."role" FROM "public"."users" WHERE "users"."id" = '' LIMIT $...
+                                                             ^
+#0 [internal function]: PDOStatement->execute()
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, Array)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', Array, Array)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, Array, Array)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute()
+#5 /var/www/html/app/models/Users.php(102): Phalcon\Mvc\Model::findFirst(Array)
+#6 /var/www/html/app/controllers/AccountController.php(16): Mytickets\Models\Users::findFirst(Array)
+#7 [internal function]: AccountController->indexAction()
+#8 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(AccountController), 'indexAction', Array)
+#9 [internal function]: Phalcon\Dispatcher->dispatch()
+#10 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#11 {main}
+[Tue, 10 May 22 03:06:10 +0000][DEBUG] error/code500
+[Tue, 10 May 22 03:06:10 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:06:10 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:07:43 +0000][ERROR] Parameter 'message' must be a string
+#0 /var/www/html/app/controllers/AccountController.php(14): Phalcon\Logger\Adapter->debug(Array)
+#1 [internal function]: AccountController->indexAction()
+#2 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(AccountController), 'indexAction', Array)
+#3 [internal function]: Phalcon\Dispatcher->dispatch()
+#4 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#5 {main}
+[Tue, 10 May 22 03:07:43 +0000][DEBUG] error/code500
+[Tue, 10 May 22 03:07:43 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:07:43 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:07:44 +0000][ERROR] Parameter 'message' must be a string
+#0 /var/www/html/app/controllers/AccountController.php(14): Phalcon\Logger\Adapter->debug(Array)
+#1 [internal function]: AccountController->indexAction()
+#2 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(AccountController), 'indexAction', Array)
+#3 [internal function]: Phalcon\Dispatcher->dispatch()
+#4 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#5 {main}
+[Tue, 10 May 22 03:07:44 +0000][DEBUG] error/code500
+[Tue, 10 May 22 03:07:53 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:07:53 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:07:53 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:08:01 +0000][DEBUG] 
+[Tue, 10 May 22 03:08:01 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:08:01 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:08:01 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:08:15 +0000][DEBUG] 
+[Tue, 10 May 22 03:08:15 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:08:16 +0000][DEBUG] 
+[Tue, 10 May 22 03:08:16 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:08:16 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:08:16 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:08:42 +0000][DEBUG] Arrayid
+[Tue, 10 May 22 03:08:42 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:08:42 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:08:42 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:09:01 +0000][DEBUG] Arrayid
+[Tue, 10 May 22 03:09:01 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:09:29 +0000][DEBUG] 
+[Tue, 10 May 22 03:09:29 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:09:29 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:09:29 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:09:49 +0000][DEBUG] 3b66fd1f-5b5d-4b9d-a07e-3646fe76d4cf
+[Tue, 10 May 22 03:09:49 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:09:49 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:09:49 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:10:58 +0000][DEBUG] 3b66fd1f-5b5d-4b9d-a07e-3646fe76d4cf
+[Tue, 10 May 22 03:10:58 +0000][ERROR] Column '3b66fd1f' doesn't belong to any of the selected models (1), when preparing: SELECT [Mytickets\Models\Users].* FROM [Mytickets\Models\Users] WHERE id = 3b66fd1f-5b5d-4b9d-a07e-3646fe76d4cf LIMIT :APL0:
+#0 [internal function]: Phalcon\Mvc\Model\Query->_getQualified(Array)
+#1 [internal function]: Phalcon\Mvc\Model\Query->_getExpression(Array, true)
+#2 [internal function]: Phalcon\Mvc\Model\Query->_getExpression(Array, true)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_getExpression(Array, true)
+#4 [internal function]: Phalcon\Mvc\Model\Query->_getExpression(Array, true)
+#5 [internal function]: Phalcon\Mvc\Model\Query->_getExpression(Array, true)
+#6 [internal function]: Phalcon\Mvc\Model\Query->_getExpression(Array)
+#7 [internal function]: Phalcon\Mvc\Model\Query->_prepareSelect()
+#8 [internal function]: Phalcon\Mvc\Model\Query->parse()
+#9 [internal function]: Phalcon\Mvc\Model\Query->execute()
+#10 /var/www/html/app/models/Users.php(102): Phalcon\Mvc\Model::findFirst(Array)
+#11 /var/www/html/app/controllers/AccountController.php(18): Mytickets\Models\Users::findFirst(Array)
+#12 [internal function]: AccountController->indexAction()
+#13 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(AccountController), 'indexAction', Array)
+#14 [internal function]: Phalcon\Dispatcher->dispatch()
+#15 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#16 {main}
+[Tue, 10 May 22 03:10:58 +0000][DEBUG] error/code500
+[Tue, 10 May 22 03:10:58 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:10:58 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:12:28 +0000][DEBUG] 3b66fd1f-5b5d-4b9d-a07e-3646fe76d4cf
+[Tue, 10 May 22 03:12:28 +0000][ERROR] Column '3b66fd1f' doesn't belong to any of the selected models (1), when preparing: SELECT [Mytickets\Models\Users].* FROM [Mytickets\Models\Users] WHERE id = 3b66fd1f-5b5d-4b9d-a07e-3646fe76d4cf LIMIT :APL0:
+#0 [internal function]: Phalcon\Mvc\Model\Query->_getQualified(Array)
+#1 [internal function]: Phalcon\Mvc\Model\Query->_getExpression(Array, true)
+#2 [internal function]: Phalcon\Mvc\Model\Query->_getExpression(Array, true)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_getExpression(Array, true)
+#4 [internal function]: Phalcon\Mvc\Model\Query->_getExpression(Array, true)
+#5 [internal function]: Phalcon\Mvc\Model\Query->_getExpression(Array, true)
+#6 [internal function]: Phalcon\Mvc\Model\Query->_getExpression(Array)
+#7 [internal function]: Phalcon\Mvc\Model\Query->_prepareSelect()
+#8 [internal function]: Phalcon\Mvc\Model\Query->parse()
+#9 [internal function]: Phalcon\Mvc\Model\Query->execute()
+#10 /var/www/html/app/models/Users.php(102): Phalcon\Mvc\Model::findFirst(Array)
+#11 /var/www/html/app/controllers/AccountController.php(18): Mytickets\Models\Users::findFirst(Array)
+#12 [internal function]: AccountController->indexAction()
+#13 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(AccountController), 'indexAction', Array)
+#14 [internal function]: Phalcon\Dispatcher->dispatch()
+#15 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#16 {main}
+[Tue, 10 May 22 03:12:28 +0000][DEBUG] error/code500
+[Tue, 10 May 22 03:12:28 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:12:28 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:13:36 +0000][DEBUG] 3b66fd1f-5b5d-4b9d-a07e-3646fe76d4cf
+[Tue, 10 May 22 03:13:36 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:13:36 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:13:36 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:14:14 +0000][DEBUG] session id : 3b66fd1f-5b5d-4b9d-a07e-3646fe76d4cf
+[Tue, 10 May 22 03:14:14 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:14:14 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:14:14 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:14:38 +0000][DEBUG] session id : 3b66fd1f-5b5d-4b9d-a07e-3646fe76d4cf
+[Tue, 10 May 22 03:14:38 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:14:38 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:14:38 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:16:32 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:16:32 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:16:32 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:16:49 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:16:50 +0000][DEBUG] index/index
+[Tue, 10 May 22 03:17:07 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:17:08 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:17:08 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:18:53 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:18:53 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:18:53 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:19:45 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:19:45 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:19:45 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:19:54 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:19:54 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:19:54 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:20:00 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:20:00 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:20:00 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:20:02 +0000][DEBUG] auth/logout
+[Tue, 10 May 22 03:20:03 +0000][DEBUG] index/index
+[Tue, 10 May 22 03:20:05 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:20:55 +0000][ERROR] TicketsController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('TicketsControll...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:20:55 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:20:57 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:20:58 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:21:04 +0000][ERROR] TicketsController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('TicketsControll...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:21:04 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:21:05 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:21:06 +0000][DEBUG] auth/logout
+[Tue, 10 May 22 03:21:07 +0000][DEBUG] index/index
+[Tue, 10 May 22 03:21:49 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:23:38 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:23:38 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:23:38 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:23:47 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:23:47 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:23:47 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:23:48 +0000][DEBUG] auth/logout
+[Tue, 10 May 22 03:23:49 +0000][DEBUG] index/index
+[Tue, 10 May 22 03:23:52 +0000][DEBUG] auth/login
+[Tue, 10 May 22 03:23:56 +0000][DEBUG] index/index
+[Tue, 10 May 22 03:23:58 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:24:19 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:24:19 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:24:19 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:24:28 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:24:28 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:24:28 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:25:00 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:25:00 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:25:00 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:25:12 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:25:12 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:25:12 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:25:35 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:25:36 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:25:36 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:25:43 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:25:43 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:25:43 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:26:09 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:26:09 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:26:09 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:26:18 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:26:18 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:26:18 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:26:26 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:26:26 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:26:26 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:26:52 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:26:52 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:26:52 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:27:13 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:27:13 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:27:13 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:27:27 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:27:28 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:27:28 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:27:44 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:27:44 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:27:44 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:28:17 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:28:17 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:28:17 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:28:24 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:28:24 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:28:25 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:28:34 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:28:34 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:28:34 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:28:52 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:28:52 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:28:52 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:29:06 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:29:07 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:29:07 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:30:34 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:30:35 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:30:35 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:30:46 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:30:46 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:30:46 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:31:02 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:31:02 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:31:02 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:31:08 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:31:08 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:31:08 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:31:59 +0000][ERROR] TicketsController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('TicketsControll...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:31:59 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:32:01 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:32:01 +0000][DEBUG] index/index
+[Tue, 10 May 22 03:32:02 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:32:44 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:32:44 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:32:44 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:32:58 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:32:58 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:32:58 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:33:12 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:33:12 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:33:12 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:33:36 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:33:36 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:33:36 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:34:08 +0000][DEBUG] index/index
+[Tue, 10 May 22 03:34:09 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:36:30 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:36:31 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:36:31 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:36:37 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:36:37 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:36:37 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:36:42 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:36:43 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:36:43 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:38:33 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:38:33 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:38:33 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:38:46 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:38:46 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:38:46 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:39:00 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:39:00 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:39:00 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:39:02 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:39:02 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:39:02 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:39:19 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:39:19 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:39:19 +0000][DEBUG] error/code404
+[Tue, 10 May 22 03:39:39 +0000][DEBUG] account/index
+[Tue, 10 May 22 03:39:40 +0000][ERROR] ImgController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ImgController h...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Tue, 10 May 22 03:39:40 +0000][DEBUG] error/code404
