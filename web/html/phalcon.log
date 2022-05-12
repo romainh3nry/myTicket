@@ -12497,3 +12497,15 @@ LINE 1: ...HhoGueeBOqGM5hR4WWnCWnc2h8XHq%' OR "users"."id" = '%2a$06$Wy...
 [Thu, 12 May 22 12:47:05 +0000][DEBUG] users/update
 [Thu, 12 May 22 12:47:21 +0000][DEBUG] r.henry@myticket.com
 [Thu, 12 May 22 12:47:21 +0000][DEBUG] users/update
+[Thu, 12 May 22 12:49:48 +0000][DEBUG] index/index
+[Thu, 12 May 22 12:49:50 +0000][DEBUG] auth/logout
+[Thu, 12 May 22 12:49:51 +0000][DEBUG] auth/login
+[Thu, 12 May 22 12:49:55 +0000][DEBUG] auth/login
+[Thu, 12 May 22 12:50:22 +0000][DEBUG] auth/login
+[Thu, 12 May 22 12:50:24 +0000][DEBUG] auth/login
+[Thu, 12 May 22 12:50:26 +0000][DEBUG] auth/login
+[Thu, 12 May 22 12:50:29 +0000][DEBUG] index/index
+[Thu, 12 May 22 12:50:31 +0000][DEBUG] account/index
+[Thu, 12 May 22 12:50:33 +0000][DEBUG] search word : e
+[Thu, 12 May 22 12:50:36 +0000][DEBUG] users/update
+[Thu, 12 May 22 12:50:45 +0000][DEBUG] account/index

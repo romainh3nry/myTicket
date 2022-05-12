@@ -1,7 +1,7 @@
 <?php
 
 use Myticket\Forms\LoginForm;
-use Mytickets\Models\Users;
+use Myticket\Models\Users;
 
 class AuthController extends ControllerBase
 {

@@ -1,6 +1,6 @@
 <?php
 
-use Mytickets\Models\Users;
+use Myticket\Models\Users;
 
 class AccountController extends ControllerBase
 {

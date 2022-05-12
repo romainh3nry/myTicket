@@ -1,6 +1,6 @@
 <?php
 
-namespace Mytickets\Models;
+namespace Myticket\Models;
 
 use Phalcon\Validation;
 use Phalcon\Validation\Validator\Email as EmailValidator;
