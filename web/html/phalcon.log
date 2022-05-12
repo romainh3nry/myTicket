@@ -12390,3 +12390,67 @@ LINE 1: ...HhoGueeBOqGM5hR4WWnCWnc2h8XHq%' OR "users"."id" = '%2a$06$Wy...
 [Tue, 10 May 22 21:00:11 +0000][DEBUG] error/code404
 [Tue, 10 May 22 21:00:50 +0000][DEBUG] account/index
 [Tue, 10 May 22 21:00:52 +0000][DEBUG] search word : ke
+[Tue, 10 May 22 21:01:21 +0000][DEBUG] search word : ke
+[Tue, 10 May 22 21:01:23 +0000][DEBUG] search word : e
+[Tue, 10 May 22 21:20:05 +0000][DEBUG] index/index
+[Tue, 10 May 22 21:20:06 +0000][DEBUG] account/index
+[Tue, 10 May 22 21:20:11 +0000][DEBUG] search word : e
+[Thu, 12 May 22 12:20:40 +0000][DEBUG] auth/login
+[Thu, 12 May 22 12:20:49 +0000][DEBUG] auth/login
+[Thu, 12 May 22 12:20:52 +0000][DEBUG] index/index
+[Thu, 12 May 22 12:20:54 +0000][DEBUG] account/index
+[Thu, 12 May 22 12:20:59 +0000][DEBUG] search word : e
+[Thu, 12 May 22 12:21:19 +0000][ERROR] TicketsController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('TicketsControll...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Thu, 12 May 22 12:21:19 +0000][DEBUG] error/code404
+[Thu, 12 May 22 12:21:21 +0000][DEBUG] account/index
+[Thu, 12 May 22 12:21:22 +0000][DEBUG] account/index
+[Thu, 12 May 22 12:21:31 +0000][DEBUG] search word : v.mackey
+[Thu, 12 May 22 12:21:37 +0000][DEBUG] search word : lol
+[Thu, 12 May 22 12:21:39 +0000][DEBUG] search word : lol
+[Thu, 12 May 22 12:21:46 +0000][DEBUG] account/index
+[Thu, 12 May 22 12:21:53 +0000][DEBUG] search word : r.he
+[Thu, 12 May 22 12:21:57 +0000][DEBUG] search word : ty
+[Thu, 12 May 22 12:22:09 +0000][DEBUG] search word : mack
+[Thu, 12 May 22 12:22:38 +0000][ERROR] UsersController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('UsersController...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Thu, 12 May 22 12:22:38 +0000][DEBUG] error/code404
+[Thu, 12 May 22 12:22:41 +0000][DEBUG] account/index
+[Thu, 12 May 22 12:23:38 +0000][DEBUG] search word : r.henry
+[Thu, 12 May 22 12:29:46 +0000][DEBUG] account/index
+[Thu, 12 May 22 12:29:50 +0000][DEBUG] search word : e
+[Thu, 12 May 22 12:31:10 +0000][DEBUG] account/index
+[Thu, 12 May 22 12:31:14 +0000][DEBUG] search word : e
+[Thu, 12 May 22 12:31:21 +0000][DEBUG] search word : e
+[Thu, 12 May 22 12:31:22 +0000][DEBUG] search word : e
+[Thu, 12 May 22 12:31:23 +0000][DEBUG] search word : e
+[Thu, 12 May 22 12:31:23 +0000][DEBUG] search word : e
+[Thu, 12 May 22 12:31:24 +0000][DEBUG] search word : e
+[Thu, 12 May 22 12:31:24 +0000][DEBUG] search word : e
+[Thu, 12 May 22 12:32:50 +0000][DEBUG] account/index
+[Thu, 12 May 22 12:32:52 +0000][DEBUG] search word : e
+[Thu, 12 May 22 12:33:08 +0000][DEBUG] account/index
+[Thu, 12 May 22 12:33:10 +0000][DEBUG] search word : e
+[Thu, 12 May 22 12:33:23 +0000][DEBUG] account/index
+[Thu, 12 May 22 12:33:26 +0000][DEBUG] search word : e
+[Thu, 12 May 22 12:33:35 +0000][DEBUG] search word : e
+[Thu, 12 May 22 12:33:37 +0000][ERROR] UsersController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('UsersController...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Thu, 12 May 22 12:33:37 +0000][DEBUG] error/code404
+[Thu, 12 May 22 12:33:38 +0000][DEBUG] account/index
+[Thu, 12 May 22 12:33:58 +0000][DEBUG] account/index
+[Thu, 12 May 22 12:34:01 +0000][DEBUG] search word : e
+[Thu, 12 May 22 12:34:14 +0000][DEBUG] account/index
+[Thu, 12 May 22 12:34:16 +0000][DEBUG] search word : E
+[Thu, 12 May 22 12:34:19 +0000][DEBUG] search word : e
+[Thu, 12 May 22 12:34:21 +0000][DEBUG] account/index
+[Thu, 12 May 22 12:34:26 +0000][DEBUG] search word : e
