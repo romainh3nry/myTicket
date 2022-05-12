@@ -12509,3 +12509,73 @@ LINE 1: ...HhoGueeBOqGM5hR4WWnCWnc2h8XHq%' OR "users"."id" = '%2a$06$Wy...
 [Thu, 12 May 22 12:50:33 +0000][DEBUG] search word : e
 [Thu, 12 May 22 12:50:36 +0000][DEBUG] users/update
 [Thu, 12 May 22 12:50:45 +0000][DEBUG] account/index
+[Thu, 12 May 22 12:53:28 +0000][DEBUG] index/index
+[Thu, 12 May 22 12:53:30 +0000][ERROR] TicketsController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('TicketsControll...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Thu, 12 May 22 12:53:30 +0000][DEBUG] error/code404
+[Thu, 12 May 22 12:53:32 +0000][DEBUG] index/index
+[Thu, 12 May 22 12:53:34 +0000][DEBUG] account/index
+[Thu, 12 May 22 12:53:49 +0000][DEBUG] index/index
+[Thu, 12 May 22 12:53:49 +0000][ERROR] TicketsController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('TicketsControll...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Thu, 12 May 22 12:53:49 +0000][DEBUG] error/code404
+[Thu, 12 May 22 12:53:52 +0000][DEBUG] index/index
+[Thu, 12 May 22 12:54:08 +0000][ERROR] TicketsController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('TicketsControll...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Thu, 12 May 22 12:54:08 +0000][DEBUG] error/code404
+[Thu, 12 May 22 12:54:09 +0000][DEBUG] index/index
+[Thu, 12 May 22 12:54:16 +0000][DEBUG] auth/logout
+[Thu, 12 May 22 12:54:22 +0000][DEBUG] auth/login
+[Thu, 12 May 22 12:54:29 +0000][DEBUG] index/index
+[Thu, 12 May 22 13:06:26 +0000][DEBUG] index/index
+[Thu, 12 May 22 13:06:27 +0000][DEBUG] account/index
+[Thu, 12 May 22 13:06:31 +0000][DEBUG] search word : k
+[Thu, 12 May 22 13:06:34 +0000][DEBUG] users/update
+[Thu, 12 May 22 13:07:16 +0000][DEBUG] users/update
+[Thu, 12 May 22 13:07:37 +0000][DEBUG] users/update
+[Thu, 12 May 22 13:07:37 +0000][DEBUG] index/index
+[Thu, 12 May 22 13:07:50 +0000][DEBUG] users/update
+[Thu, 12 May 22 13:08:28 +0000][DEBUG] users/update
+[Thu, 12 May 22 13:08:44 +0000][DEBUG] account/index
+[Thu, 12 May 22 13:08:48 +0000][DEBUG] search word : e
+[Thu, 12 May 22 13:08:51 +0000][DEBUG] users/update
+[Thu, 12 May 22 13:09:09 +0000][DEBUG] users/update
+[Thu, 12 May 22 13:09:18 +0000][DEBUG] users/update
+[Thu, 12 May 22 13:11:56 +0000][DEBUG] account/index
+[Thu, 12 May 22 13:12:36 +0000][DEBUG] search word : e
+[Thu, 12 May 22 13:12:39 +0000][DEBUG] users/update
+[Thu, 12 May 22 13:12:39 +0000][DEBUG] index/index
+[Thu, 12 May 22 13:13:24 +0000][DEBUG] index/index
+[Thu, 12 May 22 13:14:10 +0000][DEBUG] index/index
+[Thu, 12 May 22 13:14:36 +0000][DEBUG] index/index
+[Thu, 12 May 22 13:15:21 +0000][DEBUG] index/index
+[Thu, 12 May 22 13:15:33 +0000][DEBUG] index/index
+[Thu, 12 May 22 13:16:36 +0000][DEBUG] index/index
+[Thu, 12 May 22 13:17:15 +0000][DEBUG] index/index
+[Thu, 12 May 22 13:17:50 +0000][DEBUG] index/index
+[Thu, 12 May 22 13:18:02 +0000][DEBUG] index/index
+[Thu, 12 May 22 13:18:03 +0000][DEBUG] index/index
+[Thu, 12 May 22 13:19:13 +0000][DEBUG] index/index
+[Thu, 12 May 22 13:19:15 +0000][DEBUG] account/index
+[Thu, 12 May 22 13:19:16 +0000][DEBUG] account/index
+[Thu, 12 May 22 13:19:18 +0000][DEBUG] search word : e
+[Thu, 12 May 22 13:19:20 +0000][DEBUG] index/index
+[Thu, 12 May 22 13:19:38 +0000][DEBUG] index/index
+[Thu, 12 May 22 13:22:28 +0000][DEBUG] index/index
+[Thu, 12 May 22 13:22:28 +0000][DEBUG] index/index
+[Thu, 12 May 22 13:25:32 +0000][DEBUG] index/index
+[Thu, 12 May 22 13:25:34 +0000][DEBUG] index/index
+[Thu, 12 May 22 13:26:35 +0000][DEBUG] index/index
+[Thu, 12 May 22 13:27:42 +0000][DEBUG] index/index
+[Thu, 12 May 22 13:28:03 +0000][DEBUG] users/update
+[Thu, 12 May 22 13:28:30 +0000][DEBUG] users/update
+[Thu, 12 May 22 13:28:50 +0000][DEBUG] users/update
