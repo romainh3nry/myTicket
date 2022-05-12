@@ -4,9 +4,6 @@
     <li class="nav-item nav-border">
         <a class="nav-link nav-link-sized active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Résumé du compte</a>
     </li>
-    <li class="nav-item nav-border">
-        <a class="nav-link nav-link-sized" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Modification du compte</a>
-    </li>
      {% if user.role == 'admin' %}
      <li class="nav-item nav-border">
         <a class="nav-link nav-link-sized" id="admin-tab" data-toggle="tab" href="#admin" role="tab" aria-controls="admin" aria-selected="false">Administration</a>
@@ -24,7 +21,6 @@
             <li><span>Niveau d'accès</span> : {{user.role}}</li>
         </div>
     </div>
-    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">MODIF</div>
     {% if user.role == 'admin' %}
     <div class="tab-pane fade" id="admin" role="tabpanel" aria-labelledby="admin-tab">
         <div class="container container-centered">

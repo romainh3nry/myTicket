@@ -12454,3 +12454,46 @@ LINE 1: ...HhoGueeBOqGM5hR4WWnCWnc2h8XHq%' OR "users"."id" = '%2a$06$Wy...
 [Thu, 12 May 22 12:34:19 +0000][DEBUG] search word : e
 [Thu, 12 May 22 12:34:21 +0000][DEBUG] account/index
 [Thu, 12 May 22 12:34:26 +0000][DEBUG] search word : e
+[Thu, 12 May 22 12:35:04 +0000][DEBUG] search word : ke
+[Thu, 12 May 22 12:35:07 +0000][DEBUG] account/index
+[Thu, 12 May 22 12:35:15 +0000][DEBUG] index/index
+[Thu, 12 May 22 12:35:15 +0000][ERROR] TicketsController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('TicketsControll...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Thu, 12 May 22 12:35:15 +0000][DEBUG] error/code404
+[Thu, 12 May 22 12:35:17 +0000][DEBUG] index/index
+[Thu, 12 May 22 12:35:19 +0000][DEBUG] account/index
+[Thu, 12 May 22 12:37:15 +0000][DEBUG] search word : e
+[Thu, 12 May 22 12:38:38 +0000][DEBUG] account/index
+[Thu, 12 May 22 12:38:52 +0000][DEBUG] search word : r.henry
+[Thu, 12 May 22 12:38:54 +0000][ERROR] UsersController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('UsersController...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Thu, 12 May 22 12:38:54 +0000][DEBUG] error/code404
+[Thu, 12 May 22 12:38:57 +0000][DEBUG] account/index
+[Thu, 12 May 22 12:39:11 +0000][DEBUG] search word : r.henry
+[Thu, 12 May 22 12:39:13 +0000][ERROR] UsersController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('UsersController...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Thu, 12 May 22 12:39:13 +0000][DEBUG] error/code404
+[Thu, 12 May 22 12:43:14 +0000][DEBUG] users/update
+[Thu, 12 May 22 12:43:25 +0000][DEBUG] users/update
+[Thu, 12 May 22 12:43:26 +0000][DEBUG] users/update
+[Thu, 12 May 22 12:43:50 +0000][DEBUG] 3b66fd1f-5b5d-4b9d-a07e-3646fe76d4cf
+[Thu, 12 May 22 12:43:50 +0000][DEBUG] users/update
+[Thu, 12 May 22 12:43:52 +0000][DEBUG] 3b66fd1f-5b5d-4b9d-a07e-3646fe76d4cf
+[Thu, 12 May 22 12:43:52 +0000][DEBUG] users/update
+[Thu, 12 May 22 12:44:01 +0000][DEBUG] 3b66fd1f-5b5d-4b9d-a07e-3646fe76d4cf
+[Thu, 12 May 22 12:44:01 +0000][DEBUG] users/update
+[Thu, 12 May 22 12:47:04 +0000][DEBUG] r.henry
+[Thu, 12 May 22 12:47:04 +0000][DEBUG] users/update
+[Thu, 12 May 22 12:47:05 +0000][DEBUG] r.henry
+[Thu, 12 May 22 12:47:05 +0000][DEBUG] users/update
+[Thu, 12 May 22 12:47:21 +0000][DEBUG] r.henry@myticket.com
+[Thu, 12 May 22 12:47:21 +0000][DEBUG] users/update

@@ -38,4 +38,12 @@ $router->add(
     ]
 );
 
+$router->add(
+    'users/update/{user_id}',
+    [
+        'controller' => 'users',
+        'action' => 'update',
+    ]
+);
+
 $router->handle();
