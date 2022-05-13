@@ -12625,3 +12625,69 @@ LINE 1: ...HhoGueeBOqGM5hR4WWnCWnc2h8XHq%' OR "users"."id" = '%2a$06$Wy...
 [Thu, 12 May 22 14:07:21 +0000][DEBUG] users/update
 [Thu, 12 May 22 14:07:35 +0000][DEBUG] users/update
 [Thu, 12 May 22 14:07:57 +0000][DEBUG] users/update
+[Thu, 12 May 22 14:09:11 +0000][DEBUG] index/index
+[Thu, 12 May 22 14:09:12 +0000][DEBUG] account/index
+[Thu, 12 May 22 14:09:17 +0000][DEBUG] search word : e
+[Thu, 12 May 22 14:09:23 +0000][DEBUG] users/update
+[Thu, 12 May 22 14:09:27 +0000][DEBUG] index/index
+[Thu, 12 May 22 14:15:56 +0000][DEBUG] account/index
+[Thu, 12 May 22 14:16:01 +0000][DEBUG] index/index
+[Thu, 12 May 22 14:16:02 +0000][DEBUG] auth/logout
+[Thu, 12 May 22 14:16:04 +0000][DEBUG] index/index
+[Thu, 12 May 22 14:16:05 +0000][DEBUG] account/index
+[Thu, 12 May 22 14:16:06 +0000][DEBUG] index/index
+[Thu, 12 May 22 14:17:41 +0000][ERROR] TicketsController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('TicketsControll...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Thu, 12 May 22 14:17:41 +0000][DEBUG] error/code404
+[Thu, 12 May 22 14:17:43 +0000][DEBUG] index/index
+[Thu, 12 May 22 14:17:44 +0000][DEBUG] account/index
+[Thu, 12 May 22 14:17:48 +0000][DEBUG] search word : e
+[Thu, 12 May 22 14:53:35 +0000][DEBUG] index/index
+[Thu, 12 May 22 14:53:37 +0000][DEBUG] account/index
+[Thu, 12 May 22 14:53:40 +0000][DEBUG] search word : henry
+[Thu, 12 May 22 14:55:41 +0000][DEBUG] index/index
+[Thu, 12 May 22 14:55:43 +0000][DEBUG] account/index
+[Thu, 12 May 22 14:56:14 +0000][DEBUG] index/index
+[Thu, 12 May 22 14:56:17 +0000][DEBUG] account/index
+[Thu, 12 May 22 14:56:18 +0000][DEBUG] index/index
+[Thu, 12 May 22 14:57:52 +0000][DEBUG] account/index
+[Thu, 12 May 22 15:02:02 +0000][ERROR] TicketsController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('TicketsControll...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Thu, 12 May 22 15:02:02 +0000][DEBUG] error/code404
+[Thu, 12 May 22 15:02:04 +0000][DEBUG] account/index
+[Thu, 12 May 22 15:02:06 +0000][DEBUG] auth/logout
+[Thu, 12 May 22 15:02:07 +0000][DEBUG] index/index
+[Fri, 13 May 22 12:25:31 +0000][DEBUG] auth/login
+[Fri, 13 May 22 12:25:41 +0000][DEBUG] auth/login
+[Fri, 13 May 22 12:25:48 +0000][DEBUG] auth/login
+[Fri, 13 May 22 12:25:52 +0000][DEBUG] auth/login
+[Fri, 13 May 22 12:25:58 +0000][DEBUG] index/index
+[Fri, 13 May 22 12:26:19 +0000][DEBUG] users/update
+[Fri, 13 May 22 12:26:25 +0000][DEBUG] index/index
+[Fri, 13 May 22 12:26:32 +0000][DEBUG] account/index
+[Fri, 13 May 22 12:26:36 +0000][DEBUG] search word : r
+[Fri, 13 May 22 12:26:41 +0000][DEBUG] users/update
+[Fri, 13 May 22 12:38:21 +0000][DEBUG] users/update
+[Fri, 13 May 22 12:38:24 +0000][DEBUG] index/index
+[Fri, 13 May 22 12:39:34 +0000][DEBUG] users/update
+[Fri, 13 May 22 12:39:35 +0000][DEBUG] s.vendrell}, s.vendrell@myticket.com, user
+[Fri, 13 May 22 12:39:35 +0000][DEBUG] users/update
+[Fri, 13 May 22 12:40:12 +0000][DEBUG] users/update
+[Fri, 13 May 22 12:40:14 +0000][DEBUG] s.vendrell, s.vendrell@myticket.com, user
+[Fri, 13 May 22 12:40:14 +0000][DEBUG] users/update
+[Fri, 13 May 22 12:43:42 +0000][DEBUG] users/update
+[Fri, 13 May 22 12:43:54 +0000][DEBUG] users/update
+[Fri, 13 May 22 12:43:56 +0000][DEBUG] users/update
+[Fri, 13 May 22 12:43:58 +0000][DEBUG] users/update
+[Fri, 13 May 22 12:43:59 +0000][DEBUG] users/update
+[Fri, 13 May 22 12:44:46 +0000][DEBUG] users/update
+[Fri, 13 May 22 12:44:48 +0000][DEBUG] users/update
+[Fri, 13 May 22 12:44:51 +0000][DEBUG] users/update
+[Fri, 13 May 22 12:44:54 +0000][DEBUG] users/update
+[Fri, 13 May 22 12:44:56 +0000][DEBUG] users/update

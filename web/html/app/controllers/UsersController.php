@@ -20,5 +20,18 @@ class UsersController extends ControllerBase {
         $this->view->userId = $user->id;
         $this->view->userPassword = $user->password;
         # $this->logger->debug($user->email);
+
+        if ($this->request->isPost())
+        {
+            $username = $this->request->getPost('username');
+            $email = $this->request->getPost('email');
+            $role = $this->request->getPost('role');
+
+            $user->username = $username;
+            $user->email = $email;
+            $user->role = $role;
+
+            $user->save();
+        }
     }
 }
