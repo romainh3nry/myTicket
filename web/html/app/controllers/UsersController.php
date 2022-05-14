@@ -26,14 +26,17 @@ class UsersController extends ControllerBase {
                 $username = $this->request->getPost('username');
                 $email = $this->request->getPost('email');
                 $role = $this->request->getPost('role');
+                $this->logger->debug($role);
 
                 $user->username = $username;
                 $user->email = $email;
                 $user->role = $role;
 
                 $user->save();
+                $this->flashSession->success('La modification a été faite avec succès !');
             }
-            else {
+            else 
+            {
                 $aMessages = $form->getMessages();
                 $sErreurs = '';
                 foreach($aMessages as $sMessage)

@@ -9,6 +9,8 @@ use Phalcon\Forms\Element\Select;
 use Phalcon\Forms\Element\Submit;
 use Myticket\Models\Users;
 use Phalcon\Validation\Validator\Regex;
+use Phalcon\Validation\Validator\Email;
+use Phalcon\Validation\Validator\InclusionIn;
 
 
 class UserUpdateForm extends Form
@@ -50,15 +52,36 @@ class UserUpdateForm extends Form
             ]
         );
 
+        $email->addValidators(
+            [
+                new Email(
+                    [
+                        "message" => "le champs Email doit comporter une adresse Email"
+                    ]
+                )
+            ]
+        );
+
         $role = new Select('role',
             [
-                'admin' => 'User',
-                'user' => 'Admin',
+                'user' => 'user',
+                'admin' => 'admin',
             ],
             [
                 'placerholder' => 'Role',
                 'class' => 'form-control',
                 'required' => 'required',
+            ]
+        );
+
+        $role->addValidators(
+            [
+                new InclusionIn(
+                    [
+                        "message" => "Le role doit être user ou admin",
+                        "domain" => ["user", "admin"]
+                    ]
+                )
             ]
         );
 
