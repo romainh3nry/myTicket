@@ -11,4 +11,7 @@
         {{form.get('role')}}
         {{form.get('Update')}}
     </form>
+    {% if erreurs is defined %}
+    <div class="alert alert-danger">{{ erreurs}}</div>
+    {% endif %}
 </div>

@@ -7,6 +7,8 @@ use Phalcon\Forms\Element\Text;
 use Phalcon\Forms\Element\Password;
 use Phalcon\Forms\Element\Select;
 use Phalcon\Forms\Element\Submit;
+use Myticket\Models\Users;
+use Phalcon\Validation\Validator\Regex;
 
 
 class UserUpdateForm extends Form
@@ -20,7 +22,18 @@ class UserUpdateForm extends Form
                 'required' => 'required',
             ]
         );
-        
+
+        $username->addValidators(
+            [
+                new Regex(
+                    [
+                        "pattern" => "/^[a-z]{1}[.]{1}[a-z]*/",
+                        "message" => "Le username doit être de format [1ère lettre prenom].[nom de famille] (ex: e.zola).",
+                    ]
+                )
+            ]
+        );
+
         $password = new Password('password',
             [
                 'placerholder' => 'Password',

@@ -4,7 +4,7 @@ use Myticket\Models\Users;
 use Myticket\Forms\UserUpdateForm;
 
 class UsersController extends ControllerBase {
-    
+
     public function updateAction($user_id)
     {
         $this->assets->addCss('css/users.css');
@@ -19,19 +19,29 @@ class UsersController extends ControllerBase {
         $this->view->userName = $user->username;
         $this->view->userId = $user->id;
         $this->view->userPassword = $user->password;
-        # $this->logger->debug($user->email);
 
         if ($this->request->isPost())
         {
-            $username = $this->request->getPost('username');
-            $email = $this->request->getPost('email');
-            $role = $this->request->getPost('role');
+            if ($form->isValid(array_merge($this->request->getPost(), $_FILES))){
+                $username = $this->request->getPost('username');
+                $email = $this->request->getPost('email');
+                $role = $this->request->getPost('role');
 
-            $user->username = $username;
-            $user->email = $email;
-            $user->role = $role;
+                $user->username = $username;
+                $user->email = $email;
+                $user->role = $role;
 
-            $user->save();
+                $user->save();
+            }
+            else {
+                $aMessages = $form->getMessages();
+                $sErreurs = '';
+                foreach($aMessages as $sMessage)
+                {
+                    $sErreurs = '- ' . $sMessage . '<br />';
+                }
+                $this->view->erreurs = $sErreurs;
+            };
         }
     }
 }
