@@ -5,6 +5,8 @@ namespace Myticket\Plugins;
 use Phalcon\Mvc\User\Plugin;
 use Phalcon\Events\Event;
 use Phalcon\Mvc\Dispatcher;
+use Phalcon\Acl\Adapter\Memory;
+use Phalcon\Acl\Role;
 
 class SecurityPlugin extends Plugin
 {
@@ -40,6 +42,32 @@ class SecurityPlugin extends Plugin
                 return false;
             }
         }
+        else
+        {
+            if ($sControleur === 'users' && ($sAction === 'password' || $sAction === 'update') )
+            {
+                if ($user['role'] === 'admin')
+                {
+                    $this->view->loggedUser = $user['username'];
+                    return true;
+                }
+                else
+                {
+                    $oDispatcher->forward(
+                        [
+                            'controller' => 'error',
+                            'action' => 'code401',
+                            'params' => 
+                            [
+                                'erreurs' => 'Non autorisé'
+                            ]
+                        ]
+                    );
+                    return false;
+                }
+            }
+        }
+
         $this->view->loggedUser = $user['username'];
     }
 }

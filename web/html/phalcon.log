@@ -13612,3 +13612,2680 @@ LINE 1: ..."role" FROM "public"."users" WHERE "users"."id" = 'users' LI...
 [Sat, 14 May 22 17:14:15 +0000][DEBUG] users/password
 [Sat, 14 May 22 17:14:24 +0000][DEBUG] users/password
 [Sat, 14 May 22 17:14:27 +0000][DEBUG] users/password
+[Sat, 14 May 22 18:12:44 +0000][DEBUG] users/password
+[Sat, 14 May 22 18:28:41 +0000][DEBUG] users/password
+[Sat, 14 May 22 18:35:14 +0000][DEBUG] users/password
+[Sat, 14 May 22 18:35:15 +0000][DEBUG] users/password
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][ERROR] Dispatcher has detected a cyclic routing causing stability problems
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Dispatcher has ...', 1)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:35:28 +0000][DEBUG] error/code500
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][ERROR] Dispatcher has detected a cyclic routing causing stability problems
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Dispatcher has ...', 1)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:36:40 +0000][DEBUG] error/code500
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][ERROR] Dispatcher has detected a cyclic routing causing stability problems
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Dispatcher has ...', 1)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:07 +0000][DEBUG] error/code500
+[Sat, 14 May 22 18:37:08 +0000][DEBUG] users/password
+[Sat, 14 May 22 18:37:09 +0000][DEBUG] users/password
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Action 'code401' was not found on handler 'error'
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Action 'code401...', 5)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][ERROR] Dispatcher has detected a cyclic routing causing stability problems
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Dispatcher has ...', 1)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:37:19 +0000][DEBUG] error/code500
+[Sat, 14 May 22 18:38:17 +0000][DEBUG] auth/logout
+[Sat, 14 May 22 18:38:19 +0000][DEBUG] auth/login
+[Sat, 14 May 22 18:41:41 +0000][DEBUG] auth/login
+[Sat, 14 May 22 18:41:46 +0000][ERROR] Dispatcher has detected a cyclic routing causing stability problems
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('Dispatcher has ...', 1)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:41:46 +0000][DEBUG] error/code500
+[Sat, 14 May 22 18:41:56 +0000][DEBUG] index/index
+[Sat, 14 May 22 18:47:10 +0000][DEBUG] logged
+[Sat, 14 May 22 18:47:10 +0000][DEBUG] index/index
+[Sat, 14 May 22 18:47:24 +0000][DEBUG] logged
+[Sat, 14 May 22 18:47:24 +0000][DEBUG] auth/logout
+[Sat, 14 May 22 18:47:25 +0000][DEBUG] logged
+[Sat, 14 May 22 18:47:25 +0000][DEBUG] auth/login
+[Sat, 14 May 22 18:47:28 +0000][DEBUG] auth/login
+[Sat, 14 May 22 18:47:35 +0000][DEBUG] auth/login
+[Sat, 14 May 22 18:47:39 +0000][DEBUG] auth/login
+[Sat, 14 May 22 18:47:46 +0000][DEBUG] logged
+[Sat, 14 May 22 18:47:46 +0000][DEBUG] index/index
+[Sat, 14 May 22 18:48:54 +0000][DEBUG] index/index
+[Sat, 14 May 22 18:49:07 +0000][DEBUG] account/index
+[Sat, 14 May 22 18:49:14 +0000][DEBUG] search word : ke
+[Sat, 14 May 22 18:49:23 +0000][DEBUG] users/update
+[Sat, 14 May 22 18:49:29 +0000][DEBUG] on the page
+[Sat, 14 May 22 18:49:30 +0000][DEBUG] users/password
+[Sat, 14 May 22 18:51:06 +0000][DEBUG] the user is admin
+[Sat, 14 May 22 18:51:06 +0000][DEBUG] users/password
+[Sat, 14 May 22 18:51:12 +0000][DEBUG] auth/logout
+[Sat, 14 May 22 18:51:13 +0000][DEBUG] auth/login
+[Sat, 14 May 22 18:51:19 +0000][DEBUG] auth/login
+[Sat, 14 May 22 18:51:19 +0000][DEBUG] auth/login
+[Sat, 14 May 22 18:51:34 +0000][DEBUG] index/index
+[Sat, 14 May 22 18:51:37 +0000][DEBUG] the user is not admin
+[Sat, 14 May 22 18:51:37 +0000][DEBUG] users/password
+[Sat, 14 May 22 18:54:53 +0000][ERROR] ErrorsController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ErrorsControlle...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:54:53 +0000][DEBUG] error/code404
+[Sat, 14 May 22 18:55:04 +0000][DEBUG] index/index
+[Sat, 14 May 22 18:55:06 +0000][DEBUG] account/index
+[Sat, 14 May 22 18:55:07 +0000][DEBUG] auth/logout
+[Sat, 14 May 22 18:55:13 +0000][DEBUG] index/index
+[Sat, 14 May 22 18:55:18 +0000][ERROR] ErrorsController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ErrorsControlle...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:55:18 +0000][DEBUG] error/code404
+[Sat, 14 May 22 18:56:17 +0000][ERROR] ErrorsController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ErrorsControlle...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:56:17 +0000][DEBUG] error/code404
+[Sat, 14 May 22 18:56:18 +0000][ERROR] ErrorsController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('ErrorsControlle...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:56:18 +0000][DEBUG] error/code404
+[Sat, 14 May 22 18:56:40 +0000][DEBUG] error/code401
+[Sat, 14 May 22 18:56:43 +0000][DEBUG] error/code401
+[Sat, 14 May 22 18:56:53 +0000][DEBUG] index/index
+[Sat, 14 May 22 18:57:43 +0000][DEBUG] index/index
+[Sat, 14 May 22 18:57:47 +0000][DEBUG] users/update
+[Sat, 14 May 22 18:57:54 +0000][DEBUG] error/code401
+[Sat, 14 May 22 18:57:56 +0000][DEBUG] users/update
+[Sat, 14 May 22 18:58:41 +0000][DEBUG] users/update
+[Sat, 14 May 22 18:58:42 +0000][DEBUG] users/update
+[Sat, 14 May 22 18:58:53 +0000][DEBUG] error/code401
+[Sat, 14 May 22 18:58:56 +0000][DEBUG] error/code401
+[Sat, 14 May 22 18:59:01 +0000][DEBUG] error/code401
+[Sat, 14 May 22 18:59:08 +0000][DEBUG] error/code401
+[Sat, 14 May 22 18:59:31 +0000][DEBUG] error/code401
+[Sat, 14 May 22 18:59:36 +0000][DEBUG] index/index
+[Sat, 14 May 22 18:59:38 +0000][DEBUG] account/index
+[Sat, 14 May 22 18:59:42 +0000][ERROR] TicketsController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('TicketsControll...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 18:59:42 +0000][DEBUG] error/code404
+[Sat, 14 May 22 18:59:43 +0000][DEBUG] account/index
+[Sat, 14 May 22 18:59:47 +0000][DEBUG] account/index
+[Sat, 14 May 22 18:59:55 +0000][DEBUG] index/index
+[Sat, 14 May 22 18:59:59 +0000][DEBUG] account/index
+[Sat, 14 May 22 19:00:04 +0000][DEBUG] index/index
+[Sat, 14 May 22 19:00:07 +0000][DEBUG] auth/logout
+[Sat, 14 May 22 19:00:09 +0000][DEBUG] auth/login
+[Sat, 14 May 22 19:00:15 +0000][DEBUG] index/index
+[Sat, 14 May 22 19:00:17 +0000][DEBUG] account/index
+[Sat, 14 May 22 19:00:20 +0000][DEBUG] search word : k
+[Sat, 14 May 22 19:00:23 +0000][DEBUG] users/update
+[Sat, 14 May 22 19:00:44 +0000][DEBUG] users/update
+[Sat, 14 May 22 19:01:23 +0000][DEBUG] users/update
+[Sat, 14 May 22 19:01:29 +0000][DEBUG] users/update
+[Sat, 14 May 22 19:01:40 +0000][DEBUG] account/index
+[Sat, 14 May 22 19:01:41 +0000][DEBUG] account/index
+[Sat, 14 May 22 19:01:43 +0000][DEBUG] search word : k
+[Sat, 14 May 22 19:01:45 +0000][DEBUG] users/update
+[Sat, 14 May 22 19:01:46 +0000][DEBUG] users/password
+[Sat, 14 May 22 19:01:51 +0000][DEBUG] index/index
+[Sat, 14 May 22 19:01:51 +0000][DEBUG] index/index

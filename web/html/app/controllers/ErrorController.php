@@ -17,4 +17,9 @@ class ErrorController extends ControllerBase
     {
         $this->tag->setTitle('500');
     }
+
+    public function code401Action()
+    {
+        $this->tag->setTitle('401');
+    }
 }
