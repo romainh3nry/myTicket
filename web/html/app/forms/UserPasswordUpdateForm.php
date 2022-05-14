@@ -6,6 +6,8 @@ use Phalcon\Forms\Form;
 use Phalcon\Forms\Element\Password;
 use Phalcon\Forms\Element\Submit;
 use Phalcon\Validation\Validator\Confirmation;
+use Phalcon\Validation\Validator\Regex;
+
 
 class UserPasswordUpdateForm extends Form
 {
@@ -26,6 +28,12 @@ class UserPasswordUpdateForm extends Form
                         "message" => "Le mot de passe doit être identique",
                         "with" => "passwordConfirm",
                     ]
+                ),
+                new Regex(
+                    [
+                        "pattern" => "/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/",
+                        "message" => 'Le mot de passe doit comporter au moin 8 caractères, 1 majuscule, 1 minuscule, 1 chiffre et 1 caractère spécial',
+                    ]
                 )
             ]
         );
@@ -44,6 +52,12 @@ class UserPasswordUpdateForm extends Form
                     [
                         "message" => "Le mot de passe doit être identique",
                         "with" => "password",
+                    ]
+                ),
+                new Regex(
+                    [
+                        "pattern" => "/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/",
+                        "message" => 'Le mot de passe doit comporter au moin 8 caractères, 1 majuscule, 1 minuscule, 1 chiffre et 1 caractère spécial',
                     ]
                 )
             ]

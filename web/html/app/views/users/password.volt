@@ -10,4 +10,7 @@
     {% if erreurs is defined %}
         <div class="alert alert-danger m-3">{{ erreurs }}</div>
     {% endif %}
+    {% if flashSession.has() %}
+    <div class="alert alert-success m-3">{{ flashSession.output() }}</div>
+    {% endif %}
 </div>

@@ -76,6 +76,7 @@ class UsersController extends ControllerBase {
                 if ($password === $passwordConfirm) {
                     $phsql = "UPDATE Myticket\Models\Users SET password = crypt('$password', gen_salt('bf')) WHERE id = '$user_id'";
                     $this->modelsManager->executeQuery($phsql);
+                    $this->flashSession->success('Le mot de passe a été modifié avec succès');
                 }
             }
             else
