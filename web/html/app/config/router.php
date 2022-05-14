@@ -46,4 +46,12 @@ $router->add(
     ]
 );
 
+$router->add(
+    'users/password/{user_id}',
+    [
+        'controller' => 'users',
+        'action' => 'password'
+    ]
+);
+
 $router->handle();

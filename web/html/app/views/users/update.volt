@@ -7,7 +7,7 @@
         {{form.get('username')}}
         {{form.get('email')}}
         <input type="password" class="form-control" value="{{userPassword}}" disabled />
-        <a class="m-3 font-italic" href="#">Cliquez ici pour modifier le mot de passe</a>
+        <a class="m-3 font-italic" href="/users/password/{{userId}}">Cliquez ici pour modifier le mot de passe</a>
         {{form.get('role')}}
         {{form.get('Update')}}
     </form>

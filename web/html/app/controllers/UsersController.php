@@ -2,8 +2,14 @@
 
 use Myticket\Models\Users;
 use Myticket\Forms\UserUpdateForm;
+use Myticket\Forms\UserPasswordUpdateForm;
 
 class UsersController extends ControllerBase {
+
+    public function initialize()
+    {
+        $this->assets->addCss('css/users.css');
+    }
 
     public function updateAction($user_id)
     {
@@ -46,5 +52,11 @@ class UsersController extends ControllerBase {
                 $this->view->erreurs = $sErreurs;
             };
         }
+    }
+
+    public function passwordAction($user_id)
+    {
+        $form = new UserPasswordUpdateForm();
+        $this->view->form = $form;
     }
 }

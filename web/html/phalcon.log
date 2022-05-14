@@ -12815,3 +12815,51 @@ LINE 1: ...HhoGueeBOqGM5hR4WWnCWnc2h8XHq%' OR "users"."id" = '%2a$06$Wy...
 [Sat, 14 May 22 14:04:12 +0000][DEBUG] users/update
 [Sat, 14 May 22 14:04:17 +0000][DEBUG] user
 [Sat, 14 May 22 14:04:17 +0000][DEBUG] users/update
+[Sat, 14 May 22 14:07:08 +0000][ERROR] TicketsController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('TicketsControll...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 14:07:08 +0000][DEBUG] error/code404
+[Sat, 14 May 22 14:07:12 +0000][DEBUG] users/update
+[Sat, 14 May 22 14:08:08 +0000][DEBUG] index/index
+[Sat, 14 May 22 14:08:10 +0000][DEBUG] account/index
+[Sat, 14 May 22 14:08:25 +0000][DEBUG] search word : e
+[Sat, 14 May 22 14:15:39 +0000][DEBUG] account/index
+[Sat, 14 May 22 14:15:42 +0000][DEBUG] search word : e
+[Sat, 14 May 22 14:15:46 +0000][DEBUG] search word : mackey
+[Sat, 14 May 22 14:15:54 +0000][DEBUG] users/update
+[Sat, 14 May 22 14:16:12 +0000][DEBUG] users/update
+[Sat, 14 May 22 14:16:13 +0000][DEBUG] users/password
+[Sat, 14 May 22 14:17:56 +0000][DEBUG] users/password
+[Sat, 14 May 22 14:18:18 +0000][DEBUG] users/password
+[Sat, 14 May 22 14:19:25 +0000][DEBUG] users/password
+[Sat, 14 May 22 14:19:42 +0000][DEBUG] users/password
+[Sat, 14 May 22 14:19:51 +0000][DEBUG] account/index
+[Sat, 14 May 22 14:19:54 +0000][DEBUG] search word : mac
+[Sat, 14 May 22 14:19:56 +0000][DEBUG] users/update
+[Sat, 14 May 22 14:22:20 +0000][DEBUG] users/update
+[Sat, 14 May 22 14:22:48 +0000][DEBUG] users/update
+[Sat, 14 May 22 14:22:52 +0000][DEBUG] users/password
+[Sat, 14 May 22 14:23:11 +0000][DEBUG] users/password
+[Sat, 14 May 22 14:26:03 +0000][ERROR] TicketsController handler class cannot be loaded
+#0 [internal function]: Phalcon\Mvc\Dispatcher->_throwDispatchException('TicketsControll...', 2)
+#1 [internal function]: Phalcon\Dispatcher->dispatch()
+#2 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#3 {main}
+[Sat, 14 May 22 14:26:03 +0000][DEBUG] error/code404
+[Sat, 14 May 22 14:26:07 +0000][DEBUG] users/password
+[Sat, 14 May 22 14:26:08 +0000][DEBUG] account/index
+[Sat, 14 May 22 14:26:12 +0000][DEBUG] search word : mac
+[Sat, 14 May 22 14:26:13 +0000][DEBUG] users/update
+[Sat, 14 May 22 14:26:16 +0000][DEBUG] users/password
+[Sat, 14 May 22 14:34:22 +0000][DEBUG] users/password
+[Sat, 14 May 22 14:34:23 +0000][DEBUG] index/index
+[Sat, 14 May 22 14:35:32 +0000][DEBUG] index/index
+[Sat, 14 May 22 14:35:32 +0000][DEBUG] index/index
+[Sat, 14 May 22 14:35:33 +0000][DEBUG] index/index
+[Sat, 14 May 22 14:37:12 +0000][DEBUG] users/password
+[Sat, 14 May 22 14:38:12 +0000][DEBUG] users/password
+[Sat, 14 May 22 14:38:13 +0000][DEBUG] users/password
+[Sat, 14 May 22 14:38:49 +0000][DEBUG] users/password
+[Sat, 14 May 22 14:38:57 +0000][DEBUG] users/password
