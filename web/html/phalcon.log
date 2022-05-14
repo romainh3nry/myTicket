@@ -12863,3 +12863,731 @@ LINE 1: ...HhoGueeBOqGM5hR4WWnCWnc2h8XHq%' OR "users"."id" = '%2a$06$Wy...
 [Sat, 14 May 22 14:38:13 +0000][DEBUG] users/password
 [Sat, 14 May 22 14:38:49 +0000][DEBUG] users/password
 [Sat, 14 May 22 14:38:57 +0000][DEBUG] users/password
+[Sat, 14 May 22 14:52:16 +0000][ERROR] Column 'ud' doesn't belong to any of the selected models (1), when preparing: SELECT [Myticket\Models\Users].* FROM [Myticket\Models\Users] WHERE ud = '4da9d4b2-9026-4b9a-b61b-c09b52b93f60' LIMIT :APL0:
+#0 [internal function]: Phalcon\Mvc\Model\Query->_getQualified(Array)
+#1 [internal function]: Phalcon\Mvc\Model\Query->_getExpression(Array, true)
+#2 [internal function]: Phalcon\Mvc\Model\Query->_getExpression(Array)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_prepareSelect()
+#4 [internal function]: Phalcon\Mvc\Model\Query->parse()
+#5 [internal function]: Phalcon\Mvc\Model\Query->execute()
+#6 /var/www/html/app/models/Users.php(102): Phalcon\Mvc\Model::findFirst(Array)
+#7 /var/www/html/app/controllers/UsersController.php(61): Myticket\Models\Users::findFirst(Array)
+#8 [internal function]: UsersController->passwordAction('4da9d4b2-9026-4...')
+#9 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#10 [internal function]: Phalcon\Dispatcher->dispatch()
+#11 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#12 {main}
+[Sat, 14 May 22 14:52:16 +0000][DEBUG] error/code500
+[Sat, 14 May 22 14:52:25 +0000][ERROR] Column 'ud' doesn't belong to any of the selected models (1), when preparing: SELECT [Myticket\Models\Users].* FROM [Myticket\Models\Users] WHERE ud = '4da9d4b2-9026-4b9a-b61b-c09b52b93f60' LIMIT :APL0:
+#0 [internal function]: Phalcon\Mvc\Model\Query->_getQualified(Array)
+#1 [internal function]: Phalcon\Mvc\Model\Query->_getExpression(Array, true)
+#2 [internal function]: Phalcon\Mvc\Model\Query->_getExpression(Array)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_prepareSelect()
+#4 [internal function]: Phalcon\Mvc\Model\Query->parse()
+#5 [internal function]: Phalcon\Mvc\Model\Query->execute()
+#6 /var/www/html/app/models/Users.php(102): Phalcon\Mvc\Model::findFirst(Array)
+#7 /var/www/html/app/controllers/UsersController.php(61): Myticket\Models\Users::findFirst(Array)
+#8 [internal function]: UsersController->passwordAction('4da9d4b2-9026-4...')
+#9 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#10 [internal function]: Phalcon\Dispatcher->dispatch()
+#11 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#12 {main}
+[Sat, 14 May 22 14:52:25 +0000][DEBUG] error/code500
+[Sat, 14 May 22 14:52:45 +0000][DEBUG] users/password
+[Sat, 14 May 22 14:54:44 +0000][DEBUG] users/password
+[Sat, 14 May 22 14:55:39 +0000][DEBUG] users/password
+[Sat, 14 May 22 14:55:40 +0000][DEBUG] users/password
+[Sat, 14 May 22 14:55:50 +0000][ERROR] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type uuid: "users"
+LINE 1: ..."role" FROM "public"."users" WHERE "users"."id" = 'users' LI...
+                                                             ^
+#0 [internal function]: PDOStatement->execute()
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, Array)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', Array, Array)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, Array, Array)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute()
+#5 /var/www/html/app/models/Users.php(102): Phalcon\Mvc\Model::findFirst(Array)
+#6 /var/www/html/app/controllers/UsersController.php(61): Myticket\Models\Users::findFirst(Array)
+#7 [internal function]: UsersController->passwordAction('users', 'password', '%7BuserId%7D')
+#8 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#9 [internal function]: Phalcon\Dispatcher->dispatch()
+#10 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#11 {main}
+[Sat, 14 May 22 14:55:50 +0000][DEBUG] error/code500
+[Sat, 14 May 22 14:56:52 +0000][ERROR] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type uuid: "users"
+LINE 1: ..."role" FROM "public"."users" WHERE "users"."id" = 'users' LI...
+                                                             ^
+#0 [internal function]: PDOStatement->execute()
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, Array)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', Array, Array)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, Array, Array)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute()
+#5 /var/www/html/app/models/Users.php(102): Phalcon\Mvc\Model::findFirst(Array)
+#6 /var/www/html/app/controllers/UsersController.php(61): Myticket\Models\Users::findFirst(Array)
+#7 [internal function]: UsersController->passwordAction('users', 'password', '%7BuserId%7D')
+#8 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#9 [internal function]: Phalcon\Dispatcher->dispatch()
+#10 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#11 {main}
+[Sat, 14 May 22 14:56:52 +0000][DEBUG] error/code500
+[Sat, 14 May 22 14:57:12 +0000][DEBUG] users/password
+[Sat, 14 May 22 14:57:13 +0000][DEBUG] users/password
+[Sat, 14 May 22 14:57:16 +0000][DEBUG] users/password
+[Sat, 14 May 22 15:00:00 +0000][DEBUG] users/password
+[Sat, 14 May 22 15:00:04 +0000][DEBUG] tet - tet2
+[Sat, 14 May 22 15:00:04 +0000][DEBUG] users/password
+[Sat, 14 May 22 15:03:58 +0000][DEBUG] users/password
+[Sat, 14 May 22 15:04:45 +0000][DEBUG] users/password
+[Sat, 14 May 22 15:04:49 +0000][DEBUG] users/password
+[Sat, 14 May 22 15:04:55 +0000][DEBUG] users/password
+[Sat, 14 May 22 15:04:56 +0000][DEBUG] users/password
+[Sat, 14 May 22 15:05:00 +0000][DEBUG] users/password
+[Sat, 14 May 22 15:06:25 +0000][DEBUG] users/password
+[Sat, 14 May 22 15:06:28 +0000][DEBUG] users/password
+[Sat, 14 May 22 15:06:37 +0000][DEBUG] users/password
+[Sat, 14 May 22 15:06:49 +0000][DEBUG] users/password
+[Sat, 14 May 22 15:22:09 +0000][DEBUG] users/password
+[Sat, 14 May 22 15:22:15 +0000][DEBUG] index/index
+[Sat, 14 May 22 15:23:16 +0000][DEBUG] users/password
+[Sat, 14 May 22 15:23:21 +0000][DEBUG] index/index
+[Sat, 14 May 22 15:24:23 +0000][DEBUG] users/password
+[Sat, 14 May 22 15:24:25 +0000][DEBUG] users/password
+[Sat, 14 May 22 15:24:43 +0000][DEBUG] index/index
+[Sat, 14 May 22 15:24:59 +0000][DEBUG] users/password
+[Sat, 14 May 22 15:25:04 +0000][DEBUG] index/index
+[Sat, 14 May 22 15:30:54 +0000][DEBUG] users/password
+[Sat, 14 May 22 15:30:57 +0000][DEBUG] index/index
+[Sat, 14 May 22 15:38:31 +0000][DEBUG] users/password
+[Sat, 14 May 22 15:38:35 +0000][DEBUG] index/index
+[Sat, 14 May 22 15:39:11 +0000][DEBUG] users/password
+[Sat, 14 May 22 15:39:16 +0000][ERROR] SQLSTATE[HY093]: Invalid parameter number: :password
+#0 [internal function]: PDOStatement->bindValue('password', 'test')
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, NULL)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', Array, NULL)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, Array, NULL)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute(Array, NULL)
+#5 [internal function]: Phalcon\Mvc\Model\Query->_getRelatedRecords(Object(Myticket\Models\Users), Array, Array, NULL)
+#6 [internal function]: Phalcon\Mvc\Model\Query->_executeUpdate(Array, Array, NULL)
+#7 [internal function]: Phalcon\Mvc\Model\Query->execute()
+#8 /var/www/html/app/controllers/UsersController.php(82): Phalcon\Mvc\Model\Manager->executeQuery('UPDATE Myticket...', Array)
+#9 [internal function]: UsersController->passwordAction('4da9d4b2-9026-4...')
+#10 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#11 [internal function]: Phalcon\Dispatcher->dispatch()
+#12 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#13 {main}
+[Sat, 14 May 22 15:39:16 +0000][DEBUG] error/code500
+[Sat, 14 May 22 15:41:36 +0000][DEBUG] users/password
+[Sat, 14 May 22 15:41:40 +0000][ERROR] SQLSTATE[HY093]: Invalid parameter number: :password
+#0 [internal function]: PDOStatement->bindValue('password', 'test')
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, NULL)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', Array, NULL)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, Array, NULL)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute(Array, NULL)
+#5 [internal function]: Phalcon\Mvc\Model\Query->_getRelatedRecords(Object(Myticket\Models\Users), Array, Array, NULL)
+#6 [internal function]: Phalcon\Mvc\Model\Query->_executeUpdate(Array, Array, NULL)
+#7 [internal function]: Phalcon\Mvc\Model\Query->execute()
+#8 /var/www/html/app/controllers/UsersController.php(82): Phalcon\Mvc\Model\Manager->executeQuery('UPDATE Myticket...', Array)
+#9 [internal function]: UsersController->passwordAction('4da9d4b2-9026-4...')
+#10 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#11 [internal function]: Phalcon\Dispatcher->dispatch()
+#12 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#13 {main}
+[Sat, 14 May 22 15:41:40 +0000][DEBUG] error/code500
+[Sat, 14 May 22 15:42:08 +0000][DEBUG] users/password
+[Sat, 14 May 22 15:42:12 +0000][ERROR] SQLSTATE[HY093]: Invalid parameter number: :password
+#0 [internal function]: PDOStatement->bindValue('password', 'test')
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, NULL)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', Array, NULL)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, Array, NULL)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute(Array, NULL)
+#5 [internal function]: Phalcon\Mvc\Model\Query->_getRelatedRecords(Object(Myticket\Models\Users), Array, Array, NULL)
+#6 [internal function]: Phalcon\Mvc\Model\Query->_executeUpdate(Array, Array, NULL)
+#7 [internal function]: Phalcon\Mvc\Model\Query->execute()
+#8 /var/www/html/app/controllers/UsersController.php(82): Phalcon\Mvc\Model\Manager->executeQuery('UPDATE Myticket...', Array)
+#9 [internal function]: UsersController->passwordAction('4da9d4b2-9026-4...')
+#10 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#11 [internal function]: Phalcon\Dispatcher->dispatch()
+#12 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#13 {main}
+[Sat, 14 May 22 15:42:12 +0000][DEBUG] error/code500
+[Sat, 14 May 22 15:42:53 +0000][DEBUG] users/password
+[Sat, 14 May 22 15:45:27 +0000][DEBUG] users/password
+[Sat, 14 May 22 15:45:30 +0000][ERROR] SQLSTATE[HY093]: Invalid parameter number: :password
+#0 [internal function]: PDOStatement->bindValue('password', 'test')
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, NULL)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', Array, NULL)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, Array, NULL)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute(Array, NULL)
+#5 [internal function]: Phalcon\Mvc\Model\Query->_getRelatedRecords(Object(Myticket\Models\Users), Array, Array, NULL)
+#6 [internal function]: Phalcon\Mvc\Model\Query->_executeUpdate(Array, Array, NULL)
+#7 [internal function]: Phalcon\Mvc\Model\Query->execute()
+#8 /var/www/html/app/controllers/UsersController.php(82): Phalcon\Mvc\Model\Manager->executeQuery('UPDATE Myticket...', Array)
+#9 [internal function]: UsersController->passwordAction('4da9d4b2-9026-4...')
+#10 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#11 [internal function]: Phalcon\Dispatcher->dispatch()
+#12 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#13 {main}
+[Sat, 14 May 22 15:45:30 +0000][DEBUG] error/code500
+[Sat, 14 May 22 15:46:30 +0000][DEBUG] users/password
+[Sat, 14 May 22 15:46:33 +0000][ERROR] SQLSTATE[HY093]: Invalid parameter number: :password
+#0 [internal function]: PDOStatement->bindValue('password', 'test')
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, NULL)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', Array, NULL)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, Array, NULL)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute(Array, NULL)
+#5 [internal function]: Phalcon\Mvc\Model\Query->_getRelatedRecords(Object(Myticket\Models\Users), Array, Array, NULL)
+#6 [internal function]: Phalcon\Mvc\Model\Query->_executeUpdate(Array, Array, NULL)
+#7 [internal function]: Phalcon\Mvc\Model\Query->execute()
+#8 /var/www/html/app/controllers/UsersController.php(82): Phalcon\Mvc\Model\Manager->executeQuery('UPDATE Myticket...', Array)
+#9 [internal function]: UsersController->passwordAction('4da9d4b2-9026-4...')
+#10 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#11 [internal function]: Phalcon\Dispatcher->dispatch()
+#12 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#13 {main}
+[Sat, 14 May 22 15:46:33 +0000][DEBUG] error/code500
+[Sat, 14 May 22 15:50:44 +0000][DEBUG] users/password
+[Sat, 14 May 22 15:50:49 +0000][ERROR] SQLSTATE[HY093]: Invalid parameter number: :password
+#0 [internal function]: PDOStatement->bindValue('password', 'test')
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, NULL)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', Array, NULL)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, Array, NULL)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute(Array, NULL)
+#5 [internal function]: Phalcon\Mvc\Model\Query->_getRelatedRecords(Object(Myticket\Models\Users), Array, Array, NULL)
+#6 [internal function]: Phalcon\Mvc\Model\Query->_executeUpdate(Array, Array, NULL)
+#7 [internal function]: Phalcon\Mvc\Model\Query->execute()
+#8 /var/www/html/app/controllers/UsersController.php(82): Phalcon\Mvc\Model\Manager->executeQuery('UPDATE Myticket...', Array)
+#9 [internal function]: UsersController->passwordAction('4da9d4b2-9026-4...')
+#10 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#11 [internal function]: Phalcon\Dispatcher->dispatch()
+#12 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#13 {main}
+[Sat, 14 May 22 15:50:49 +0000][DEBUG] error/code500
+[Sat, 14 May 22 15:51:00 +0000][DEBUG] users/password
+[Sat, 14 May 22 15:53:10 +0000][DEBUG] users/password
+[Sat, 14 May 22 15:53:14 +0000][ERROR] SQLSTATE[HY093]: Invalid parameter number: :0
+#0 [internal function]: PDOStatement->bindValue(':0', 'test')
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, NULL)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', Array, NULL)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, Array, NULL)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute(Array, NULL)
+#5 [internal function]: Phalcon\Mvc\Model\Query->_getRelatedRecords(Object(Myticket\Models\Users), Array, Array, NULL)
+#6 [internal function]: Phalcon\Mvc\Model\Query->_executeUpdate(Array, Array, NULL)
+#7 [internal function]: Phalcon\Mvc\Model\Query->execute()
+#8 /var/www/html/app/controllers/UsersController.php(82): Phalcon\Mvc\Model\Manager->executeQuery('UPDATE Myticket...', Array)
+#9 [internal function]: UsersController->passwordAction('4da9d4b2-9026-4...')
+#10 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#11 [internal function]: Phalcon\Dispatcher->dispatch()
+#12 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#13 {main}
+[Sat, 14 May 22 15:53:14 +0000][DEBUG] error/code500
+[Sat, 14 May 22 15:54:35 +0000][DEBUG] users/password
+[Sat, 14 May 22 15:54:40 +0000][ERROR] SQLSTATE[HY093]: Invalid parameter number: :0
+#0 [internal function]: PDOStatement->bindValue(':0', 'test')
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, NULL)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', Array, NULL)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, Array, NULL)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute(Array, NULL)
+#5 [internal function]: Phalcon\Mvc\Model\Query->_getRelatedRecords(Object(Myticket\Models\Users), Array, Array, NULL)
+#6 [internal function]: Phalcon\Mvc\Model\Query->_executeUpdate(Array, Array, NULL)
+#7 [internal function]: Phalcon\Mvc\Model\Query->execute()
+#8 /var/www/html/app/controllers/UsersController.php(82): Phalcon\Mvc\Model\Manager->executeQuery('UPDATE Myticket...', Array)
+#9 [internal function]: UsersController->passwordAction('4da9d4b2-9026-4...')
+#10 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#11 [internal function]: Phalcon\Dispatcher->dispatch()
+#12 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#13 {main}
+[Sat, 14 May 22 15:54:40 +0000][DEBUG] error/code500
+[Sat, 14 May 22 15:55:38 +0000][DEBUG] users/password
+[Sat, 14 May 22 15:55:43 +0000][ERROR] Corrupted AST
+#0 [internal function]: Phalcon\Mvc\Model\Query->parse()
+#1 [internal function]: Phalcon\Mvc\Model\Query->execute()
+#2 /var/www/html/app/controllers/UsersController.php(82): Phalcon\Mvc\Model\Manager->executeQuery(NULL, Array)
+#3 [internal function]: UsersController->passwordAction('4da9d4b2-9026-4...')
+#4 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#5 [internal function]: Phalcon\Dispatcher->dispatch()
+#6 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#7 {main}
+[Sat, 14 May 22 15:55:43 +0000][DEBUG] error/code500
+[Sat, 14 May 22 15:56:33 +0000][DEBUG] users/password
+[Sat, 14 May 22 15:56:57 +0000][DEBUG] users/password
+[Sat, 14 May 22 15:56:59 +0000][DEBUG] users/password
+[Sat, 14 May 22 15:57:02 +0000][ERROR] Corrupted AST
+#0 [internal function]: Phalcon\Mvc\Model\Query->parse()
+#1 [internal function]: Phalcon\Mvc\Model\Query->execute()
+#2 /var/www/html/app/controllers/UsersController.php(82): Phalcon\Mvc\Model\Manager->executeQuery(NULL, Array)
+#3 [internal function]: UsersController->passwordAction('4da9d4b2-9026-4...')
+#4 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#5 [internal function]: Phalcon\Dispatcher->dispatch()
+#6 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#7 {main}
+[Sat, 14 May 22 15:57:02 +0000][DEBUG] error/code500
+[Sat, 14 May 22 15:57:47 +0000][DEBUG] users/password
+[Sat, 14 May 22 15:57:51 +0000][ERROR] SQLSTATE[HY093]: Invalid parameter number: :0
+#0 [internal function]: PDOStatement->bindValue(':0', 'test')
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, NULL)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', Array, NULL)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, Array, NULL)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute(Array, NULL)
+#5 [internal function]: Phalcon\Mvc\Model\Query->_getRelatedRecords(Object(Myticket\Models\Users), Array, Array, NULL)
+#6 [internal function]: Phalcon\Mvc\Model\Query->_executeUpdate(Array, Array, NULL)
+#7 [internal function]: Phalcon\Mvc\Model\Query->execute()
+#8 /var/www/html/app/controllers/UsersController.php(82): Phalcon\Mvc\Model\Manager->executeQuery('UPDATE Myticket...', Array)
+#9 [internal function]: UsersController->passwordAction('4da9d4b2-9026-4...')
+#10 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#11 [internal function]: Phalcon\Dispatcher->dispatch()
+#12 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#13 {main}
+[Sat, 14 May 22 15:57:51 +0000][DEBUG] error/code500
+[Sat, 14 May 22 15:58:03 +0000][DEBUG] users/password
+[Sat, 14 May 22 15:58:09 +0000][ERROR] SQLSTATE[HY093]: Invalid parameter number: :0
+#0 [internal function]: PDOStatement->bindValue(':0', 'test')
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, NULL)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', Array, NULL)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, Array, NULL)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute(Array, NULL)
+#5 [internal function]: Phalcon\Mvc\Model\Query->_getRelatedRecords(Object(Myticket\Models\Users), Array, Array, NULL)
+#6 [internal function]: Phalcon\Mvc\Model\Query->_executeUpdate(Array, Array, NULL)
+#7 [internal function]: Phalcon\Mvc\Model\Query->execute()
+#8 /var/www/html/app/controllers/UsersController.php(82): Phalcon\Mvc\Model\Manager->executeQuery('UPDATE Myticket...', Array)
+#9 [internal function]: UsersController->passwordAction('4da9d4b2-9026-4...')
+#10 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#11 [internal function]: Phalcon\Dispatcher->dispatch()
+#12 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#13 {main}
+[Sat, 14 May 22 15:58:09 +0000][DEBUG] error/code500
+[Sat, 14 May 22 15:59:25 +0000][DEBUG] users/password
+[Sat, 14 May 22 15:59:29 +0000][ERROR] SQLSTATE[HY093]: Invalid parameter number: :0
+#0 [internal function]: PDOStatement->bindValue(':0', 'test')
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, NULL)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', Array, NULL)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, Array, NULL)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute(Array, NULL)
+#5 [internal function]: Phalcon\Mvc\Model\Query->_getRelatedRecords(Object(Myticket\Models\Users), Array, Array, NULL)
+#6 [internal function]: Phalcon\Mvc\Model\Query->_executeUpdate(Array, Array, NULL)
+#7 [internal function]: Phalcon\Mvc\Model\Query->execute()
+#8 /var/www/html/app/controllers/UsersController.php(82): Phalcon\Mvc\Model\Manager->executeQuery('UPDATE Myticket...', Array)
+#9 [internal function]: UsersController->passwordAction('4da9d4b2-9026-4...')
+#10 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#11 [internal function]: Phalcon\Dispatcher->dispatch()
+#12 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#13 {main}
+[Sat, 14 May 22 15:59:29 +0000][DEBUG] error/code500
+[Sat, 14 May 22 16:00:22 +0000][DEBUG] users/password
+[Sat, 14 May 22 16:00:26 +0000][ERROR] SQLSTATE[HY093]: Invalid parameter number: :password
+#0 [internal function]: PDOStatement->bindValue('password', 'test')
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, NULL)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', Array, NULL)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, Array, NULL)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute(Array, NULL)
+#5 [internal function]: Phalcon\Mvc\Model\Query->_getRelatedRecords(Object(Myticket\Models\Users), Array, Array, NULL)
+#6 [internal function]: Phalcon\Mvc\Model\Query->_executeUpdate(Array, Array, NULL)
+#7 [internal function]: Phalcon\Mvc\Model\Query->execute()
+#8 /var/www/html/app/controllers/UsersController.php(82): Phalcon\Mvc\Model\Manager->executeQuery('UPDATE Myticket...', Array)
+#9 [internal function]: UsersController->passwordAction('4da9d4b2-9026-4...')
+#10 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#11 [internal function]: Phalcon\Dispatcher->dispatch()
+#12 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#13 {main}
+[Sat, 14 May 22 16:00:26 +0000][DEBUG] error/code500
+[Sat, 14 May 22 16:02:17 +0000][DEBUG] users/password
+[Sat, 14 May 22 16:02:21 +0000][ERROR] SQLSTATE[HY093]: Invalid parameter number: :password
+#0 [internal function]: PDOStatement->bindValue('password', 'test')
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, NULL)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', Array, NULL)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, Array, NULL)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute(Array, NULL)
+#5 [internal function]: Phalcon\Mvc\Model\Query->_getRelatedRecords(Object(Myticket\Models\Users), Array, Array, NULL)
+#6 [internal function]: Phalcon\Mvc\Model\Query->_executeUpdate(Array, Array, NULL)
+#7 [internal function]: Phalcon\Mvc\Model\Query->execute()
+#8 /var/www/html/app/controllers/UsersController.php(82): Phalcon\Mvc\Model\Manager->executeQuery('UPDATE Myticket...', Array)
+#9 [internal function]: UsersController->passwordAction('4da9d4b2-9026-4...')
+#10 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#11 [internal function]: Phalcon\Dispatcher->dispatch()
+#12 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#13 {main}
+[Sat, 14 May 22 16:02:21 +0000][DEBUG] error/code500
+[Sat, 14 May 22 16:04:01 +0000][DEBUG] users/password
+[Sat, 14 May 22 16:04:05 +0000][ERROR] SQLSTATE[HY093]: Invalid parameter number: :password
+#0 [internal function]: PDOStatement->bindValue('password', 'test')
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, NULL)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', Array, NULL)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, Array, NULL)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute(Array, NULL)
+#5 [internal function]: Phalcon\Mvc\Model\Query->_getRelatedRecords(Object(Myticket\Models\Users), Array, Array, NULL)
+#6 [internal function]: Phalcon\Mvc\Model\Query->_executeUpdate(Array, Array, NULL)
+#7 [internal function]: Phalcon\Mvc\Model\Query->execute()
+#8 /var/www/html/app/controllers/UsersController.php(82): Phalcon\Mvc\Model\Manager->executeQuery('UPDATE Myticket...', Array)
+#9 [internal function]: UsersController->passwordAction('4da9d4b2-9026-4...')
+#10 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#11 [internal function]: Phalcon\Dispatcher->dispatch()
+#12 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#13 {main}
+[Sat, 14 May 22 16:04:05 +0000][DEBUG] error/code500
+[Sat, 14 May 22 16:08:15 +0000][DEBUG] users/password
+[Sat, 14 May 22 16:08:17 +0000][DEBUG] users/password
+[Sat, 14 May 22 16:08:21 +0000][ERROR] SQLSTATE[HY093]: Invalid parameter number: :password
+#0 [internal function]: PDOStatement->bindValue('password', 'test')
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, NULL)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', Array, NULL)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, Array, NULL)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute(Array, NULL)
+#5 [internal function]: Phalcon\Mvc\Model\Query->_getRelatedRecords(Object(Myticket\Models\Users), Array, Array, NULL)
+#6 [internal function]: Phalcon\Mvc\Model\Query->_executeUpdate(Array, Array, NULL)
+#7 /var/www/html/app/controllers/UsersController.php(82): Phalcon\Mvc\Model\Query->execute(Array)
+#8 [internal function]: UsersController->passwordAction('4da9d4b2-9026-4...')
+#9 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#10 [internal function]: Phalcon\Dispatcher->dispatch()
+#11 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#12 {main}
+[Sat, 14 May 22 16:08:21 +0000][DEBUG] error/code500
+[Sat, 14 May 22 16:08:47 +0000][DEBUG] users/password
+[Sat, 14 May 22 16:08:51 +0000][ERROR] SQLSTATE[HY093]: Invalid parameter number: :password
+#0 [internal function]: PDOStatement->bindValue('password', 'test')
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, NULL)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', Array, NULL)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, Array, NULL)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute(Array, NULL)
+#5 [internal function]: Phalcon\Mvc\Model\Query->_getRelatedRecords(Object(Myticket\Models\Users), Array, Array, NULL)
+#6 [internal function]: Phalcon\Mvc\Model\Query->_executeUpdate(Array, Array, NULL)
+#7 /var/www/html/app/controllers/UsersController.php(82): Phalcon\Mvc\Model\Query->execute(Array)
+#8 [internal function]: UsersController->passwordAction('4da9d4b2-9026-4...')
+#9 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#10 [internal function]: Phalcon\Dispatcher->dispatch()
+#11 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#12 {main}
+[Sat, 14 May 22 16:08:51 +0000][DEBUG] error/code500
+[Sat, 14 May 22 16:09:19 +0000][DEBUG] users/password
+[Sat, 14 May 22 16:09:22 +0000][ERROR] SQLSTATE[HY093]: Invalid parameter number: :password
+#0 [internal function]: PDOStatement->bindValue('password', 'test')
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, NULL)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', Array, NULL)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, Array, NULL)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute(Array, NULL)
+#5 [internal function]: Phalcon\Mvc\Model\Query->_getRelatedRecords(Object(Myticket\Models\Users), Array, Array, NULL)
+#6 [internal function]: Phalcon\Mvc\Model\Query->_executeUpdate(Array, Array, NULL)
+#7 /var/www/html/app/controllers/UsersController.php(82): Phalcon\Mvc\Model\Query->execute(Array)
+#8 [internal function]: UsersController->passwordAction('4da9d4b2-9026-4...')
+#9 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#10 [internal function]: Phalcon\Dispatcher->dispatch()
+#11 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#12 {main}
+[Sat, 14 May 22 16:09:22 +0000][DEBUG] error/code500
+[Sat, 14 May 22 16:09:29 +0000][DEBUG] users/password
+[Sat, 14 May 22 16:09:32 +0000][ERROR] SQLSTATE[HY093]: Invalid parameter number: :password
+#0 [internal function]: PDOStatement->bindValue('password', 'test')
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, NULL)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', Array, NULL)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, Array, NULL)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute(Array, NULL)
+#5 [internal function]: Phalcon\Mvc\Model\Query->_getRelatedRecords(Object(Myticket\Models\Users), Array, Array, NULL)
+#6 [internal function]: Phalcon\Mvc\Model\Query->_executeUpdate(Array, Array, NULL)
+#7 /var/www/html/app/controllers/UsersController.php(82): Phalcon\Mvc\Model\Query->execute(Array)
+#8 [internal function]: UsersController->passwordAction('4da9d4b2-9026-4...')
+#9 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#10 [internal function]: Phalcon\Dispatcher->dispatch()
+#11 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#12 {main}
+[Sat, 14 May 22 16:09:32 +0000][DEBUG] error/code500
+[Sat, 14 May 22 16:10:43 +0000][DEBUG] users/password
+[Sat, 14 May 22 16:10:46 +0000][DEBUG] users/password
+[Sat, 14 May 22 16:11:51 +0000][DEBUG] users/password
+[Sat, 14 May 22 16:11:55 +0000][DEBUG] users/password
+[Sat, 14 May 22 16:13:58 +0000][DEBUG] users/password
+[Sat, 14 May 22 16:14:01 +0000][ERROR] SQLSTATE[HY093]: Invalid parameter number: :password
+#0 [internal function]: PDOStatement->bindValue('password', 'test')
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, NULL)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', Array, NULL)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, Array, NULL)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute(Array, NULL)
+#5 [internal function]: Phalcon\Mvc\Model\Query->_getRelatedRecords(Object(Myticket\Models\Users), Array, Array, NULL)
+#6 [internal function]: Phalcon\Mvc\Model\Query->_executeUpdate(Array, Array, NULL)
+#7 /var/www/html/app/controllers/UsersController.php(82): Phalcon\Mvc\Model\Query->execute(Array)
+#8 [internal function]: UsersController->passwordAction('4da9d4b2-9026-4...')
+#9 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#10 [internal function]: Phalcon\Dispatcher->dispatch()
+#11 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#12 {main}
+[Sat, 14 May 22 16:14:01 +0000][DEBUG] error/code500
+[Sat, 14 May 22 16:16:44 +0000][DEBUG] users/password
+[Sat, 14 May 22 16:16:47 +0000][ERROR] SQLSTATE[HY093]: Invalid parameter number: :password
+#0 [internal function]: PDOStatement->bindValue('password', 'test')
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, NULL)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', Array, NULL)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, Array, NULL)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute(Array, NULL)
+#5 [internal function]: Phalcon\Mvc\Model\Query->_getRelatedRecords(Object(Myticket\Models\Users), Array, Array, NULL)
+#6 [internal function]: Phalcon\Mvc\Model\Query->_executeUpdate(Array, Array, NULL)
+#7 /var/www/html/app/controllers/UsersController.php(82): Phalcon\Mvc\Model\Query->execute(Array)
+#8 [internal function]: UsersController->passwordAction('4da9d4b2-9026-4...')
+#9 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#10 [internal function]: Phalcon\Dispatcher->dispatch()
+#11 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#12 {main}
+[Sat, 14 May 22 16:16:47 +0000][DEBUG] error/code500
+[Sat, 14 May 22 16:19:52 +0000][DEBUG] users/password
+[Sat, 14 May 22 16:19:56 +0000][ERROR] SQLSTATE[HY093]: Invalid parameter number: :password
+#0 [internal function]: PDOStatement->bindValue('password', 'test')
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, NULL)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', Array, NULL)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, Array, NULL)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute(Array, NULL)
+#5 [internal function]: Phalcon\Mvc\Model\Query->_getRelatedRecords(Object(Myticket\Models\Users), Array, Array, NULL)
+#6 [internal function]: Phalcon\Mvc\Model\Query->_executeUpdate(Array, Array, NULL)
+#7 /var/www/html/app/controllers/UsersController.php(84): Phalcon\Mvc\Model\Query->execute(Array)
+#8 [internal function]: UsersController->passwordAction('4da9d4b2-9026-4...')
+#9 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#10 [internal function]: Phalcon\Dispatcher->dispatch()
+#11 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#12 {main}
+[Sat, 14 May 22 16:19:56 +0000][DEBUG] error/code500
+[Sat, 14 May 22 16:21:59 +0000][DEBUG] users/password
+[Sat, 14 May 22 16:22:02 +0000][ERROR] SQLSTATE[HY093]: Invalid parameter number: :password
+#0 [internal function]: PDOStatement->bindValue('password', 'test')
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, NULL)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', Array, NULL)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, Array, NULL)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute(Array, NULL)
+#5 [internal function]: Phalcon\Mvc\Model\Query->_getRelatedRecords(Object(Myticket\Models\Users), Array, Array, NULL)
+#6 [internal function]: Phalcon\Mvc\Model\Query->_executeUpdate(Array, Array, NULL)
+#7 /var/www/html/app/controllers/UsersController.php(84): Phalcon\Mvc\Model\Query->execute(Array)
+#8 [internal function]: UsersController->passwordAction('4da9d4b2-9026-4...')
+#9 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#10 [internal function]: Phalcon\Dispatcher->dispatch()
+#11 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#12 {main}
+[Sat, 14 May 22 16:22:02 +0000][DEBUG] error/code500
+[Sat, 14 May 22 16:22:29 +0000][DEBUG] users/password
+[Sat, 14 May 22 16:22:33 +0000][ERROR] SQLSTATE[HY093]: Invalid parameter number: :password
+#0 [internal function]: PDOStatement->bindValue('password', 'test')
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, NULL)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', Array, NULL)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, Array, NULL)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute(Array, NULL)
+#5 [internal function]: Phalcon\Mvc\Model\Query->_getRelatedRecords(Object(Myticket\Models\Users), Array, Array, NULL)
+#6 [internal function]: Phalcon\Mvc\Model\Query->_executeUpdate(Array, Array, NULL)
+#7 /var/www/html/app/controllers/UsersController.php(84): Phalcon\Mvc\Model\Query->execute(Array)
+#8 [internal function]: UsersController->passwordAction('4da9d4b2-9026-4...')
+#9 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#10 [internal function]: Phalcon\Dispatcher->dispatch()
+#11 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#12 {main}
+[Sat, 14 May 22 16:22:33 +0000][DEBUG] error/code500
+[Sat, 14 May 22 16:25:03 +0000][DEBUG] users/password
+[Sat, 14 May 22 16:25:07 +0000][ERROR] SQLSTATE[HY093]: Invalid parameter number: :password
+#0 [internal function]: PDOStatement->bindValue('password', 'test')
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, NULL)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', Array, NULL)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, Array, NULL)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute(Array, NULL)
+#5 [internal function]: Phalcon\Mvc\Model\Query->_getRelatedRecords(Object(Myticket\Models\Users), Array, Array, NULL)
+#6 [internal function]: Phalcon\Mvc\Model\Query->_executeUpdate(Array, Array, NULL)
+#7 /var/www/html/app/controllers/UsersController.php(84): Phalcon\Mvc\Model\Query->execute(Array)
+#8 [internal function]: UsersController->passwordAction('4da9d4b2-9026-4...')
+#9 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#10 [internal function]: Phalcon\Dispatcher->dispatch()
+#11 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#12 {main}
+[Sat, 14 May 22 16:25:07 +0000][DEBUG] error/code500
+[Sat, 14 May 22 16:25:32 +0000][DEBUG] users/password
+[Sat, 14 May 22 16:25:36 +0000][ERROR] SQLSTATE[HY093]: Invalid parameter number: :password
+#0 [internal function]: PDOStatement->bindValue('password', 'test')
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, NULL)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', Array, NULL)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, Array, NULL)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute(Array, NULL)
+#5 [internal function]: Phalcon\Mvc\Model\Query->_getRelatedRecords(Object(Myticket\Models\Users), Array, Array, NULL)
+#6 [internal function]: Phalcon\Mvc\Model\Query->_executeUpdate(Array, Array, NULL)
+#7 /var/www/html/app/controllers/UsersController.php(84): Phalcon\Mvc\Model\Query->execute(Array)
+#8 [internal function]: UsersController->passwordAction('4da9d4b2-9026-4...')
+#9 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#10 [internal function]: Phalcon\Dispatcher->dispatch()
+#11 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#12 {main}
+[Sat, 14 May 22 16:25:36 +0000][DEBUG] error/code500
+[Sat, 14 May 22 16:33:14 +0000][DEBUG] users/password
+[Sat, 14 May 22 16:33:15 +0000][DEBUG] users/password
+[Sat, 14 May 22 16:33:22 +0000][ERROR] SQLSTATE[HY093]: Invalid parameter number: :password
+#0 [internal function]: PDOStatement->bindValue('password', 'testtest')
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, NULL)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', Array, NULL)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, Array, NULL)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute(Array, NULL)
+#5 [internal function]: Phalcon\Mvc\Model\Query->_getRelatedRecords(Object(Myticket\Models\Users), Array, Array, NULL)
+#6 [internal function]: Phalcon\Mvc\Model\Query->_executeUpdate(Array, Array, NULL)
+#7 /var/www/html/app/controllers/UsersController.php(84): Phalcon\Mvc\Model\Query->execute(Array)
+#8 [internal function]: UsersController->passwordAction('4da9d4b2-9026-4...')
+#9 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#10 [internal function]: Phalcon\Dispatcher->dispatch()
+#11 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#12 {main}
+[Sat, 14 May 22 16:33:22 +0000][DEBUG] error/code500
+[Sat, 14 May 22 16:36:44 +0000][DEBUG] users/password
+[Sat, 14 May 22 16:36:51 +0000][ERROR] SQLSTATE[HY093]: Invalid parameter number: :password
+#0 [internal function]: PDOStatement->bindValue('password', 'test')
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, NULL)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', Array, NULL)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, Array, NULL)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute(Array, NULL)
+#5 [internal function]: Phalcon\Mvc\Model\Query->_getRelatedRecords(Object(Myticket\Models\Users), Array, Array, NULL)
+#6 [internal function]: Phalcon\Mvc\Model\Query->_executeUpdate(Array, Array, NULL)
+#7 /var/www/html/app/controllers/UsersController.php(84): Phalcon\Mvc\Model\Query->execute(Array)
+#8 [internal function]: UsersController->passwordAction('4da9d4b2-9026-4...')
+#9 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#10 [internal function]: Phalcon\Dispatcher->dispatch()
+#11 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#12 {main}
+[Sat, 14 May 22 16:36:51 +0000][DEBUG] error/code500
+[Sat, 14 May 22 16:43:00 +0000][DEBUG] users/password
+[Sat, 14 May 22 16:43:04 +0000][ERROR] SQLSTATE[HY093]: Invalid parameter number: :password
+#0 [internal function]: PDOStatement->bindValue('password', 'test')
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, NULL)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', Array, NULL)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, Array, NULL)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute(Array, NULL)
+#5 [internal function]: Phalcon\Mvc\Model\Query->_getRelatedRecords(Object(Myticket\Models\Users), Array, Array, NULL)
+#6 [internal function]: Phalcon\Mvc\Model\Query->_executeUpdate(Array, Array, NULL)
+#7 /var/www/html/app/controllers/UsersController.php(84): Phalcon\Mvc\Model\Query->execute(Array)
+#8 [internal function]: UsersController->passwordAction('4da9d4b2-9026-4...')
+#9 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#10 [internal function]: Phalcon\Dispatcher->dispatch()
+#11 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#12 {main}
+[Sat, 14 May 22 16:43:04 +0000][DEBUG] error/code500
+[Sat, 14 May 22 16:43:06 +0000][DEBUG] users/password
+[Sat, 14 May 22 16:44:58 +0000][DEBUG] users/password
+[Sat, 14 May 22 16:45:02 +0000][ERROR] SQLSTATE[HY093]: Invalid parameter number: :password
+#0 [internal function]: PDOStatement->bindValue('password', 'test')
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, NULL)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', Array, NULL)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, Array, NULL)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute(Array, NULL)
+#5 [internal function]: Phalcon\Mvc\Model\Query->_getRelatedRecords(Object(Myticket\Models\Users), Array, Array, NULL)
+#6 [internal function]: Phalcon\Mvc\Model\Query->_executeUpdate(Array, Array, NULL)
+#7 /var/www/html/app/controllers/UsersController.php(84): Phalcon\Mvc\Model\Query->execute(Array)
+#8 [internal function]: UsersController->passwordAction('4da9d4b2-9026-4...')
+#9 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#10 [internal function]: Phalcon\Dispatcher->dispatch()
+#11 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#12 {main}
+[Sat, 14 May 22 16:45:02 +0000][DEBUG] error/code500
+[Sat, 14 May 22 16:45:24 +0000][DEBUG] users/password
+[Sat, 14 May 22 16:45:29 +0000][ERROR] SQLSTATE[HY093]: Invalid parameter number: :password
+#0 [internal function]: PDOStatement->bindValue('password', 'lol')
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, NULL)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', Array, NULL)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, Array, NULL)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute(Array, NULL)
+#5 [internal function]: Phalcon\Mvc\Model\Query->_getRelatedRecords(Object(Myticket\Models\Users), Array, Array, NULL)
+#6 [internal function]: Phalcon\Mvc\Model\Query->_executeUpdate(Array, Array, NULL)
+#7 /var/www/html/app/controllers/UsersController.php(84): Phalcon\Mvc\Model\Query->execute(Array)
+#8 [internal function]: UsersController->passwordAction('4da9d4b2-9026-4...')
+#9 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#10 [internal function]: Phalcon\Dispatcher->dispatch()
+#11 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#12 {main}
+[Sat, 14 May 22 16:45:29 +0000][DEBUG] error/code500
+[Sat, 14 May 22 16:46:36 +0000][DEBUG] users/password
+[Sat, 14 May 22 16:46:40 +0000][ERROR] SQLSTATE[HY093]: Invalid parameter number: :password
+#0 [internal function]: PDOStatement->bindValue('password', 'lol')
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, NULL)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', Array, NULL)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, Array, NULL)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute(Array, NULL)
+#5 [internal function]: Phalcon\Mvc\Model\Query->_getRelatedRecords(Object(Myticket\Models\Users), Array, Array, NULL)
+#6 [internal function]: Phalcon\Mvc\Model\Query->_executeUpdate(Array, Array, NULL)
+#7 /var/www/html/app/controllers/UsersController.php(84): Phalcon\Mvc\Model\Query->execute(Array)
+#8 [internal function]: UsersController->passwordAction('4da9d4b2-9026-4...')
+#9 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#10 [internal function]: Phalcon\Dispatcher->dispatch()
+#11 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#12 {main}
+[Sat, 14 May 22 16:46:40 +0000][DEBUG] error/code500
+[Sat, 14 May 22 16:48:21 +0000][DEBUG] users/password
+[Sat, 14 May 22 16:48:25 +0000][ERROR] Scanning error before '' when parsing: UPDATE Myticket\Models\Users SET password = crypt(:password:, gen_salt('bf')) WHERE id = :user_id:; (99)
+#0 [internal function]: Phalcon\Mvc\Model\Query->parse()
+#1 /var/www/html/app/controllers/UsersController.php(84): Phalcon\Mvc\Model\Query->execute(Array)
+#2 [internal function]: UsersController->passwordAction('4da9d4b2-9026-4...')
+#3 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#4 [internal function]: Phalcon\Dispatcher->dispatch()
+#5 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#6 {main}
+[Sat, 14 May 22 16:48:25 +0000][DEBUG] error/code500
+[Sat, 14 May 22 16:49:15 +0000][DEBUG] users/password
+[Sat, 14 May 22 16:49:18 +0000][ERROR] SQLSTATE[HY093]: Invalid parameter number: :password
+#0 [internal function]: PDOStatement->bindValue('password', 'lol')
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, NULL)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', Array, NULL)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, Array, NULL)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute(Array, NULL)
+#5 [internal function]: Phalcon\Mvc\Model\Query->_getRelatedRecords(Object(Myticket\Models\Users), Array, Array, NULL)
+#6 [internal function]: Phalcon\Mvc\Model\Query->_executeUpdate(Array, Array, NULL)
+#7 /var/www/html/app/controllers/UsersController.php(84): Phalcon\Mvc\Model\Query->execute(Array)
+#8 [internal function]: UsersController->passwordAction('4da9d4b2-9026-4...')
+#9 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#10 [internal function]: Phalcon\Dispatcher->dispatch()
+#11 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#12 {main}
+[Sat, 14 May 22 16:49:18 +0000][DEBUG] error/code500
+[Sat, 14 May 22 16:53:47 +0000][DEBUG] users/password
+[Sat, 14 May 22 16:53:50 +0000][ERROR] SQLSTATE[HY093]: Invalid parameter number: :password
+#0 [internal function]: PDOStatement->bindValue('password', 'lol')
+#1 [internal function]: Phalcon\Db\Adapter\Pdo->executePrepared(Object(PDOStatement), Array, NULL)
+#2 [internal function]: Phalcon\Db\Adapter\Pdo->query('SELECT "users"....', Array, NULL)
+#3 [internal function]: Phalcon\Mvc\Model\Query->_executeSelect(Array, Array, NULL)
+#4 [internal function]: Phalcon\Mvc\Model\Query->execute(Array, NULL)
+#5 [internal function]: Phalcon\Mvc\Model\Query->_getRelatedRecords(Object(Myticket\Models\Users), Array, Array, NULL)
+#6 [internal function]: Phalcon\Mvc\Model\Query->_executeUpdate(Array, Array, NULL)
+#7 /var/www/html/app/controllers/UsersController.php(84): Phalcon\Mvc\Model\Query->execute(Array)
+#8 [internal function]: UsersController->passwordAction('4da9d4b2-9026-4...')
+#9 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#10 [internal function]: Phalcon\Dispatcher->dispatch()
+#11 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#12 {main}
+[Sat, 14 May 22 16:53:50 +0000][DEBUG] error/code500
+[Sat, 14 May 22 16:55:27 +0000][DEBUG] users/password
+[Sat, 14 May 22 16:55:30 +0000][ERROR] Corrupted AST
+#0 [internal function]: Phalcon\Mvc\Model\Query->parse()
+#1 [internal function]: Phalcon\Mvc\Model\Query->execute()
+#2 /var/www/html/app/controllers/UsersController.php(79): Phalcon\Mvc\Model\Manager->executeQuery(NULL)
+#3 [internal function]: UsersController->passwordAction('4da9d4b2-9026-4...')
+#4 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#5 [internal function]: Phalcon\Dispatcher->dispatch()
+#6 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#7 {main}
+[Sat, 14 May 22 16:55:30 +0000][DEBUG] error/code500
+[Sat, 14 May 22 16:55:54 +0000][DEBUG] users/password
+[Sat, 14 May 22 16:55:57 +0000][ERROR] Corrupted AST
+#0 [internal function]: Phalcon\Mvc\Model\Query->parse()
+#1 [internal function]: Phalcon\Mvc\Model\Query->execute()
+#2 /var/www/html/app/controllers/UsersController.php(79): Phalcon\Mvc\Model\Manager->executeQuery(NULL)
+#3 [internal function]: UsersController->passwordAction('4da9d4b2-9026-4...')
+#4 [internal function]: Phalcon\Dispatcher->callActionMethod(Object(UsersController), 'passwordAction', Array)
+#5 [internal function]: Phalcon\Dispatcher->dispatch()
+#6 /var/www/html/public/index.php(42): Phalcon\Mvc\Application->handle()
+#7 {main}
+[Sat, 14 May 22 16:55:57 +0000][DEBUG] error/code500
+[Sat, 14 May 22 16:57:08 +0000][DEBUG] users/password
+[Sat, 14 May 22 16:57:12 +0000][DEBUG] users/password
+[Sat, 14 May 22 16:57:40 +0000][DEBUG] auth/logout
+[Sat, 14 May 22 16:57:42 +0000][DEBUG] index/index
+[Sat, 14 May 22 16:57:43 +0000][DEBUG] auth/logout
+[Sat, 14 May 22 16:57:44 +0000][DEBUG] auth/login
+[Sat, 14 May 22 16:57:51 +0000][DEBUG] index/index
+[Sat, 14 May 22 16:57:53 +0000][DEBUG] account/index
+[Sat, 14 May 22 16:57:57 +0000][DEBUG] auth/logout
+[Sat, 14 May 22 16:57:58 +0000][DEBUG] auth/login
+[Sat, 14 May 22 16:58:03 +0000][DEBUG] index/index
+[Sat, 14 May 22 16:58:04 +0000][DEBUG] account/index
+[Sat, 14 May 22 16:58:08 +0000][DEBUG] search word : mack
+[Sat, 14 May 22 16:58:10 +0000][DEBUG] users/update
+[Sat, 14 May 22 16:58:12 +0000][DEBUG] users/password
+[Sat, 14 May 22 16:58:28 +0000][DEBUG] users/password
+[Sat, 14 May 22 16:58:29 +0000][DEBUG] auth/logout
+[Sat, 14 May 22 16:58:31 +0000][DEBUG] auth/login
+[Sat, 14 May 22 16:58:51 +0000][DEBUG] index/index
+[Sat, 14 May 22 16:58:53 +0000][DEBUG] auth/logout
+[Sat, 14 May 22 16:58:55 +0000][DEBUG] auth/login
+[Sat, 14 May 22 16:58:59 +0000][DEBUG] index/index
+[Sat, 14 May 22 16:59:01 +0000][DEBUG] account/index
+[Sat, 14 May 22 16:59:04 +0000][DEBUG] search word : mack
+[Sat, 14 May 22 16:59:06 +0000][DEBUG] users/update
+[Sat, 14 May 22 16:59:07 +0000][DEBUG] users/password

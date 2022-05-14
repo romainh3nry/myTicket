@@ -5,6 +5,7 @@ namespace Myticket\Forms;
 use Phalcon\Forms\Form;
 use Phalcon\Forms\Element\Password;
 use Phalcon\Forms\Element\Submit;
+use Phalcon\Validation\Validator\Confirmation;
 
 class UserPasswordUpdateForm extends Form
 {
@@ -18,11 +19,33 @@ class UserPasswordUpdateForm extends Form
             ]
         );
 
+        $password->addValidators(
+            [
+                new Confirmation(
+                    [
+                        "message" => "Le mot de passe doit être identique",
+                        "with" => "passwordConfirm",
+                    ]
+                )
+            ]
+        );
+
         $passwordConfirm = new Password('passwordConfirm',
             [
                 'placeholder' => 'Confirmer mot de passe',
                 'class' => 'form-control',
                 'required' => 'required',
+            ]
+        );
+
+        $passwordConfirm->addValidators(
+            [
+                new Confirmation(
+                    [
+                        "message" => "Le mot de passe doit être identique",
+                        "with" => "password",
+                    ]
+                )
             ]
         );
 

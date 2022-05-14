@@ -56,7 +56,38 @@ class UsersController extends ControllerBase {
 
     public function passwordAction($user_id)
     {
+        $user = Users::findFirst(
+            [
+                "id = '{$user_id}'"
+            ]
+        );
+
         $form = new UserPasswordUpdateForm();
         $this->view->form = $form;
+        $this->view->userId = $user->id;
+
+        if ($this->request->isPost())
+        {
+            if ($form->isValid(array_merge($this->request->getPost(), $_FILES)))
+            {
+                $password = $this->request->getPost('password');
+                $passwordConfirm = $this->request->getPost('passwordConfirm');
+
+                if ($password === $passwordConfirm) {
+                    $phsql = "UPDATE Myticket\Models\Users SET password = crypt('$password', gen_salt('bf')) WHERE id = '$user_id'";
+                    $this->modelsManager->executeQuery($phsql);
+                }
+            }
+            else
+            {
+                $aMessages = $form->getMessages();
+                $sErreurs = '';
+                foreach($aMessages as $sMessage)
+                {
+                    $sErreurs = '- ' . $sMessage . '<br />';
+                }
+                $this->view->erreurs = $sErreurs;
+            };
+        }
     }
 }
