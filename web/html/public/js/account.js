@@ -6,7 +6,23 @@ $(document).ready(function() {
         findUsers(search)
         $('#search-user-input').val('');
     })
+
+    $('#search-customer-form').submit(function(e) {
+        e.preventDefault();
+        let search = $('#search-customer-input').val();
+        let results = [search, search.toUpperCase(), toUpperCaseEachFirstLetter(search)]
+        console.log(results);
+        $('#search-customer-input').val('');
+    })
 });
+
+function toUpperCaseEachFirstLetter(string) {
+    let arr = string.split(" ");
+    for (var i = 0; i < arr.length; i++) {
+        arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
+    }
+    return arr.join(" ");
+}
 
 function displaySpinner() {
     $('#search-users-results').append(
