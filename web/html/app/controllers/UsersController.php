@@ -56,12 +56,12 @@ class UsersController extends ControllerBase {
 
     public function passwordAction($user_id)
     {
+        $this->tag->setTitle('Update Pwd');
         $user = Users::findFirst(
             [
                 "id = '{$user_id}'"
             ]
         );
-
         $form = new UserPasswordUpdateForm();
         $this->view->form = $form;
         $this->view->userId = $user->id;
