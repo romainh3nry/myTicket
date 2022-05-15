@@ -2,7 +2,7 @@
 
 <ul class="nav nav-tabs" id="myTab" role="tablist">
     <li class="nav-item nav-border">
-        <a class="nav-link nav-link-sized active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Résumé du compte</a>
+        <a class="nav-link nav-link-sized active" id="profil-tab" data-toggle="tab" href="#profil" role="tab" aria-controls="profil" aria-selected="true">Résumé du compte</a>
     </li>
      {% if user.role == 'admin' %}
      <li class="nav-item nav-border">
@@ -11,7 +11,7 @@
      {% endif %} 
 </ul>
 <div class="tab-content" id="myTabContent">
-    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+    <div class="tab-pane fade show active" id="profil" role="tabpanel" aria-labelledby="profil-tab">
         <div class="container container-centered">
             <h4>Information du compte</h4>
             <hr />
@@ -26,27 +26,50 @@
         <div class="container container-centered">
             <h4>Administration</h4>
             <hr />
-            <div class="row">
-                <div class="col-lg-4">
-                    <form id="search-user-form" action="#" method="post" class="form-inline">
-                        <input id="search-user-input" class="form-control" name="search" placeholder="Rechercher un utilisateur" />
-                        <button id="search-user-button" type="submit" class="btn ml-2">Recherche</button>
-                    </form>
+            <ul class="nav nav-tabs" id="myTabAdmin" role="tablist">
+                <li class="nav-item nav-border">
+                    <a class="nav-link nav-link-sized active" id="users-tab" data-toggle="tab" href="#users" role="tab" aria-controls="users" aria-selected="true">Utilisateurs</a>
+                </li>
+                 <li class="nav-item nav-border">
+                    <a class="nav-link nav-link-sized" id="customers-tab" data-toggle="tab" href="#customers" role="tab" aria-controls="customers" aria-selected="false">Customers</a>
+                </li>
+                <li class="nav-item nav-border">
+                    <a class="nav-link nav-link-sized" id="services-tab" data-toggle="tab" href="#services" role="tab" aria-controls="services" aria-selected="false">Services</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabAdminContent">
+                <div class="tab-pane fade show active" id="users" role="tabpanel" aria-labelledby="users-tab">
+                    <div class="container container-centered">
+                        <div class="row mt-5">
+                            <div class="col-lg-4">
+                                <form id="search-user-form" action="#" method="post" class="form-inline">
+                                    <input id="search-user-input" class="form-control" name="search" placeholder="Rechercher un utilisateur" />
+                                    <button id="search-user-button" type="submit" class="btn ml-2">Recherche</button>
+                                </form>
+                            </div>
+                            <div class="col-lg-8">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Username</th>
+                                            <th scope="col">Email</th>
+                                            <th scope="col">Role</th>
+                                            <th scope="col">Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="search-users-results">
+            
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-8">
-                    <table class="table table-striped">
-                        <thead>
-                            <tr>
-                                <th scope="col">Username</th>
-                                <th scope="col">Email</th>
-                                <th scope="col">Role</th>
-                                <th scope="col">Action</th>
-                            </tr>
-                        </thead>
-                        <tbody id="search-users-results">
-
-                        </tbody>
-                    </table>
+                <div class="tab-pane fade" id="customers" role="tabpanel" aria-labelledby="customers-tab">
+                    <div class="container container-centered">Customers</div>
+                </div>
+                <div class="tab-pane fade" id="services" role="tabpanel" aria-labelledby="services-tab">
+                    <div class="container container-centered">Services</div>
                 </div>
             </div>
         </div>
