@@ -9,10 +9,23 @@ $(document).ready(function() {
 
     $('#search-customer-form').submit(function(e) {
         e.preventDefault();
+        $('#search-customers-thead').remove();
+        $('#search-customers-results').empty();
+        $('#search-customers-table').prepend(
+            `<thead id="search-customers-thead">
+                <tr class="text-center">
+                    <th>Name</td>
+                    <th>Email</td>
+                    <th>Tel</td>
+                </tr>
+            </thead>`
+        )
         let search = $('#search-customer-input').val();
         let results = [search, search.toUpperCase(), toUpperCaseEachFirstLetter(search)]
-        console.log(results);
         $('#search-customer-input').val('');
+        results.forEach(element => {
+            findCustomers(element);
+        });
     })
 });
 
@@ -34,6 +47,26 @@ function displaySpinner() {
             </td>\
         </tr>'
     )
+}
+
+function findCustomers(search) {
+    console.log(search);
+    $.ajax({
+        url: '/api/customers/' + search,
+        method: 'get',
+        dataType: 'json',
+        success: function(data) {
+            data.forEach(element => {
+                $('#search-customers-results').append(
+                    `<tr class="text-center">
+                        <td>${element.name}</td>
+                        <td>${element.email}</td>
+                        <td>${element.tel}</td>
+                    </tr>`
+                )
+            })
+        }
+    })
 }
 
 function findUsers(search) {

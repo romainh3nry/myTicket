@@ -39,6 +39,14 @@ $router->add(
 );
 
 $router->add(
+    'api/customers/{search}',
+    [
+        'controller' => 'api',
+        'action' => 'customers'
+    ]
+);
+
+$router->add(
     'users/update/{user_id}',
     [
         'controller' => 'users',

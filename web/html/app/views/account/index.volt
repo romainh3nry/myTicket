@@ -76,6 +76,14 @@
                                 </form>
                             </div>
                         </div>
+                        <div class="row mt-3">
+                            <div class="col-12">
+                                <table id="search-customers-table" class="table table-striped m-0 p-0">
+                                    <tbody id="search-customers-results">
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="services" role="tabpanel" aria-labelledby="services-tab">
