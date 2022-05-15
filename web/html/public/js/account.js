@@ -17,12 +17,14 @@ $(document).ready(function() {
                     <th>Name</td>
                     <th>Email</td>
                     <th>Tel</td>
+                    <th>Action</th>
                 </tr>
             </thead>`
         )
         let search = $('#search-customer-input').val();
         let results = [search, search.toUpperCase(), toUpperCaseEachFirstLetter(search)]
         $('#search-customer-input').val('');
+        displaySpinner('#search-customers-results', '3');
         results.forEach(element => {
             findCustomers(element);
         });
@@ -37,31 +39,32 @@ function toUpperCaseEachFirstLetter(string) {
     return arr.join(" ");
 }
 
-function displaySpinner() {
-    $('#search-users-results').append(
-        '<tr>\
-            <td class="text-center" colspan="4">\
+function displaySpinner(parent, colspan) {
+    $(parent).append(
+        `<tr class="spinner-row">\
+            <td class="text-center" colspan=${colspan}>\
                 <div class="spinner-grow text-warning" role="status"> \
                     <span class="sr-only">Loading...</span> \
                 </div>\
             </td>\
-        </tr>'
+        </tr>`
     )
 }
 
 function findCustomers(search) {
-    console.log(search);
     $.ajax({
         url: '/api/customers/' + search,
         method: 'get',
         dataType: 'json',
         success: function(data) {
+            $('.spinner-row').remove();
             data.forEach(element => {
                 $('#search-customers-results').append(
                     `<tr class="text-center">
                         <td>${element.name}</td>
                         <td>${element.email}</td>
                         <td>${element.tel}</td>
+                        <td><button class="btn btn-sm">Modifier</button></td>
                     </tr>`
                 )
             })
@@ -70,7 +73,7 @@ function findCustomers(search) {
 }
 
 function findUsers(search) {
-    displaySpinner();
+    displaySpinner('#search-users-results', '4');
     $.ajax({
         url : '/api/users/' + search,
         method: 'get',
