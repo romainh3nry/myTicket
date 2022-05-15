@@ -24,7 +24,7 @@ $(document).ready(function() {
         let search = $('#search-customer-input').val();
         let results = [search, search.toUpperCase(), toUpperCaseEachFirstLetter(search)]
         $('#search-customer-input').val('');
-        displaySpinner('#search-customers-results', '3');
+        displaySpinner('#search-customers-results', '4');
         results.forEach(element => {
             findCustomers(element);
         });
@@ -68,6 +68,16 @@ function findCustomers(search) {
                     </tr>`
                 )
             })
+        },
+        error: function(xhr, textStatus, error) {
+            $('#search-customers-results').empty()
+            $('#search-customers-results').append(
+                `<tr> \
+                    <td class="text-center" colspan="4">
+                        <div class="alert alert-danger">Erreur :  ${xhr.statusText}</div>
+                    </td>\
+                </tr>`
+            )
         }
     })
 }
