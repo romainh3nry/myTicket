@@ -30,7 +30,8 @@ class CustomersController extends ControllerBase
         {
             if ($form->isValid(array_merge($this->request->getPost(), $_FILES)))
             {
-
+                $form->bind($this->request->getPost(), $customer);
+                $customer->save();
             }
             else 
             {

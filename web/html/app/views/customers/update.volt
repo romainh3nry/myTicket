@@ -10,6 +10,6 @@
         {{form.get('Modifier')}}
     </form>
     {% if erreurs is defined %}
-    <div class="alert alert-danger">{{erreurs}}</div>
+    <div class="alert alert-danger m-3">{{erreurs}}</div>
     {% endif %}
 </div>
