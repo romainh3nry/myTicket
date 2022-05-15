@@ -43,6 +43,7 @@ class SecurityPlugin extends Plugin
             $aActionParRole = [
                 'admin' => [
                     'users' => ['*'],
+                    'customers' => ['*'],
                 ],
                 '*' => [
                     'index' => ['*'],

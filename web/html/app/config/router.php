@@ -23,7 +23,7 @@ $router->add(
 );
 
 $router->add(
-    'account',
+    '/account',
     [
         'controller' => 'account',
         'action' => 'index'
@@ -39,7 +39,7 @@ $router->add(
 );
 
 $router->add(
-    'api/customers/{search}',
+    '/api/customers/{search}',
     [
         'controller' => 'api',
         'action' => 'customers'
@@ -47,7 +47,7 @@ $router->add(
 );
 
 $router->add(
-    'users/update/{user_id}',
+    '/users/update/{user_id}',
     [
         'controller' => 'users',
         'action' => 'update',
@@ -55,10 +55,18 @@ $router->add(
 );
 
 $router->add(
-    'users/password/{user_id}',
+    '/users/password/{user_id}',
     [
         'controller' => 'users',
         'action' => 'password'
+    ]
+);
+
+$router->add(
+    '/customers/update/{customer_id}',
+    [
+        'controller' => 'customers',
+        'action' => 'update'
     ]
 );
 

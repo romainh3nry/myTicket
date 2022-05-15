@@ -64,7 +64,7 @@ function findCustomers(search) {
                         <td>${element.name}</td>
                         <td>${element.email}</td>
                         <td>${element.tel}</td>
-                        <td><button class="btn btn-sm">Modifier</button></td>
+                        <td><a href="/customers/update/${element.id}"><button class="btn btn-sm">Modifier</button></a></td>
                     </tr>`
                 )
             })
