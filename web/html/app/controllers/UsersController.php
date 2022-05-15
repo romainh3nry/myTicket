@@ -28,7 +28,8 @@ class UsersController extends ControllerBase {
 
         if ($this->request->isPost())
         {
-            if ($form->isValid(array_merge($this->request->getPost(), $_FILES))){
+            if ($form->isValid(array_merge($this->request->getPost(), $_FILES)))
+            {
                 $username = $this->request->getPost('username');
                 $email = $this->request->getPost('email');
                 $role = $this->request->getPost('role');
