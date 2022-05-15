@@ -66,7 +66,17 @@
                     </div>
                 </div>
                 <div class="tab-pane fade" id="customers" role="tabpanel" aria-labelledby="customers-tab">
-                    <div class="container container-centered">Customers</div>
+                    <div class="container container-centered">
+                        <div class="row mt-5">
+                            <div class="col-12">
+                                <form action="#" method="post" class="form-inline row">
+                                    <input type="text" class="form-control col-lg-5 col-md-12 col-sm-12" placeholder="Rechercher un client"/>
+                                    <button type="submit" class="btn col-lg-2 col-md-12 m-1">Rechercher</button>
+                                    <button type="button" class="btn col-lg-2 col-md-12 m-1">+ Nouveau client</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="tab-pane fade" id="services" role="tabpanel" aria-labelledby="services-tab">
                     <div class="container container-centered">Services</div>

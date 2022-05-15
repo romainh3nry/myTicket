@@ -35,3 +35,7 @@
     background-color: #F7BF5F;
     color:whitesmoke;
 }
+
+.form-inline {
+    width: 100% !important;
+}
