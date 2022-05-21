@@ -81,8 +81,16 @@ $router->add(
 $router->add(
     '/customers/create',
     [
-        'controllers' => 'customers',
+        'controller' => 'customers',
         'action' => 'create',
+    ]
+);
+
+$router->add(
+    '/services/update/{service_id}',
+    [
+        'controller' => 'services',
+        'action' => 'update',
     ]
 );
 
