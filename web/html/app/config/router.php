@@ -102,4 +102,12 @@ $router->add(
     ]
 );
 
+$router->add(
+    '/tickets/create',
+    [
+        'controller' => 'tickets',
+        'action' => 'create',
+    ]
+);
+
 $router->handle();

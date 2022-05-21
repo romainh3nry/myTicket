@@ -30,3 +30,4 @@ ALTER SEQUENCE tickets_id_seq OWNED BY tickets.ticket_id;
 
 INSERT INTO tickets (title, author, service, message, related_to) VALUES
     ('test title ticket', (SELECT id FROM users WHERE username = 'r.henry'), (SELECT id FROM services WHERE name = 'VOIP'), 'Cecis est un test de création de ticket !', (SELECT id FROM customers WHERE name = 'SFR'));
+    ('test 2 title ticket', (SELECT id FROM users WHERE username = 'v.mackey'), (SELECT id FROM services WHERE name = 'TV'), 'Cecis est un second test de création de ticket !', (SELECT id FROM customers WHERE name = 'UBS'));
