@@ -51,7 +51,8 @@ class SecurityPlugin extends Plugin
                     'error' => ['*'],
                     'auth' => ['*'],
                     'account' => ['*'],
-                    'api' => ['*']
+                    'api' => ['*'],
+                    'tickets' => ['*'],
                 ]
             ];
             foreach($aActionParRole as $sRole => $aRole)

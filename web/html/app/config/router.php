@@ -94,4 +94,12 @@ $router->add(
     ]
 );
 
+$router->add(
+    '/tickets',
+    [
+        'controller' => 'tickets',
+        'action' => 'index',
+    ]
+);
+
 $router->handle();
