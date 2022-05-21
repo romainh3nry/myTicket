@@ -44,6 +44,7 @@ class SecurityPlugin extends Plugin
                 'admin' => [
                     'users' => ['*'],
                     'customers' => ['*'],
+                    'services' => ['*'],
                 ],
                 '*' => [
                     'index' => ['*'],

@@ -29,6 +29,8 @@ $(document).ready(function() {
             findCustomers(element);
         });
     })
+
+    getServices()
 });
 
 function toUpperCaseEachFirstLetter(string) {
@@ -114,6 +116,25 @@ function findUsers(search) {
                     </td>\
                 </tr>`
             )
+        }
+    })
+}
+
+function getServices() {
+    displaySpinner('#search-services-results', '2')
+    $.ajax({
+        url: '/api/services/',
+        success : function(response) {
+            $('.spinner-row').remove();
+            response.forEach(element => {
+                $('#search-services-results').append(
+                    `<tr> \
+                        <td>${element.id}</td>\
+                        <td>${element.name}</td>\
+                        <td><button class="btn" type="button"><a class="link-secondary" href="/services/update/${element.id}">Modifier</a></button></td>
+                    </tr>` 
+                )
+            })
         }
     })
 }

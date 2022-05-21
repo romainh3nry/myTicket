@@ -90,7 +90,17 @@
                     <div class="container container-centered">
                         <div class="row mt-5">
                             <div class="col-12">
-                                
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>ID</th>
+                                            <th>Name</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="search-services-results">                 
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
                     </div>
