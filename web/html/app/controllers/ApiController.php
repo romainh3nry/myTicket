@@ -2,6 +2,7 @@
 
 use Myticket\Models\Users;
 use Myticket\Models\Customers;
+use Myticket\Models\Services;
 use Phalcon\http\Response;
 
 
@@ -28,6 +29,14 @@ class ApiController extends ControllerBase
             ]
         );
         $oResponse->setJsonContent($customer);
+        return $oResponse->send();
+    }
+
+    function servicesAction()
+    {
+        $oResponse = new Response();
+        $services = Services::find();
+        $oResponse->setJsonContent($services);
         return $oResponse->send();
     }
 }
