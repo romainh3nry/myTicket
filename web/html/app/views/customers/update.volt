@@ -7,9 +7,12 @@
         {{form.get('name')}}
         {{form.get('email')}}
         {{form.get('tel')}}
-        {{form.get('Modifier')}}
+        {{form.get('Valider')}}
     </form>
     {% if erreurs is defined %}
     <div class="alert alert-danger m-3">{{erreurs}}</div>
+    {% endif %}
+    {% if flashSession.has() %}
+        <div class="alert alert-success" >{{flashSession.output()}}</div>
     {% endif %}
 </div>

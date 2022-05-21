@@ -39,3 +39,7 @@
 .form-inline {
     width: 100% !important;
 }
+
+.link-secondary {
+    color: whitesmoke;
+}

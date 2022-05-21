@@ -15,7 +15,7 @@ class CustomerForm extends Form
     {
         $name = new Text('name',
             [
-                'placeholder' => 'name',
+                'placeholder' => 'Name',
                 'class' => 'form-control',
                 'required' => 'required',
             ]
@@ -57,9 +57,9 @@ class CustomerForm extends Form
             ]
         );
 
-        $submit = new Submit('Modifier',
+        $submit = new Submit('Valider',
             [
-                'placeholder' => 'Modifier',
+                'placeholder' => 'Valider',
                 'class' => 'btn btn-block',
             ]
         );

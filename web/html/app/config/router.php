@@ -70,4 +70,12 @@ $router->add(
     ]
 );
 
+$router->add(
+    '/customers/create',
+    [
+        'controllers' => 'customers',
+        'action' => 'create',
+    ]
+);
+
 $router->handle();
