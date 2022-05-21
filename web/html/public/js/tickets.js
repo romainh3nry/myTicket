@@ -1,5 +1,6 @@
 $(document).ready(function() {
     getServices();
+    getUsers();
 })
 
 function getServices() {
@@ -12,6 +13,21 @@ function getServices() {
                 )
             })
         }
+    })
+}
+
+function getUsers() {
+    let data = [];
+    $.ajax({
+        url: '/api/getCustomers/',
+        success: function(response) {
+            response.forEach(element => {
+                data.push(element.name);
+            })
+        }
+    })
+    $('#customers-input').autocomplete({
+        source: data
     })
 }
 /*

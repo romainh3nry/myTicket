@@ -32,6 +32,18 @@ class ApiController extends ControllerBase
         return $oResponse->send();
     }
 
+    function getCustomersAction()
+    {
+        $oResponse = new Response();
+        $customers = Customers::find(
+            [
+                'columns' => ['name']
+            ]
+        );
+        $oResponse->setJsonContent($customers);
+        return $oResponse->send();
+    }
+
     function servicesAction()
     {
         $oResponse = new Response();

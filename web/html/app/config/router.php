@@ -47,6 +47,14 @@ $router->add(
 );
 
 $router->add(
+    '/api/getCustomers',
+    [
+        'controller' => 'api',
+        'action' => 'allCustomers',
+    ]
+);
+
+$router->add(
     '/api/services',
     [
         'controller' => 'api',

@@ -1,5 +1,8 @@
 <?php
 
+namespace Myticket\Models;
+
+
 class Tickets extends \Phalcon\Mvc\Model
 {
 

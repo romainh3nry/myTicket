@@ -4,27 +4,27 @@
     <hr />
     <div class="row">
         <div class="col-lg-12">
-            <form>
+            <form method="post" action="/tickets/create">
                 <div class="row m-3">
                     <div class="col-lg-5">
-                        <input class="form-control" placeholder="Titre" name="title" />
+                        <input class="form-control" placeholder="Titre" name="title" required />
                     </div>
                 </div>
                 <div class="row m-3">
                     <div class="col-lg-5">
-                        <select id="select-services" class="custom-select">
+                        <select required id="select-services" class="custom-select" name="service">
                             <option disabled="disabled" selected>Selectionner un services</option>
                         </select>
                     </div>
                 </div>
                 <div class="row m-3">
                     <div class="col-lg-5">
-                        <input class="form-control" placeholder="Selectionner un client" name="customer" />
+                        <input id="customers-input" class="form-control" placeholder="Selectionner un client" name="customer" required />
                     </div>
                 </div>
                 <div class="row m-3">
                     <div class="col-lg-12">
-                        <textarea class="form-control" placeholder="Détail du ticket" rows="12"></textarea>
+                        <textarea required class="form-control" placeholder="Détail du ticket" rows="12" name="message"></textarea>
                     </div>
                 </div>
                 <div class="row m-3">
