@@ -12,16 +12,18 @@
                     </li>
                     <li class="nav-item">
                         <a data-toggle="tab" class="nav-link" href="#content-contact">
-                            Détail Contact
+                            Détail contact client
                         </a>
                     </li>
                 </ul>
             </div>
         </nav>
-        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 tab-content m-5">
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 tab-content mt-5">
             <div id="content-resume-ticket" class="tab-pane fade show active align-items-center">
                 <div class="row">
-                    <div class="col-lg-12 block-ticket">
+                    <h5>Resumé</h5>
+                    <hr />
+                    <div class="col-lg-12 block-ticket mt-2">
                         <table class="table m-0 p-0">
                             <tbody>
                                 <tr>
@@ -34,7 +36,7 @@
                                 </tr>
                                 <tr>
                                     <th scope="row">Date de création</th>
-                                    <td>{{ticket.date_creation}}</td>
+                                    <td>{{date('d-m-Y H:i:s', time(ticket.date_creation))}}</td>
                                 </tr>
                                 <tr>
                                     <th scope="row">Service</th>
@@ -50,6 +52,12 @@
                                 </tr>
                             </tbody>
                         </table>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-lg-12">
+                        <h5>Updates</h5>
+                        <hr />
                     </div>
                 </div>
             </div>

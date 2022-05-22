@@ -12,17 +12,17 @@ class TicketsController extends ControllerBase
     public function initialize()
     {
         $this->assets->addCss('css/tickets.css');
-        $this->assets->addJs('js/tickets.js');
         $this->tag->setTitle('Tickets');
     }
     
     public function indexAction()
     {
-
+        $this->assets->addJs('js/ticketsIndex.js');
     }
 
     public function createAction()
     {
+        $this->assets->addJs('js/ticketsCreate.js');
         if ($this->request->isPost())
         {
             $newTicket = new Tickets();
@@ -44,6 +44,7 @@ class TicketsController extends ControllerBase
             $newTicket->related_to = $getCustomer->id;
             $newTicket->message = $message;
             $newTicket->save();
+            $this->response->redirect("/tickets");
         }
     }
 

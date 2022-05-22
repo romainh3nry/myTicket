@@ -63,6 +63,14 @@ $router->add(
 );
 
 $router->add(
+    '/api/tickets',
+    [
+        'controller' => 'api',
+        'action' => 'tickets',
+    ]
+);
+
+$router->add(
     '/users/update/{user_id}',
     [
         'controller' => 'users',
