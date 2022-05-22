@@ -23,7 +23,14 @@ function getTickets() {
                     </tr>`
                 )
             });
-        }
+        },
+        error: function() {
+            $('#tickets-list').append(
+                `<tr>
+                    <td colspan='5'>Une erreur est survenue</td>
+                </tr>`
+            )
+        } 
     })
 }
 

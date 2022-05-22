@@ -85,3 +85,13 @@ h3 {
 .table tbody tr th {
     color: #F7BF5F;
 }
+
+.update-bubble {
+    background-color: #dee2e6;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.table-update tr td {
+    border : none !important;
+}

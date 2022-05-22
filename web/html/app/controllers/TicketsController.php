@@ -50,6 +50,7 @@ class TicketsController extends ControllerBase
 
     public function detailAction($ticket_id)
     {
+        $this->assets->addJs('js/updateCreate.js');
         $ticket = Tickets::findFirst(
             [
                 "id = '{$ticket_id}'",

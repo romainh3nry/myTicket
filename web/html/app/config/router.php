@@ -71,6 +71,22 @@ $router->add(
 );
 
 $router->add(
+    '/api/createUpdate/',
+    [
+        'controller' => 'api',
+        'action' => 'createUpdate'
+    ]
+);
+
+$router->add(
+    'api/updates/{ticket_id}',
+    [
+        'controller' => 'api',
+        'action' => 'updates'
+    ]
+);
+
+$router->add(
     '/users/update/{user_id}',
     [
         'controller' => 'users',
