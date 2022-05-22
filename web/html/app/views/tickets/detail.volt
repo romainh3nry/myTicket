@@ -47,6 +47,14 @@
                                     <td>{{ticket.Customers.name}}</td>
                                 </tr>
                                 <tr>
+                                    <th scope="row">Statut</th>
+                                    {% if ticket.state == 1 %}
+                                    <td>Ouvert</td>
+                                    {% else %}
+                                    <td>Fermé</td>
+                                    {% endif %}
+                                </tr>
+                                <tr>
                                     <th scope="row">Resumé</th>
                                     <td>{{ticket.message}}</td>
                                 </tr>
@@ -62,7 +70,24 @@
                 </div>
             </div>
              <div id="content-contact" class="tab-pane fade align-items-center pt-3 pb-2 mb-3">
-                    2
+                <div class="col-lg-12 block-ticket mt-2">
+                    <table class="table m-0 p-0">
+                        <tbody>
+                            <tr>
+                                <th scope="row">Client</th>
+                                <td>{{ticket.Customers.name}}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Email</th>
+                                <td>{{ticket.Customers.email}}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Telephone</th>
+                                <td>{{ticket.Customers.tel}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </main>
     </div>
