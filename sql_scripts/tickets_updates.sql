@@ -1,6 +1,6 @@
 CREATE TABLE tickets_updates (
 	id uuid DEFAULT uuid_generate_v4(),
-    ticket_id INT NOT NULL,
+    ticket_id uuid NOT NULL,
     update TEXT NOT NULL,
     PRIMARY KEY (id),
     

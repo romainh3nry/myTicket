@@ -2,7 +2,8 @@
 
 use Myticket\Models\Tickets; 
 use Myticket\Models\Services;
-use Myticket\Models\Customers;  
+use Myticket\Models\Customers;
+use Myticket\Models\Users;
 use Phalcon\http\Response;
 
 
@@ -24,7 +25,6 @@ class TicketsController extends ControllerBase
     {
         if ($this->request->isPost())
         {
-            # $oResponse = new Response();
             $newTicket = new Tickets();
             $title = $this->request->getPost('title');
             $author = $this->session->get('auth_id')['id'];
@@ -37,10 +37,7 @@ class TicketsController extends ControllerBase
                     "name = '{$customer}'",
                 ]
             );
-            # $oResponse->setJsonContent([
-            #    $title, $author, $service, $getCustomer->id, $message
-            #]);
-            #return $oResponse->send();
+
             $newTicket->title = $title;
             $newTicket->service = $service;
             $newTicket->author = $author;
@@ -48,5 +45,15 @@ class TicketsController extends ControllerBase
             $newTicket->message = $message;
             $newTicket->save();
         }
+    }
+
+    public function detailAction($ticket_id)
+    {
+        $ticket = Tickets::findFirst(
+            [
+                "id = '{$ticket_id}'",
+            ]
+        );
+        $this->view->ticket = $ticket;
     }
 }

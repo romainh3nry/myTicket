@@ -118,4 +118,12 @@ $router->add(
     ]
 );
 
+$router->add(
+    '/tickets/detail/{ticket_id}',
+    [
+        'controller' => 'tickets',
+        'action' => 'detail',
+    ]
+);
+
 $router->handle();

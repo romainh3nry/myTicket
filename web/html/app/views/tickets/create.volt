@@ -13,7 +13,7 @@
                 <div class="row m-3">
                     <div class="col-lg-5">
                         <select required id="select-services" class="custom-select" name="service">
-                            <option disabled="disabled" selected>Selectionner un services</option>
+                            <option disabled="disabled" selected>Selectionner un service</option>
                         </select>
                     </div>
                 </div>

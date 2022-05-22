@@ -68,9 +68,9 @@ class Tickets extends \Phalcon\Mvc\Model
         $this->setSchema("public");
         $this->setSource("tickets");
         $this->hasMany('id', 'TicketsUpdates', 'ticket_id', ['alias' => 'TicketsUpdates']);
-        $this->belongsTo('author', 'Users', 'id', ['alias' => 'Users']);
-        $this->belongsTo('related_to', 'Customers', 'id', ['alias' => 'Customers']);
-        $this->belongsTo('service', 'Services', 'id', ['alias' => 'Services']);
+        $this->belongsTo('author', 'Myticket\Models\Users', 'id', ['alias' => 'Users']);
+        $this->belongsTo('related_to', 'Myticket\Models\Customers', 'id', ['alias' => 'Customers']);
+        $this->belongsTo('service', 'Myticket\Models\Services', 'id', ['alias' => 'Services']);
     }
 
     /**
