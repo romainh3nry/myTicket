@@ -35,10 +35,4 @@
             </form>
         </div>
     </div>
-    <!--
-    <div class="ui-widget">
-        <label for="tags">Tags: </label>
-        <input id="tags">
-      </div>
-    -->
 </div>
