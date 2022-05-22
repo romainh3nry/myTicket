@@ -100,6 +100,7 @@ class ApiController extends ControllerBase
 
             $newUpdate->ticket_id = $ticket_id;
             $newUpdate->update = $update;
+            $newUpdate->author = $this->session->get('auth_id')['username'];
             $newUpdate->save();
 
             $oResponse->setJsonContent(['statut' => 'OK']);

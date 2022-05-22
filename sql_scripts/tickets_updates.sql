@@ -3,6 +3,7 @@ CREATE TABLE tickets_updates (
     ticket_id uuid NOT NULL,
     update TEXT NOT NULL,
     date_creation TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    author VARCHAR(255) NOT NULL,
     PRIMARY KEY (id),
     
     CONSTRAINT fk_ticket
