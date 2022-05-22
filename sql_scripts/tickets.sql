@@ -16,11 +16,11 @@ CREATE TABLE tickets (
     CONSTRAINT fk_author
         FOREIGN KEY(author)
             REFERENCES users(id),
-    
+
     CONSTRAINT fk_service
         FOREIGN KEY(service)
             REFERENCES services(id),
-    
+
     CONSTRAINT fk_related_to
         FOREIGN KEY(related_to)
             REFERENCES customers(id)
