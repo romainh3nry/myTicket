@@ -143,6 +143,14 @@ $router->add(
 );
 
 $router->add(
+    '/tickets/closure/{ticket_id}',
+    [
+        'controller' => 'tickets',
+        'action' => 'closure',
+    ]
+);
+
+$router->add(
     '/tickets/detail/{ticket_id}',
     [
         'controller' => 'tickets',

@@ -4,7 +4,6 @@ use Myticket\Models\Tickets;
 use Myticket\Models\Services;
 use Myticket\Models\Customers;
 use Myticket\Models\Users;
-use Phalcon\http\Response;
 
 
 class TicketsController extends ControllerBase
@@ -57,5 +56,18 @@ class TicketsController extends ControllerBase
             ]
         );
         $this->view->ticket = $ticket;
+    }
+
+    public function closureAction($ticket_id)
+    {
+        $ticket = Tickets::findFirst(
+            "id = '{$ticket_id}'"
+        );
+
+        $ticket->state = false;
+        date_default_timezone_set('Europe/Paris');
+        $ticket->date_closure = date("Y-m-d H:i:s");
+        $ticket->save();
+        $this->response->redirect("/tickets/detail/{$ticket->id}");
     }
 }

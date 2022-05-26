@@ -54,3 +54,4 @@ function displaySpinner(parent) {
         </div>`
     )
 }
+

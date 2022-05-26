@@ -95,3 +95,16 @@ h3 {
 .table-update tr td {
     border : none !important;
 }
+
+.ticket-closure {
+    border: 1px solid black;
+    background-color: #F7BF5F;
+    position: absolute;
+    z-index: 100;
+    margin: 0 auto;
+    top: 50%;
+    left: 40%;
+    text-align: center;
+    padding: 10px;
+    margin: -100px 0 0 -150px;
+}
