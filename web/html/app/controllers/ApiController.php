@@ -118,4 +118,24 @@ class ApiController extends ControllerBase
             return $oResponse->send();
         }
     }
+
+    function ticketsByUserAction()
+    {
+        $results = [];
+        $oResponse = new Response();
+        $currentUser = $this->session->get('auth_id')['id'];
+        $tickets = Tickets::find(
+            "author = '{$currentUser}' AND state = 't'"
+        );
+        foreach($tickets as $ticket)
+        {
+            $ticket->service = $ticket->Services->name;
+            $ticket->related_to = $ticket->Customers->name;
+            $ticket->author = $ticket->Users->username;
+            $ticket->date_creation = date('d-m-Y H:i:s', strtotime($ticket->date_creation));
+            array_push($results, $ticket);
+        }
+        $oResponse->setJsonContent($results);
+        return $oResponse->send();
+    }
 }
