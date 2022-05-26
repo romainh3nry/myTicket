@@ -11,6 +11,9 @@ function getTickets() {
     $.ajax({
         url: '/api/tickets',
         success: function(response) {
+            console.log(response[1].count_total)
+            $('#count-total').append(`${response[1].count_total}`)
+            $('#count-user').append(`${response[1].count_user}`)
             $('.spinner-row').remove();
             response.forEach(element => {
                 if (element.severity === 'MINEUR')

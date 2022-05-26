@@ -63,6 +63,16 @@ class ApiController extends ControllerBase
                 "state = 't'"
             ]
         );
+        $count_total = Tickets::count(
+            [
+                "state = 't'"
+            ]
+        );
+        $count_by_user = Tickets::count(
+            [
+                "state = 't' and author = '{$this->session->get('auth_id')['id']}'"
+            ]
+        );
         foreach($tickets as $ticket)
         {
             $ticket->service = $ticket->Services->name;
@@ -70,6 +80,7 @@ class ApiController extends ControllerBase
             $ticket->author = $ticket->Users->username;
             $ticket->date_creation = date('d-m-Y H:i:s', strtotime($ticket->date_creation));
             array_push($results, $ticket);
+            array_push($results, ['count_total' => $count_total, 'count_user' => $count_by_user]);
         }
         $oResponse->setJsonContent($results);
         return $oResponse->send();

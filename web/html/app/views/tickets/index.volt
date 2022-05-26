@@ -6,12 +6,12 @@
                 <li class="nav-item">
                     <a data-toggle="tab" class="nav-link active" href="#content-explore-ticket" aria-selected="true">
                         <span data-feather="explore-ticket"></span>
-                        Ticket en cours <span class="sr-only">(current)</span>
+                        Ticket en cours (<span id="count-total"></span>) <span class="sr-only">(current)</span>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a data-toggle="tab" class="nav-link" href="#content-my-ticket">
-                        Mes tickets
+                        Mes tickets (<span id="count-user"></span>)
                     </a>
                 </li>
                 <li class="nav-item">
