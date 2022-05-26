@@ -13,15 +13,40 @@ function getTickets() {
         success: function(response) {
             $('.spinner-row').remove();
             response.forEach(element => {
-                $('#tickets-list').append(
-                    `<tr>
-                        <td><a href="/tickets/detail/${element.id}">#${element.ticket_id}</a></td>
-                        <td>${element.date_creation}</td>
-                        <td>${element.service}</td>
-                        <td>${element.related_to}</td>
-                        <td>${element.title}</td>
-                    </tr>`
-                )
+                if (element.severity === 'MINEUR')
+                {
+                    $('#tickets-list').append(
+                        `<tr class="alert alert-secondary">
+                            <td><a href="/tickets/detail/${element.id}">#${element.ticket_id}</a></td>
+                            <td>${element.date_creation}</td>
+                            <td>${element.service}</td>
+                            <td>${element.related_to}</td>
+                            <td>${element.title}</td>
+                        </tr>`
+                    )
+                }
+                else if (element.severity === 'MAJEUR') {
+                    $('#tickets-list').append(
+                        `<tr class="alert alert-warning">
+                            <td><a href="/tickets/detail/${element.id}">#${element.ticket_id}</a></td>
+                            <td>${element.date_creation}</td>
+                            <td>${element.service}</td>
+                            <td>${element.related_to}</td>
+                            <td>${element.title}</td>
+                        </tr>`
+                    )
+                }
+                else if (element.severity === 'CRITIQUE') {
+                    $('#tickets-list').append(
+                        `<tr class="alert alert-danger">
+                            <td><a href="/tickets/detail/${element.id}">#${element.ticket_id}</a></td>
+                            <td>${element.date_creation}</td>
+                            <td>${element.service}</td>
+                            <td>${element.related_to}</td>
+                            <td>${element.title}</td>
+                        </tr>`
+                    )
+                }
             });
         },
         error: function() {

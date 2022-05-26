@@ -28,6 +28,7 @@ class TicketsController extends ControllerBase
             $title = $this->request->getPost('title');
             $author = $this->session->get('auth_id')['id'];
             $service = $this->request->getPost('service');
+            $severity = $this->request->getPost('severity');
             $customer = $this->request->getPost('customer');
             $message = $this->request->getPost('message');
 
@@ -39,6 +40,7 @@ class TicketsController extends ControllerBase
 
             $newTicket->title = $title;
             $newTicket->service = $service;
+            $newTicket->severity = $severity;
             $newTicket->author = $author;
             $newTicket->related_to = $getCustomer->id;
             $newTicket->message = $message;

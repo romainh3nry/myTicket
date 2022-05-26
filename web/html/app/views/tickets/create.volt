@@ -19,6 +19,16 @@
                 </div>
                 <div class="row m-3">
                     <div class="col-lg-5">
+                        <select required id="select-severity" class="custom-select" name="severity">
+                            <option disabled="disabled" selected>Selectionner une sévérité</option>
+                            <option value="MINEUR">Mineure</option>
+                            <option value="MAJEUR">Majeure</option>
+                            <option value="CRITIQUE">Critique</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row m-3">
+                    <div class="col-lg-5">
                         <input id="customers-input" class="form-control" placeholder="Selectionner un client" name="customer" required />
                     </div>
                 </div>

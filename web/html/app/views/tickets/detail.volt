@@ -58,6 +58,10 @@
                                     <td>{{ticket.Services.name}}</td>
                                 </tr>
                                 <tr>
+                                    <th scope="row">Sévérité</th>
+                                    <td>{{ticket.severity}}</td>
+                                </tr>
+                                <tr>
                                     <th scope="row">Client</th>
                                     <td>{{ticket.Customers.name}}</td>
                                 </tr>
