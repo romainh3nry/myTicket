@@ -4,7 +4,10 @@ $(document).ready(function() {
         var target = $(e.target).attr("href")
         if (target === '#content-my-ticket')
         {
-            getCurrentUserTickets()
+            if (!$('.isDisplayed').length)
+            {
+                getCurrentUserTickets()
+            }
         }
     });
 })
@@ -20,7 +23,7 @@ function getCurrentUserTickets() {
                 if (element.severity === 'MINEUR')
                 {
                     $('#tickets-user-list').append(
-                        `<tr class="alert alert-secondary">
+                        `<tr class="alert alert-secondary isDisplayed">
                             <td><a href="/tickets/detail/${element.id}">#${element.ticket_id}</a></td>
                             <td>${element.date_creation}</td>
                             <td>${element.service}</td>
