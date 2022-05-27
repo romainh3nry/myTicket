@@ -4,6 +4,7 @@ use Myticket\Models\Tickets;
 use Myticket\Models\Services;
 use Myticket\Models\Customers;
 use Myticket\Models\Users;
+use Phalcon\Paginator\Adapter\Model as PaginatorModel;
 
 
 class TicketsController extends ControllerBase
@@ -75,12 +76,22 @@ class TicketsController extends ControllerBase
 
     public function exploreAction()
     {
+        $currentPage = $this->request->getQuery('page', 'int');
         $tickets = Tickets::find(
             [
                 'order' => 'state DESC, date_creation DESC'
             ]
         );
+        $paginator = new PaginatorModel(
+            [
+                'data' => $tickets,
+                'limit' => '10',
+                'page' => $currentPage
 
-        $this->view->tickets = $tickets;
+            ]
+        );
+
+        $page = $paginator->getPaginate();
+        $this->view->page = $page;
     }
 }

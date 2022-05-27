@@ -16,7 +16,7 @@
             </tr>
         </thead>
         <tbody>
-            {% for ticket in tickets %}
+            {% for ticket in page.items %}
                 {% if ticket.state == 1 and ticket.severity == 'CRITIQUE' %}
                 <tr class="alert alert-danger">
                 {% elseif ticket.state == 1 and ticket.severity == 'MAJEUR' %}
@@ -43,4 +43,14 @@
             {% endfor %}
         </tbody>
     </table>
+    <nav class="d-flex justify-content-center" aria-label="Page navigation example">
+        <ul class="pagination">
+            <li class="page-item">
+              <a class="page-link" href="/tickets/explore?page={{page.before}}">Previous</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="/tickets/explore?page={{page.next}}">Next</a>
+            </li>
+          </ul>
+      </nav>
 </div>
