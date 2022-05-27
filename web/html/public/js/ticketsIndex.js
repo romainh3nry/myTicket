@@ -1,7 +1,7 @@
 $(document).ready(function() {
     getTickets();
     $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-        var target = $(e.target).attr("href")
+        let target = $(e.target).attr("href")
         if (target === '#content-my-ticket')
         {
             if (!$('.isDisplayed').length)
@@ -9,6 +9,45 @@ $(document).ready(function() {
                 getCurrentUserTickets()
             }
         }
+    });
+
+    $('#search-ticket-form').on('submit', function(e) {
+        e.preventDefault();
+        let search = $('#search-ticket-input').val();
+        if ($('#search-ticket-table').length) {
+            $('#search-ticket-table').remove()
+        }
+        $.ajax({
+            url: `/api/search/${search}`,
+            success: function(response) {
+                $('#search-ticket-results').append(
+                    `<table id='search-ticket-table' class='table table-stripped'>
+                        <thead>
+                            <th>Ticket</th>
+                            <th>Date création</th>
+                            <th>Service</th>
+                            <th>Client</th>
+                            <th>Auteur</th>
+                            <th>Statut</th>
+                            <th>Resumé</th>
+                        </thead>
+                        <tbody id="search-ticket-body"></tbody>`
+                )
+                response.forEach(element => {
+                    $('#search-ticket-body').append(`
+                        <tr>
+                            <td><a href="/tickets/detail/${element.id}">#${element.ticket_id}</a></td>
+                            <td>${element.date_creation}</td>
+                            <td>${element.service}</td>
+                            <td>${element.related_to}</td>
+                            <td>${element.author}</td>
+                            <td>${element.state ? 'Ouvert' : 'Fermé'}</td>
+                            <td>${element.title}</td>
+                        </tr>`
+                    )
+                })
+            }
+        })
     });
 })
 

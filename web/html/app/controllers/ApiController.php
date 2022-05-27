@@ -138,4 +138,23 @@ class ApiController extends ControllerBase
         $oResponse->setJsonContent($results);
         return $oResponse->send();
     }
+
+    function searchAction($search)
+    {
+        $results = [];
+        $oResponse = new Response();
+        $tickets = Tickets::find(
+            "ticket_id LIKE '%{$search}%' OR message LIKE '%{$search}%'"
+        );
+        foreach($tickets as $ticket)
+        {
+            $ticket->service = $ticket->Services->name;
+            $ticket->related_to = $ticket->Customers->name;
+            $ticket->author = $ticket->Users->username;
+            $ticket->date_creation = date('d-m-Y H:i:s', strtotime($ticket->date_creation));
+            array_push($results, $ticket);
+        }
+        $oResponse->setJsonContent($results);
+        return $oResponse->send();
+    }
 }

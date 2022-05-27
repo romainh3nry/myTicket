@@ -79,6 +79,7 @@
                                 </tr>
                                 <tr>
                                     <th scope="row">Updates</th>
+                                    <input id="hiddenId" type="text" value="{{ticket.id}}" disabled hidden />
                                     <td id="update-row">
                                     </td>
                                 </tr>
@@ -91,7 +92,6 @@
                     <div class="col-lg-12">
                         <h5>Ajouter un commentaire</h5>
                         <form id="createUpdateForm">
-                            <input id="hiddenId" type="text" value="{{ticket.id}}" disabled hidden />
                             <textarea required id="updateInput" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                             <button class="btn btn-block mt-2" type="submit">Update</button>
                         </form>

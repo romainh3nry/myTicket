@@ -95,6 +95,14 @@ $router->add(
 );
 
 $router->add(
+    'api/search/{search}',
+    [
+        'controller' => 'api',
+        'action' => 'search'
+    ]
+);
+
+$router->add(
     '/users/update/{user_id}',
     [
         'controller' => 'users',
