@@ -72,4 +72,15 @@ class TicketsController extends ControllerBase
         $ticket->save();
         $this->response->redirect("/tickets/detail/{$ticket->id}");
     }
+
+    public function exploreAction()
+    {
+        $tickets = Tickets::find(
+            [
+                'order' => 'state DESC, date_creation DESC'
+            ]
+        );
+
+        $this->view->tickets = $tickets;
+    }
 }

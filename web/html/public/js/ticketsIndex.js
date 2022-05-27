@@ -64,7 +64,7 @@ function getCurrentUserTickets() {
                 if (element.severity === 'MINEUR')
                 {
                     $('#tickets-user-list').append(
-                        `<tr class="alert alert-secondary isDisplayed">
+                        `<tr class="alert alert-success isDisplayed">
                             <td><a href="/tickets/detail/${element.id}">#${element.ticket_id}</a></td>
                             <td>${element.date_creation}</td>
                             <td>${element.service}</td>
@@ -112,7 +112,7 @@ function getTickets() {
                 if (element.severity === 'MINEUR')
                 {
                     $('#tickets-list').append(
-                        `<tr class="alert alert-secondary">
+                        `<tr class="alert alert-success">
                             <td><a href="/tickets/detail/${element.id}">#${element.ticket_id}</a></td>
                             <td>${element.date_creation}</td>
                             <td>${element.service}</td>

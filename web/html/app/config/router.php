@@ -174,5 +174,13 @@ $router->add(
     ]
 );
 
+$router->add(
+    '/tickets/explore',
+    [
+        'controller'=> 'tickets',
+        'action'=> 'explore',
+    ]
+);
+
 
 $router->handle();

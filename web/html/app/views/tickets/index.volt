@@ -22,6 +22,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/tickets/create"> + Nouveau Ticket</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/tickets/explore">Tous les tickets</a>
+                </li>
             </ul>
         </div>
     </nav>
