@@ -17,11 +17,13 @@ $(document).ready(function() {
         if ($('#search-ticket-table').length) {
             $('#search-ticket-table').remove()
         }
+        displaySpinnerNoTable('#search-ticket-results')
         $.ajax({
             url: `/api/search/${search}`,
             success: function(response) {
+                $('.spinner-div').remove();
                 $('#search-ticket-results').append(
-                    `<table id='search-ticket-table' class='table table-stripped'>
+                    `<table id='search-ticket-table' class='table table-striped'>
                         <thead>
                             <th>Ticket</th>
                             <th>Date création</th>
@@ -151,6 +153,18 @@ function getTickets() {
             )
         } 
     })
+}
+
+function displaySpinnerNoTable(parent) {
+    $(parent).append(`    
+        <di class="d-flex justify-content-center spinner-div">
+            <div class="spinner-grow text-warning" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        `
+    )
+
 }
 
 function displaySpinner(parent, colspan) {
