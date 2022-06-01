@@ -9,7 +9,7 @@ CREATE TABLE tickets (
     author uuid NOT NULL,
     service uuid NOT NULL,
     state BOOLEAN NOT NULL DEFAULT TRUE,
-    severity VARCHAR NOT NULL,
+    severity VARCHAR(255) NOT NULL,
     message TEXT NOT NULL,
     related_to uuid NOT NULL,
     PRIMARY KEY (id),
